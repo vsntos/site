@@ -5,9 +5,9 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
+- icon: 
+  icon_pack: 
+  name: 
   url: https://twitter.com/georgecushen
 slides: example
 summary: 'História Digital da Política Externa '

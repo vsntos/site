@@ -5,9 +5,9 @@ image:
   caption: "Mapeamento"
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
+- icon: 
+  icon_pack: 
+  name:
   url: 
 slides: example
 summary: O projeto tem por objetivo mapear as área de Relações Internacionais e Ciência Política no Brasil por meio da análise da sua produção acadêmica (revistas acadêmicas e teses e dissertações), sua dinâmica  de financiamento  e redes (genealogia acadêmica, colaboração).
