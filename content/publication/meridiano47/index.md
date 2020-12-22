@@ -6,7 +6,8 @@ title: "A internacionalização da formação em Relações Internacionais no Br
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Robert Ford
+- André Coelho
+- Alice Gravele
 
 # Author notes (optional)
 author_notes:
@@ -66,7 +67,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- example
+- Mapeamento da Área de Relações Internacionais e Ciência Política no Brasil
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -77,11 +78,7 @@ slides: example
 ---
 
 {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
+Clique no botão *Cite* acima para importar para os gerenciadores de referências os metadados da publicação.
 {{% /callout %}}
 
 Material suplementar pode ser consultado [código, caderno de código e imagens](https://doi.org/10.6084/m9.figshare.12520601).
