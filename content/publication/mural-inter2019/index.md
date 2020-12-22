@@ -1,4 +1,4 @@
----
+----
 title: "A internacionalização da formação em Relações Internacionais no Brasil"
 
 # Authors
@@ -35,7 +35,7 @@ abstract: Quais as características da política de concessão à formação no 
 # Summary. An optional shortened abstract.
 summary: O presente artigo é resultado do esforço em contribuir ao Dossiê especial sobre os ["Desafios e Caminhos do Ensino, Pesquisa e Extensão em Relações Internacionais no Brasil"](https://periodicos.unb.br/index.php/MED/article/view/5299/4819).
 
-tags: []
+tags: [Cientometria]
 
 # Display this page in the Featured widget?
 featured: true
@@ -78,8 +78,7 @@ slides: example
 ---
 
 {{% callout note %}}
-Clique no botão *Cite* acima para importar os metadados da publicação para os gerenciadores de referências.
+Clique no botão *Cite* acima para importar para os gerenciadores de referências os metadados da publicação.
 {{% /callout %}}
 
 Material suplementar pode ser consultado [código, caderno de código e imagens](https://doi.org/10.6084/m9.figshare.12520601).
-
