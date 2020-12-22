@@ -6,15 +6,14 @@ title: "A participação das mulheres na produção acadêmica da área de Rela�
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- André Coelho
-- Ivi Elias
+- Robert Ford
 
 # Author notes (optional)
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
 
-date: "2019-11-01T00:00:00Z"
+date: "2013-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
