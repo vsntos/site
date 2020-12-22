@@ -26,8 +26,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In *Mural Internacional*
+publication_short: In *Mural*
 
 abstract: Neste artigo, buscamos mapear a produção acadêmica na área de Relações Internacionais no Brasil observando a participação das mulheres partindo das características da produção acadêmica em relação ao gênero e às divisões temáticas do campo. Para tanto, analisamos os dois principais periódicos da área segundo a classificação da Capes: Contexto Internacional e a Revista Brasileira de Política Internacional (RBPI). O artigo está dividido em três partes. Na primeira, situamos a discussão sobre mulheres na ciência em relação ao gênero como categoria crítica de análise. Em seguida, promovemos o debate sobre a literatura que discute o mapeamento da produção acadêmica, considerando a produção científica de mulheres em geral e na área de Relações Internacionais. Finalmente, apresentamos os resultados situando a produção acadêmica feminina. Como conclusão, constatamos que a distância do número de artigos publicados por mulheres e homens não se alterou ao longo do tempo, mantendo a estrutura de desigualdade.
 
