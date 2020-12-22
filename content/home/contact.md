@@ -1,7 +1,7 @@
 ---
 # An instance of the Contact widget.
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
-widget: contato
+widget: contact
 
 # This file represents a page section.
 headless: true
@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 130
 
-title: Contact
+title: Contato
 subtitle:
 
 content:
