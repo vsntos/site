@@ -5,9 +5,9 @@ title: "A participação das mulheres na produção acadêmica da área de Rela�
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- admin
 - André Coelho
 - Ivi Elias
-- admin
 
 # Author notes (optional)
 author_notes:
