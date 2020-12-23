@@ -35,7 +35,7 @@ abstract: Neste artigo buscamos mapear a produção acadêmica na área de Rela�
 # Summary. An optional shortened abstract.
 summary: Neste artigo buscamos mapear a produção acadêmica na área de Relações Internacionais no Brasil observando a participação das mulheres partindo das características da produção acadêmica em relação ao gênero e às divisões temáticas do campo.
 
-tags: []
+tags: [cientometria]
 
 # Display this page in the Featured widget?
 featured: true
@@ -81,4 +81,4 @@ projects:
 Clique no botão *Cite* acima para importar os metadados da publicação para os gerenciadores de referências.
 {{% /callout %}}
 
-Material suplementar pode ser consultado [código, caderno de código e imagens](https://doi.org/10.6084/m9.figshare.12520601).
+Material suplementar pode ser consultado [código, caderno de código e imagens](https://figshare.com/authors/Vinicius_Santos/8999747).
