@@ -7,12 +7,12 @@ title: "Changes in the Foreign Policy of Bolivia and Ecuador: Domestic and Inter
 authors:
 - admin
 - André Coelho
-- 
+- Clayton M Cunha Filho
 
 # Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+#author_notes:
+#- "Equal contribution"
+#- "Equal contribution"
 
 date: "2020-07-01T00:00:00Z"
 doi: ""
