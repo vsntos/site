@@ -2,15 +2,15 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: História Digital
   focal_point: Smart
 links:
 - icon: 
   icon_pack: 
   name: 
-  url: https://twitter.com/georgecushen
+  url: 
 slides: example
-summary: 'História Digital da Política Externa '
+summary: 'História Digital da Política Externa'
 tags: 
 - Mapeamento
 title: 'História Digital da Política Externa Brasileira'
