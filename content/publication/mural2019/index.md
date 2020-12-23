@@ -15,7 +15,7 @@ authors:
 # - "Equal contribution"
 
 date: "2019-07-01T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.12957/rmi.2019.37384"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -45,14 +45,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+url_pdf: 'https://www.e-publicacoes.uerj.br/index.php/muralinternacional/article/view/37384'
+#url_code: ''
+#url_dataset: ''
+#url_poster: ''
+#url_project: ''
+#url_slides: ''
+#url_source: ''
+#url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -67,7 +67,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- example
+- Mapeamento da Área de Relações Internacionais e Ciência Política no Brasil
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -78,11 +78,7 @@ slides: example
 ---
 
 {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Clique no botão *Cite* acima para importar os metadados da publicação para os gerenciadores de referências.
 {{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Material suplementar pode ser consultado [código, caderno de código e imagens](https://doi.org/10.6084/m9.figshare.12520601).
