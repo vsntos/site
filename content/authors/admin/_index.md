@@ -110,7 +110,7 @@ PhD Candidate in Political Science [(UFMG)](http://ppgcp.fafich.ufmg.br/). Maste
    <div class="collapse" id="espanhol"  data-parent="#myGroup">
         <div class="card card-body">
 
-Candidato a Doctorado en Ciencias Políticas [(UFMG)](http://ppgcp.fafich.ufmg.br/). Maestría en Derecho y Políticas Públicas [(UNIRIO)](http://www.unirio.br/ppgd). Especialista en Análisis de Redes y Business Intelligence. Investigador del [Grupo de Relaciones Internacionales y Sur Global](http://www.grisulunirio.com/) | GRISUL (UNIRIO) y la Red Interinstitucional de Investigación en Política Exterior y Régimen Político | RIPPERP (UFMG). Investigador en la Universidad de Buenos Aires - [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) y en la Universidad de Brasilia - [Instituto de Ciencias Políticas](http://www.ipol.unb.br/) (2017.2).
+Candidato a Doctorado en Ciencias Políticas [(UFMG)](http://ppgcp.fafich.ufmg.br/). Maestría en Derecho y Políticas Públicas [(UNIRIO)](http://www.unirio.br/ppgd). Especialista en Análisis de Redes y Business Intelligence. Investigador del [Grupo de Relaciones Internacionales y Sur Global](http://www.grisulunirio.com/) | GRISUL (UNIRIO) y la Red Interinstitucional de Investigación en Política Exterior y Régimen Político | RIPPERP (UFMG). Investigador en la Universidad de Buenos Aires - [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) y en la Universidad de Brasilia - [Instituto de Ciencia Política](http://www.ipol.unb.br/) (2017.2).
 
 
   </div>
