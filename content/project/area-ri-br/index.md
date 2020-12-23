@@ -16,7 +16,7 @@ tags:
 - Análise de Redes
 - Genealogia
 - Financiamento
-title: Mapeamento da Área de Relações Internacionais e Ciência Política no Brasil
+title: Mapeamento das Áreas de Relações Internacionais e Ciência Política no Brasil
 url_code: ""
 url_pdf: ""
 url_slides: ""
