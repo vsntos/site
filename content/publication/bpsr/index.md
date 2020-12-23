@@ -6,7 +6,8 @@ title: "Changes in the Foreign Policy of Bolivia and Ecuador: Domestic and Inter
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Robert Ford
+- André Coelho
+- 
 
 # Author notes (optional)
 author_notes:
@@ -44,14 +45,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+url_pdf: 'https://brazilianpoliticalsciencereview.org/article/changes-in-the-foreign-policy-of-bolivia-and-ecuador-domestic-and-international-conditions/'
+url_code: 'https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T8YQH1'
+url_dataset: 'https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T8YQH1'
+#url_poster: ''
+#url_project: ''
+#url_slides: ''
+#url_source: ''
+#url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -73,15 +74,11 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+#slides: example
 ---
 
 {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Clique no botão *Cite* acima para importar os metadados da publicação para os gerenciadores de referências.
 {{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Material suplementar pode ser consultado [código, caderno de código e imagens](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T8YQH1).
