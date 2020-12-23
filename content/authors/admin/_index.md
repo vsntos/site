@@ -18,7 +18,7 @@ organizations:
   url: "https://ufmg.br/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Doutorando em Ciência Política (UFMG). Mestre em Direito e Políticas Públicas (UNIRIO). Têm experiência em Inteligência de Mercado e Consultoria em Relações Governamentais. Especialista em Análise de Redes e suas aplicações..
+bio: Doutorando em Ciência Política (UFMG). Mestre em Direito e Políticas Públicas (UNIRIO). Têm experiência em Inteligência de Mercado e Consultoria em Relações Governamentais. Especialista em Análise de Redes e suas aplicações.
 
 interests:
 - Ciências Sociais Computacionais
@@ -102,9 +102,8 @@ Doutorando em Ciência Política [(UFMG)](http://ppgcp.fafich.ufmg.br/). Mestre 
 
    <div class="collapse indent" id="ingles"  data-parent="#myGroup">
  <div class="card card-body">
-Doutorando em Ciência Política [(UFMG)](http://ppgcp.fafich.ufmg.br/). Mestre em Direito e Políticas Públicas [(UNIRIO)](http://www.unirio.br/ppgd). Têm experiência em Inteligência de Mercado e Consultoria em Relações Governamentais. Especialista em Análise de Redes e suas aplicações. Pesquisador no Grupo de Relações Internacionais e Sul Global | [GRISUL (UNIRIO)](http://www.grisulunirio.com/) e na Rede Interinstitucional de Pesquisa em Política Externa e Regime Político | RIPPERP (UFMG). Pesquisador Visitante na Universidad de Buenos Aires - [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) e na Universidade de Brasília - [Instituto de Ciência Política](http://www.ipol.unb.br/) (2017.2).
 
-
+PhD Candidate in Political Science [(UFMG)](http://ppgcp.fafich.ufmg.br/). Master in Law and Public Policy [(UNIRIO)](http://www.unirio.br/ppgd). Specialist in Network Analysis, Government Affairs and Business Intelligence. Researcher in the [International Relations and Global South Group](http://www.grisulunirio.com/) | GRISUL (UNIRIO) and the Interinstitutional Research Network on Foreign Policy and Political Regime | RIPPERP (UFMG). Visiting Researcher at the Universidad de Buenos Aires - [Facultad de Ciencias Sociales](http://www.ipol.unb.br/) (2017.1) and at the University of Brasilia - [Political Science Institute](http://www.ipol.unb.br/) (2017.2).
   </div>
    </div>
 
