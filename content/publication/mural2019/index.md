@@ -27,8 +27,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In *Mural Internacional*
+publication_short: In *Mural*
 
 abstract: Neste artigo buscamos mapear a produção acadêmica na área de Relações Internacionais no Brasil observando a participação das mulheres partindo das características da produção acadêmica em relação ao gênero e às divisões temáticas do campo.
 
@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**Mural Internacional**](https://www.e-publicacoes.uerj.br/index.php/muralinternacional)'
   focal_point: ""
   preview_only: false
 
