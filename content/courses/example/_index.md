@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: Introdução a Ciência e Análise de Redes
-summary: Dividido em duas partes, uma teórica, de introdução a Ciência de Redes, e outra prática, voltada à análise de redes no software gephi, esse curso visa oferecer um conjunto de instrumentos teóricos-práticos iniciais para iniciar em uma das áreas da chamada Ciência Social Computacional.
+summary: Dividido em duas partes, uma teórica, de introdução a Ciência de Redes, e outra prática, voltada à análise de redes no software gephi, esse curso visa oferecer um conjunto de instrumentos teóricos-práticos iniciais para estudantes interessados nessa que é uma das áreas da chamada Ciência Social Computacional.
 
 weight: 1
 
