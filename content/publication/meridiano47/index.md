@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://periodicos.unb.br/index.php/MED/article/view/5310/4828'
 url_code: 'https://doi.org/10.6084/m9.figshare.12520601'
 url_dataset: 'https://doi.org/10.6084/m9.figshare.12520601'
 #url_poster: ''
@@ -57,7 +57,7 @@ url_project: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**Meridiano 47**](https://periodicos.unb.br/index.php/MED/index)'
   focal_point: ""
   preview_only: false
 
