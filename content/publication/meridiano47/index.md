@@ -1,5 +1,5 @@
 ---
-title: "Changes in the Foreign Policy of Bolivia and Ecuador: Domestic and International Conditions"
+title: "A internacionalização da formação em Relações Internacionais no Brasil"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2020-07-01T00:00:00Z"
+date: "2017-07-01T00:00:00Z"
 doi: "https://doi.org/10.6084/m9.figshare.12520601.v2"
 
 # Schedule page publish date (NOT publication's date).
@@ -30,10 +30,10 @@ publication_types: ["2"]
 publication: In *Meridiano 47 - Journal of Global Studies*
 publication_short: In *Meridiano 47*
 
-abstract: The aim of this paper is to assess the changes in the foreign policy of Bolivia and Ecuador during the administrations of Evo Morales (2006-2019) and Rafael Correa (2007-2017), taking into account the interaction between domestic and international factors in both countries.
+abstract: Quais as características da política de concessão à formação no exterior para a área de Relações Internacionais do Brasil no intervalo entre 1998 e 2013? Nessa direção recorremos aos dados obtidos da plataforma GeoCapes para observar a distribuição de bolsistas no Exterior nas áreas de “Ciência Política e Relações Internacionais.
 
 # Summary. An optional shortened abstract.
-summary: The aim of this paper is to assess the changes in the foreign policy of Bolivia and Ecuador during the administrations of Evo Morales (2006-2019) and Rafael Correa (2007-2017), taking into account the interaction between domestic and international factors in both countries.
+summary: Quais as características da política de concessão à formação no exterior para a área de Relações Internacionais do Brasil no intervalo entre 1998 e 2013? Nessa direção recorremos aos dados obtidos da plataforma GeoCapes para observar a distribuição de bolsistas no Exterior nas áreas de “Ciência Política e Relações Internacionais.
 
 tags: []
 
