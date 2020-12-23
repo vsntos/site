@@ -30,10 +30,10 @@ publication_types: ["2"]
 publication: In *Meridiano 47 - Journal of Global Studies*
 publication_short: In *Meridiano 47*
 
-abstract: Quais as características da política de concessão à formação no exterior para a área de Relações Internacionais do Brasil no intervalo entre 1998 e 2013? Nessa direção recorremos aos dados obtidos da plataforma GeoCapes para observar a distribuição de bolsistas no Exterior nas áreas de “Ciência Política e Relações Internacionais.
+abstract: The aim of this paper is to assess the changes in the foreign policy of Bolivia and Ecuador during the administrations of Evo Morales (2006-2019) and Rafael Correa (2007-2017), taking into account the interaction between domestic and international factors in both countries.
 
 # Summary. An optional shortened abstract.
-summary: O presente artigo é resultado do esforço em contribuir ao Dossiê especial sobre os ["Desafios e Caminhos do Ensino, Pesquisa e Extensão em Relações Internacionais no Brasil"](https://periodicos.unb.br/index.php/MED/article/view/5299/4819).
+summary: The aim of this paper is to assess the changes in the foreign policy of Bolivia and Ecuador during the administrations of Evo Morales (2006-2019) and Rafael Correa (2007-2017), taking into account the interaction between domestic and international factors in both countries.
 
 tags: []
 
