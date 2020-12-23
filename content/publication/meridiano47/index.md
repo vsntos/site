@@ -1,5 +1,5 @@
 ---
-title: "A internacionalização da formação em Relações Internacionais no Brasil"
+title: "Changes in the Foreign Policy of Bolivia and Ecuador: Domestic and International Conditions"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2017-07-01T00:00:00Z"
+date: "2020-07-01T00:00:00Z"
 doi: "https://doi.org/10.6084/m9.figshare.12520601.v2"
 
 # Schedule page publish date (NOT publication's date).
