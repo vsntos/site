@@ -12,7 +12,7 @@ links:
 slides: example
 summary: 'História Digital da Política Externa'
 tags: 
-- Mapeamento
+- História Digital
 title: 'História Digital da Política Externa Brasileira'
 url_code: ""
 url_pdf: ""
