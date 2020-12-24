@@ -72,7 +72,7 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 - Rede formada a partir de um nó central, chamado "ego". Neste caso, os “alters” e suas relações também foram incluídas até o terceiro grau (profundidade 3)
 
-2. [Análise de Conteúdo](https://www.amazon.com.br/An%C3%A1lise-conte%C3%BAdo-Laurence-Bardin/dp/8562938041/ref=asc_df_8562938041/?tag=googleshopp00-20&linkCode=df0&hvadid=379725089268&hvpos=&hvnetw=g&hvrand=333579813547281539&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032056&hvtargid=pla-388622072105&psc=1)
+2. [Systematic Literature Review](https://journals.sagepub.com/doi/full/10.1177/0739456X17723971)
 
 - Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas” foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
 
@@ -87,7 +87,7 @@ Clique Ctrl + Shift + F para apresentação em tela cheia.
 
 ## Inspiração
 
-Para quem tem interesse de saber mais sobre a trajetória acadêmica de Soares de Lima segue um vídeo que é produto do projeto de "Caminhos: Programa de Memória Oral da Pós-Graduação do IESP-UERJ"
+Para quem tem interesse de saber mais sobre a trajetória acadêmica de Soares de Lima segue um vídeo que é produto do projeto de "Caminhos: Programa de Memória Oral da Pós-Graduação do IESP-UERJ".
 
 <iframe width="750" height="569" src="https://www.youtube.com/embed/h3ffUR4zVss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
