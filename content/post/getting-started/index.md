@@ -51,7 +51,7 @@ categories:
 
 Nas conversas que tenho sobre a Análise de Redes (ARS), com certa frequência, esse método (mas também área - Ciência de Redes) é quase sempre associado a "mídias sociais” como Facebook, Twitter e Instagram.
 
-Como parte do projeto de Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil uno desta postagem duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
+Como parte do projeto de Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil uno nesta postagem (ao final apresento o relatório de pesquisa completo) duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
 
 
 1. Ainda que possam ser representadas pela linguagem de “grafos” a Análise de Redes não se resume as mídias sociais. Com base nessa dúvida e por oportunidade dos [cursos](http://vsantos.rbind.io/courses/redes/) ofereci na UNIRIO, UNILA e UFMG resolvi elaborar essa análise básica para apontar o potencial da ARS.
@@ -72,9 +72,9 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 - Rede formada a partir de um nó central, chamado "ego". Neste caso, os “alters” e suas relações também foram incluídas até o terceiro grau (profundidade 3)
 
-2. SYSTEMATIC LITERATURE REVIEW
+2. Análise de Conteúdo
 
-- Análise das teses orientadas até a profundidade de número 2 para a classificação em “áreas temáticas”. Classificação pautada na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
+- Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas”. foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
 
 ## Ecosystem
 
