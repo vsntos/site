@@ -55,7 +55,7 @@ Como parte do projeto de Mapeamento das áreas de Ciência Política e Relaçõe
 
 
 1. Ainda que possam ser representadas pela linguagem de “grafos” a Análise de Redes não se resume as mídias sociais. Com base nessa dúvida e por oportunidade dos [cursos](http://vsantos.rbind.io/courses/redes/) ofereci na UNIRIO, UNILA e UFMG resolvi elaborar essa análise básica para apontar o potencial da ARS.
-2. Nesse primeiro esforço eu faço a união de duas coisas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes.
+2. Nesse primeiro esforço eu faço a união de duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes.
 3. Para falar desse tema é primordial tratar do papel de uma das pesquisadoras mais relevantes para o campo no Brasil: Maria Regina Soares de Lima. 
 
 {{< figure src="https://www.defesanet.com.br/site/upload/news_image/2011/04/886.jpg" title="Professora Maria Regina Soares de Lima, da Universidade Estadual do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
