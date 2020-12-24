@@ -3,7 +3,7 @@ title: Análise de Redes, Genealogia Acadêmica e a área de Relações Internac
 subtitle: A contribuição da Professora Maria Regina Soares de Lima
 
 # Summary for listings and search engines
-summary: Nesse primeiro esforço eu faço a união de duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
+summary: Nesse primeiro esforço eu promovo a união de duas áreas pelas quais me dedico que são a Análise da Política Externa Brasileira e Ciência de Redes.
 
 # Link this post with a project
 projects: [Mapeamento das Áreas de Relações Internacionais e Ciência Política no Brasil]
