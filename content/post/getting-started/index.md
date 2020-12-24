@@ -102,9 +102,13 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 - **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
 - **One-Click Deployment** - No servers. No databases. Only files.
 
-## Relatório de pesquisa completo:
+## Relatório de pesquisa completo:   
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+{{% callout note %}}
+Clique Ctrl + Shift + F para apresentação em tela cheia.
+{{% /callout %}}
 
 
 ## Resumo  
