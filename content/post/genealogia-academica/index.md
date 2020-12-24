@@ -74,7 +74,7 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 2. [Análise de Conteúdo](https://www.amazon.com.br/An%C3%A1lise-conte%C3%BAdo-Laurence-Bardin/dp/8562938041/ref=asc_df_8562938041/?tag=googleshopp00-20&linkCode=df0&hvadid=379725089268&hvpos=&hvnetw=g&hvrand=333579813547281539&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032056&hvtargid=pla-388622072105&psc=1)
 
-- Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas”. foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
+- Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas” foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
 
 ## Relatório de pesquisa completo:     
    
