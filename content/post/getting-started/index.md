@@ -3,7 +3,7 @@ title: Análise de Redes, Genealogia Acadêmica e a área de Relações Internac
 subtitle: A contribuição da Professora Maria Regina Soares de Lima
 
 # Summary for listings and search engines
-summary: Nesse primeiro esforço eu faço a união de duas coisas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes.
+summary: Nesse primeiro esforço eu faço a união de duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
 
 # Link this post with a project
 projects: [Mapeamento das Áreas de Relações Internacionais e Ciência Política no Brasil]
@@ -43,6 +43,11 @@ categories:
 ## Overview
 
 Nas conversas que tenho sobre a Análise de Redes (ARS), com certa frequência, esse método (mas também área - Ciência de Redes) é quase sempre associado a "mídias sociais” como Facebook, Twitter e Instagram.
+
+Como parte do projeto de Mapeamento das Áreas de Ciência Política e Relações Internacionais no Brasil uno desta postagem duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
+
+
+
 
 1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
 2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
@@ -99,8 +104,19 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 [Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
 
-## License
+## Resumo
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+[Projeto] Mapeamento das Áreas de Ciência Política e Relações Internacionais no Brasil
 
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
+[Sobre] Sobre o projeto:
+
+[Tecnologia] Ferramentas utilizadas:
+
+Linguagem de programação: R
+IDE de desenvolvimento: RStudio
+Pacotes e Frameworks:
+
+
+Ferramentas auxiliares:
+Gephi
+
