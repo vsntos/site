@@ -106,14 +106,14 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 ## Resumo
 
-[Projeto] Mapeamento das Áreas de Ciência Política e Relações Internacionais no Brasil
+[*Projeto*] Mapeamento das Áreas de Ciência Política e Relações Internacionais no Brasil
 
-[Sobre] Sobre o projeto:
+[*Sobre*] Sobre o projeto:
 
-[Tecnologia] Ferramentas utilizadas:
+[*Tecnologia*] Ferramentas utilizadas:
 
--Linguagem de programação: R
--IDE de desenvolvimento: RStudio  
+-__linguagem de programação__: R
+-__IDE de desenvolvimento__: RStudio  
 
 Pacotes e Frameworks:
 
