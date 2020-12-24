@@ -58,7 +58,7 @@ Como parte do projeto de Mapeamento das áreas de Ciência Política e Relaçõe
 2. Nesse primeiro esforço eu faço a união de duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes.
 3. Para falar desse tema é primordial tratar do papel de uma das pesquisadoras mais relevantes para o campo no Brasil: Maria Regina Soares de Lima. 
 
-{{< figure src="https://www.defesanet.com.br/site/upload/news_image/2011/04/886.jpg" title="Professora Maria Regina Soares de Lima, da Universidade Estadual do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
+{{< figure src="https://www.defesanet.com.br/site/upload/news_image/2011/04/886.jpg" title="Professora Maria Regina Soares de Lima, da Universidade do Estado do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
 
 ## Coleta de Dados
 
