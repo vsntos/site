@@ -54,9 +54,9 @@ Nas conversas que tenho sobre a Análise de Redes (ARS), com certa frequência, 
 Como parte do projeto de Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil uno desta postagem duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
 
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+1. Ainda que possam ser representadas pela linguagem de “grafos” a Análise de Redes não se resume as mídias sociais. Com base nessa dúvida e por oportunidade dos cursos que vou oferecer neste mês resolvi elaborar um material básico para apontar o potencial da ARS.
+2. Nesse primeiro esforço eu faço a união de duas coisas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes.
+3. Para falar desse tema é primordial tratar do papel de uma das pesquisadoras mais relevantes para o campo no Brasil: Maria Regina Soares de Lima. 
 
 {{< figure src="https://www.defesanet.com.br/site/upload/news_image/2011/04/886.jpg" title="Professora Maria Regina Soares de Lima, da Universidade Estadual do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
 
@@ -64,12 +64,7 @@ Como parte do projeto de Mapeamento das áreas de Ciência Política e Relaçõe
 
 A coleta dos dados foi realizada por meio de consulta à base de dados da Plataforma Acácia que por meio de “web scraping” reúne informações da Plataforma Lattes. Atualmente conta com 6,3 milhões de currículos em sua base de dados.
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+Assim, com dados da Plataforma Acácia a proposta se concentrou em mobilizar a “modalidade” chamada de “Ego-Rede” para mapear as relações de orientação de pós graduação (Mestrado, Doutorado e Pós Doutorado) para compreender não só a estrutura dessa rede como a posição estrutural dos “principais” “filhos acadêmicos” de Soares de Lima. Além disso chamamos atenção para eas temáticas” que "circularam nessa rede". Ressalto que para mim é um orgulho fazer parte dessa comunidade já que além de pesquisador do tema sou “neto acadêmico” (duplamente) da Professora Maria Regina Soares de Lima.
 
 ## Análise dos Dados
 
