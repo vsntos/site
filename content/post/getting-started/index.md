@@ -51,7 +51,7 @@ categories:
 
 Nas conversas que tenho sobre a Análise de Redes (ARS), com certa frequência, esse método (mas também área - Ciência de Redes) é quase sempre associado a "mídias sociais” como Facebook, Twitter e Instagram.
 
-Como parte do projeto de Mapeamento das Áreas de Ciência Política e Relações Internacionais no Brasil uno desta postagem duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
+Como parte do projeto de Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil uno desta postagem duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
 
 
 
@@ -113,18 +113,18 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 ## Resumo
 
-[*Projeto*] Mapeamento das Áreas de Ciência Política e Relações Internacionais no Brasil
+[__Projeto__] Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil
 
-[*Sobre*] Sobre o projeto:
+[__Sobre__] Sobre o projeto:
 
-[*Tecnologia*] Ferramentas utilizadas:
+[__Tecnologia__] Ferramentas utilizadas:
 
--__linguagem de programação__: R  
--__IDE de desenvolvimento__: RStudio    
+-*linguagem de programação*: R  
+-*IDE de desenvolvimento*: RStudio    
 
 Pacotes e Frameworks:
 
 
-Ferramentas auxiliares:
+Ferramentas auxiliares:  
 Gephi
 
