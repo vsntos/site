@@ -54,15 +54,15 @@ Nas conversas que tenho sobre a Análise de Redes (ARS), com certa frequência, 
 Como parte do projeto de Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil uno desta postagem duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
 
 
-
-
 1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
 2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
 3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
 
 {{< figure src="https://www.defesanet.com.br/site/upload/news_image/2011/04/886.jpg" title="Professora Maria Regina Soares de Lima, da Universidade Estadual do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
 
-## Get Started
+## Coleta de Dados
+
+A coleta dos dados foi realizada por meio de consulta à base de dados da Plataforma Acácia que por meio de “web scraping” reúne informações da Plataforma Lattes. Atualmente conta com 6,3 milhões de currículos em sua base de dados.
 
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - 📚 [**Personalize your site**](https://wowchemy.com/docs/)
@@ -71,7 +71,7 @@ Como parte do projeto de Mapeamento das áreas de Ciência Política e Relaçõe
 - 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
 - ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
 
-## Crowd-funded open-source software
+## Análise dos Dados
 
 To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
 
@@ -115,7 +115,10 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 [__Projeto__] Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil
 
-[__Sobre__] Sobre o projeto:
+[__Sobre__] Sobre o projeto:  
+
+Genealogia Acadêmica: O projeto é voltado à documentação das relações formais de orientação dos programas de pós graduação no Brasil.  
+
 
 [__Tecnologia__] Ferramentas utilizadas:
 
