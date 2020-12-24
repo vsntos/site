@@ -116,7 +116,7 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 Relatório completo:
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
