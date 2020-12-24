@@ -112,8 +112,9 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 [Tecnologia] Ferramentas utilizadas:
 
-Linguagem de programação: R
-IDE de desenvolvimento: RStudio
+-Linguagem de programação: R
+-IDE de desenvolvimento: RStudio  
+
 Pacotes e Frameworks:
 
 
