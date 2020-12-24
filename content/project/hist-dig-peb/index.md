@@ -5,10 +5,10 @@ image:
   caption: História Digital
   focal_point: Smart
 links:
-- icon: 
-  icon_pack: 
-  name: 
-  url: 
+#- icon: 
+#  icon_pack: 
+#  name: 
+#  url: 
 #slides: example
 summary: 'História Digital da Política Externa'
 tags: 
