@@ -70,11 +70,11 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 1. [Ego Rede](https://www.amazon.com.br/Egocentric-Network-Analysis-Foundations-Methods/dp/1107579317/ref=pd_sim_14_5/140-6933562-7678452?_encoding=UTF8&pd_rd_i=1107579317&pd_rd_r=57102180-2558-4041-8524-15eab08c8802&pd_rd_w=T2jMj&pd_rd_wg=797UZ&pf_rd_p=6882ebd8-e6aa-4d12-bcb6-33b39edace48&pf_rd_r=C2VH54DGNNCYSCET6X8G&psc=1&refRID=C2VH54DGNNCYSCET6X8G)
 
-- Rede formada a partir de um nó central, chamado "ego". Neste caso, os “alters” e suas relações também foram incluídas até o terceiro grau (profundidade 3)
+- Rede formada a partir de um nó central, chamado "ego". Neste caso, os “alters” e suas relações também foram incluídas até o terceiro grau (profundidade 3).
 
 2. [Systematic Literature Review](https://journals.sagepub.com/doi/full/10.1177/0739456X17723971)
 
-- Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas” foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
+- Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas” foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf).
 
 ## Relatório de pesquisa completo:     
    
