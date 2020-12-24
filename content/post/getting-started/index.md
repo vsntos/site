@@ -54,7 +54,7 @@ Nas conversas que tenho sobre a Análise de Redes (ARS), com certa frequência, 
 Como parte do projeto de Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil uno desta postagem duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
 
 
-1. Ainda que possam ser representadas pela linguagem de “grafos” a Análise de Redes não se resume as mídias sociais. Com base nessa dúvida e por oportunidade dos cursos que vou oferecer neste mês resolvi elaborar um material básico para apontar o potencial da ARS.
+1. Ainda que possam ser representadas pela linguagem de “grafos” a Análise de Redes não se resume as mídias sociais. Com base nessa dúvida e por oportunidade dos cursos ofereci na UNIRIO, UNILA e UFMG resolvi elaborar essa análise básica para apontar o potencial da ARS.
 2. Nesse primeiro esforço eu faço a união de duas coisas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes.
 3. Para falar desse tema é primordial tratar do papel de uma das pesquisadoras mais relevantes para o campo no Brasil: Maria Regina Soares de Lima. 
 
@@ -64,9 +64,17 @@ Como parte do projeto de Mapeamento das áreas de Ciência Política e Relaçõe
 
 A coleta dos dados foi realizada por meio de consulta à base de dados da Plataforma Acácia que por meio de “web scraping” reúne informações da Plataforma Lattes. Atualmente conta com 6,3 milhões de currículos em sua base de dados.
 
-Assim, com dados da Plataforma Acácia a proposta se concentrou em mobilizar a “modalidade” chamada de “Ego-Rede” para mapear as relações de orientação de pós graduação (Mestrado, Doutorado e Pós Doutorado) para compreender não só a estrutura dessa rede como a posição estrutural dos “principais” “filhos acadêmicos” de Soares de Lima. Além disso chamamos atenção para eas temáticas” que "circularam nessa rede". Ressalto que para mim é um orgulho fazer parte dessa comunidade já que além de pesquisador do tema sou “neto acadêmico” (duplamente) da Professora Maria Regina Soares de Lima.
+Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a proposta se concentrou em mobilizar a “modalidade” chamada de “Ego-Rede” para mapear as relações de orientação de pós graduação (Mestrado, Doutorado e Pós Doutorado) para compreender não só a estrutura dessa rede como a posição estrutural dos “principais” “filhos acadêmicos” de Soares de Lima. Além disso chamamos atenção para eas temáticas” que "circularam nessa rede". Ressalto que para mim é um orgulho fazer parte dessa comunidade já que além de pesquisador do tema sou “neto acadêmico” (duplamente) da Professora Maria Regina Soares de Lima.
 
 ## Análise dos Dados
+
+1. [EGO NETWORK](https://www.amazon.com.br/Egocentric-Network-Analysis-Foundations-Methods/dp/1107579317/ref=pd_sim_14_5/140-6933562-7678452?_encoding=UTF8&pd_rd_i=1107579317&pd_rd_r=57102180-2558-4041-8524-15eab08c8802&pd_rd_w=T2jMj&pd_rd_wg=797UZ&pf_rd_p=6882ebd8-e6aa-4d12-bcb6-33b39edace48&pf_rd_r=C2VH54DGNNCYSCET6X8G&psc=1&refRID=C2VH54DGNNCYSCET6X8G)
+
+- Rede formada a partir de um nó central, chamado "ego". Neste caso, os “alters” e suas relações também foram incluídas até o terceiro grau (profundidade 3)
+
+2. SYSTEMATIC LITERATURE REVIEW
+
+- Análise das teses orientadas até a profundidade de número 2 para a classificação em “áreas temáticas”. Classificação pautada na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
 
 To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
 
