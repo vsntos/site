@@ -76,12 +76,6 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 - Análise das teses orientadas até a profundidade de número 2 para a classificação em “áreas temáticas”. Classificação pautada na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
-
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/plans/)
-
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/plans/) awesome rewards and extra features 🦄✨**
-
 ## Ecosystem
 
 * **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to automatically import publications from BibTeX
@@ -108,13 +102,7 @@ As a token of appreciation for sponsoring, you can **unlock [these](https://wowc
 - **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
 - **One-Click Deployment** - No servers. No databases. Only files.
 
-## Themes
-
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
-
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
-
-Relatório completo:
+## Relatório completo:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
