@@ -9,7 +9,7 @@ links:
   icon_pack: 
   name: 
   url: 
-slides: example
+#slides: example
 summary: 'História Digital da Política Externa'
 tags: 
 - História Digital
