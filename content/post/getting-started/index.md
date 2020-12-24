@@ -111,7 +111,7 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 [Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
 
-## Resumo
+## Resumo  
 
 [__Projeto__] Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil
 
