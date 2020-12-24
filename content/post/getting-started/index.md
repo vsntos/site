@@ -1,9 +1,10 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: ANÁLISE DE REDES,
+GENEALOGIA ACADÊMICA E A ÁREA DE RELAÇÕES INTERNACIONAIS NO BRASIL
+subtitle: A CONTRIBUIÇÃO DA PROFESSORA MARIA REGINA SOARES DE LIMA
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: Nesse primeiro esforço eu faço a união de duas coisas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes. Para falar desse tema é primordial tratar do papel de uma das pesquisadoras mais relevantes para o campo no Brasil: Maria Regina Soares de Lima..
 
 # Link this post with a project
 projects: []
@@ -33,15 +34,38 @@ authors:
 - 吳恩達
 
 tags:
-- Academic
-- 开源
+- Genealogia Acadêmica
+- Redes
 
 categories:
-- Demo
-- 教程
+- Genealogia
+- Redes
 ---
 
 ## Overview
+
+
+[Título]
+
+[Sobre]
+
+[Tecnologia]
+
+Linguagem de programação: R
+IDE de desenvolvimento: RStudio
+Pacotes e Frameworks:
+Ferramentas auxiliares:
+
+[Estrutura]
+Coleta de Dados
+Tratamento e Preparação dos Dados
+Análise dos Dados
+
+
+
+
+
+
 
 1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
 2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
