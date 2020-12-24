@@ -6,10 +6,10 @@ subtitle: A contribuição da Professora Maria Regina Soares de Lima
 summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
 
 # Link this post with a project
-projects: []
+projects: [Mapeamento das Áreas de Relações Internacionais e Ciência Política no Brasil]
 
 # Date published
-date: "2016-04-20T00:00:00Z"
+date: "2020-04-20T00:00:00Z"
 
 # Date updated
 lastmod: "2020-12-13T00:00:00Z"
