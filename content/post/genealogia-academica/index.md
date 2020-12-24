@@ -68,11 +68,11 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 ## Análise dos Dados
 
-1. [EGO NETWORK](https://www.amazon.com.br/Egocentric-Network-Analysis-Foundations-Methods/dp/1107579317/ref=pd_sim_14_5/140-6933562-7678452?_encoding=UTF8&pd_rd_i=1107579317&pd_rd_r=57102180-2558-4041-8524-15eab08c8802&pd_rd_w=T2jMj&pd_rd_wg=797UZ&pf_rd_p=6882ebd8-e6aa-4d12-bcb6-33b39edace48&pf_rd_r=C2VH54DGNNCYSCET6X8G&psc=1&refRID=C2VH54DGNNCYSCET6X8G)
+1. [Ego Rede](https://www.amazon.com.br/Egocentric-Network-Analysis-Foundations-Methods/dp/1107579317/ref=pd_sim_14_5/140-6933562-7678452?_encoding=UTF8&pd_rd_i=1107579317&pd_rd_r=57102180-2558-4041-8524-15eab08c8802&pd_rd_w=T2jMj&pd_rd_wg=797UZ&pf_rd_p=6882ebd8-e6aa-4d12-bcb6-33b39edace48&pf_rd_r=C2VH54DGNNCYSCET6X8G&psc=1&refRID=C2VH54DGNNCYSCET6X8G)
 
 - Rede formada a partir de um nó central, chamado "ego". Neste caso, os “alters” e suas relações também foram incluídas até o terceiro grau (profundidade 3)
 
-2. Análise de Conteúdo
+2. [Análise de Conteúdo](https://www.amazon.com.br/An%C3%A1lise-conte%C3%BAdo-Laurence-Bardin/dp/8562938041/ref=asc_df_8562938041/?tag=googleshopp00-20&linkCode=df0&hvadid=379725089268&hvpos=&hvnetw=g&hvrand=333579813547281539&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032056&hvtargid=pla-388622072105&psc=1)
 
 - Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas”. foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
 
