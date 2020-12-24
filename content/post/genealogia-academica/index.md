@@ -87,7 +87,7 @@ Clique Ctrl + Shift + F para apresentação em tela cheia.
 
 ## Inspiração
 
-Para quem tem interesse de saber mais sobre a trajetória acadêmica de Soares de Lima segue um vídeo que é produto do projeto de "Caminhos: Programa de Memória Oral da Pós-Graduação do IESP-UERJ".
+Para quem tem interesse em saber mais sobre a trajetória acadêmica de Soares de Lima segue um vídeo que é produto do projeto de "Caminhos: Programa de Memória Oral da Pós-Graduação do IESP-UERJ".
 
 <iframe width="750" height="569" src="https://www.youtube.com/embed/h3ffUR4zVss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
