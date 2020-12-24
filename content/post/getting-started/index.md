@@ -76,14 +76,6 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 - Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas”. foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf)
 
-## Ecosystem
-
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to automatically import publications from BibTeX
-
-## Inspiration
-
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
-
 ## Features
 
 - **Page builder** - Create *anything* with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/writing-markdown-latex/)
@@ -109,6 +101,13 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 {{% callout note %}}
 Clique Ctrl + Shift + F para apresentação em tela cheia.
 {{% /callout %}}
+
+
+## Inspiração
+
+Para quem tem interesse de saber mais sobre a trajetória acadêmica de Soares de Lima segue um vídeo que é produto do projeto de "Caminhos: Programa de Memória Oral da Pós-Graduação do IESP-UERJ"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h3ffUR4zVss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Resumo  
