@@ -104,8 +104,7 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 ## Relatório completo:
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## Resumo  
@@ -114,7 +113,7 @@ Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a propos
 
 [__Sobre__] Sobre o projeto:  
 
-Genealogia Acadêmica: O projeto é voltado à documentação das relações formais de orientação dos programas de pós graduação no Brasil.  
+- Genealogia Acadêmica: uma das linhas do projeto voltada a documentação das relações formais de orientação dos programas de pós graduação no Brasil com foco especial nas áreas de Ciência Política e Relações INternacionais.  
 
 
 [__Tecnologia__] Ferramentas utilizadas:
