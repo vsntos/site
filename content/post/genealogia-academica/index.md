@@ -58,13 +58,13 @@ Como parte do projeto de Mapeamento das áreas de Ciência Política e Relaçõe
 2. Nesse primeiro esforço eu faço a união de duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes.
 3. Para falar desse tema é primordial tratar do papel de uma das pesquisadoras mais relevantes para o campo no Brasil: Maria Regina Soares de Lima. 
 
-{{< figure src="https://www.defesanet.com.br/site/upload/news_image/2011/04/886.jpg" title="Professora Maria Regina Soares de Lima, da Universidade do Estado do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
+{{< figure src="https://www.defesanet.com.br/site/upload/news_image/2011/04/886.jpg" title="Professora Maria Regina Soares de Lima da Universidade do Estado do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
 
 ## Coleta de Dados
 
 A coleta dos dados foi realizada por meio de consulta à base de dados da Plataforma Acácia que por meio de “web scraping” reúne informações da Plataforma Lattes. Atualmente conta com 6,3 milhões de currículos em sua base de dados.
 
-Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a proposta se concentrou em mobilizar a “modalidade” chamada de “Ego-Rede” para mapear as relações de orientação de pós graduação (Mestrado, Doutorado e Pós Doutorado) para compreender não só a estrutura dessa rede como a posição estrutural dos “principais” “filhos acadêmicos” de Soares de Lima. Além disso chamamos atenção para eas temáticas” que "circularam nessa rede". Ressalto que para mim é um orgulho fazer parte dessa comunidade já que além de pesquisador do tema sou “neto acadêmico” (duplamente) da Professora Maria Regina Soares de Lima.
+Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a proposta se concentrou em mobilizar a “modalidade” chamada de “Ego-Rede” para mapear as relações de orientação de pós graduação (Mestrado, Doutorado e Pós Doutorado) para compreender não só a estrutura dessa rede como a posição estrutural dos “principais” “filhos acadêmicos” de Soares de Lima. Além disso, chamamos atenção para as temáticas” que "circularam" nessa rede. Ressalto que para mim é um orgulho fazer parte dessa comunidade já que além de pesquisador do tema sou “neto acadêmico” (duplamente) da Professora Maria Regina Soares de Lima.
 
 ## Análise dos Dados
 
