@@ -42,6 +42,13 @@ categories:
 
 ## Overview
 
+*Objetivo*: 
+
+- Evidenciar a pluralidade de aplicações da Análise de Redes Sociais.  
+
+- Reconstruir a trajetória da professora Maria Regina Soares de Lima e por meio desse esforço marcar a sua contribuição para a área de Relações Internacionais no Brasil.  
+
+
 Nas conversas que tenho sobre a Análise de Redes (ARS), com certa frequência, esse método (mas também área - Ciência de Redes) é quase sempre associado a "mídias sociais” como Facebook, Twitter e Instagram.
 
 Como parte do projeto de Mapeamento das Áreas de Ciência Política e Relações Internacionais no Brasil uno desta postagem duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
@@ -112,8 +119,8 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 [*Tecnologia*] Ferramentas utilizadas:
 
--__linguagem de programação__: R
--__IDE de desenvolvimento__: RStudio  
+-__linguagem de programação__: R  
+-__IDE de desenvolvimento__: RStudio    
 
 Pacotes e Frameworks:
 
