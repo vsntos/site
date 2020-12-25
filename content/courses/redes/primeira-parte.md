@@ -24,6 +24,10 @@ de Escala).
 __Obra de referência__: HIGGINS, Silvio Salej; RIBEIRO, Antonio Carlos Andrade. Análise de redes em Ciências Sociais. ENAP. 2018. (Cap. 1- Cap. 7). Disponível: [aqui](https://repositorio.enap.gov.br/bitstream/1/3337/1/Livro_Analise%20de%20Redes%20em%20Ci%C3%AAncias%20Sociais.pdf)
 
 
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfJJxQ3nAag30Qn-a9dK5aShSGsATakMfMseGwW8IQ1TinfisioQZYmRPXpGwPCAgbahxyTPCHTxuI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 ## Aula 2. Explorando uma Rede: exercícios de análise descritiva
 
 __Resumo__: Distinções entre Análises Descritivas e Gerativas. O que é uma Rede? Qual tipo? Qual modo? Analisando redes. Características dos nós. Medidas de centralidade: Grau (Total, Entrada, Saída). Movimentos em uma rede (Walk, Trial, Path, Cycle). Medidas de centralidade (Closeness centrality; Betweenness centrality; Eigenvector centrality). Tipos especiais de Grafos.
