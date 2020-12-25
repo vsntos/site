@@ -20,7 +20,7 @@ url_slides: ""
 url_video: ""
 ---
 
-O projeto dialoga com as Humanidades Digitais e a História Digital. A primeira que compreende o conjunto das Ciências humanas e sociais, às Artes e às Letras, e que se destaca pela aplicação de instrumentos e as perspectivas do mundo digital. A segunda busca por meio destas ferramentas digitais sua aplicação na pesquisa e na escrita da história.
+O projeto dialoga com as Humanidades Digitais e a História Digital. A primeira que compreende o conjunto das Ciências humanas e sociais, às Artes e às Letras, e que se destaca pela aplicação de instrumentos e as perspectivas do mundo digital. A segunda busca por meio destas ferramentas digitais busca pela sua aplicação na pesquisa e na escrita da história.
 
 Neste projeto dedica atenção a diversos aspectos da Política Externa Brasileira lançando mão de uma série de instrumentos metodológicos para lidar com problemas específicos relativos a quantidades de artigos, textos e dados disponíveis aos pesquisadores interessados no tema. Assim, nos aproximamos de iniciativas como a [Hemeroteca de Política Externa Brasileira](https://hemerotecapeb.lantri.org/recoll/) e entre as questões que nos interessam poderiamos apontar: 
 
