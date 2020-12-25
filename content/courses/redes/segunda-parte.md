@@ -22,6 +22,12 @@ __Resumo__: Apresentação da Interface; Áreas de trabalho: i) Seleção; ii) L
 
 __Obra de referência__: Marquez et al. Apostila Gephi: Um software open source de manipulação e visualização de grafos. LABIC, 2013. Disponível: [aqui](https://www.academia.edu/34568301/Apostila_Gephi_Um_software_open_source_de_manipula%C3%A7%C3%A3o_e_visualiza%C3%A7%C3%A3o_de_grafos)
 
+{{% callout note %}}
+Clique Ctrl + Shift + F para apresentação em tela cheia.
+{{% /callout %}}
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRnIQu1q7NKEmeCRw70ZwzmNMw4KNhlnMy4j-ISJCEIoarHZSz6xnjw10tJ_oh87lfSqVqy7_cHT9Cb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="750" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 ## Aula 4. Desenhos de Pesquisa, Coleta de dados e Aplicações em CP e RI
 
