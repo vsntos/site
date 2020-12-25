@@ -29,6 +29,6 @@ menu:
 3) Aula - Ferramenta: Explorando o Gephi
 4) Aula - Desenhos de Pesquisa, Coleta de dados e Aplicações em CP e RI
 
-
+Ementa com a bibliografia complementar pode ser acessada [aqui](https://www.academia.edu/43392476/Ementa_Workshop_An%C3%A1lise_de_Redes_2020_1_UNILA_GRISUL_RIPPERP_)
 
 
