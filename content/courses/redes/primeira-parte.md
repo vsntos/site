@@ -37,3 +37,10 @@ Clique Ctrl + Shift + F para apresentação em tela cheia.
 __Resumo__: Distinções entre Análises Descritivas e Gerativas. O que é uma Rede? Qual tipo? Qual modo? Analisando redes. Características dos nós. Medidas de centralidade: Grau (Total, Entrada, Saída). Movimentos em uma rede (Walk, Trial, Path, Cycle). Medidas de centralidade (Closeness centrality; Betweenness centrality; Eigenvector centrality). Tipos especiais de Grafos.
 
 __Obra de referência__: HIGGINS, Silvio Salej; RIBEIRO, Antonio Carlos Andrade. Análise de redes em Ciências Sociais. ENAP. 2018. (Cap. 1- Cap. 7). Disponível: [aqui](https://repositorio.enap.gov.br/bitstream/1/3337/1/Livro_Analise%20de%20Redes%20em%20Ci%C3%AAncias%20Sociais.pdf)
+
+{{% callout note %}}
+Clique Ctrl + Shift + F para apresentação em tela cheia.
+{{% /callout %}}
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPnnjE1_aDbrlHyUmEaX4jWlZq9vfw-PppyuOdXt7YWO1uMu1TdJgmHBN3jv4uV_cIaHd_Hbk2G96/embed?start=false&loop=false&delayms=3000" frameborder="0" width="750" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
