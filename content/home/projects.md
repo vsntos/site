@@ -30,9 +30,7 @@ content:
   - name: Análise de Redes
     tag: 'Redes'
   - name: PEB
-    tag: 'Política Externa Brasileira'    
-  - name: Outros
-    tag: 'Outros'
+    tag: 'Política Externa Brasileira'
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
