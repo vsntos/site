@@ -21,13 +21,6 @@ menu:
     name: Overview
     weight: 1
     
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
-  preview_only: false
-  
 ---
 
 ## Organização do Curso
@@ -38,5 +31,9 @@ image:
 4) Aula - Desenhos de Pesquisa, Coleta de dados e Aplicações em CP e RI
 
 Ementa com a bibliografia complementar pode ser acessada [aqui](https://www.academia.edu/43392476/Ementa_Workshop_An%C3%A1lise_de_Redes_2020_1_UNILA_GRISUL_RIPPERP_)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GW4s58u8PZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
