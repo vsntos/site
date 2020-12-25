@@ -10,7 +10,7 @@ links:
 #  name: 
 #  url: 
 #slides: example
-summary: 'História Digital da Política Externa'
+summary: 'O projeto dialoga com as Humanidades Digitais e a História Digital. A primeira que compreende o conjunto das Ciências humanas e sociais, às Artes e às Letras, e que se destaca pela aplicação de instrumentos e as perspectivas do mundo digital. A segunda busca por meio destas ferramentas digitais sua aplicação na pesquisa e na escrita da história.'
 tags: 
 - História Digital
 title: 'História Digital da Política Externa Brasileira'
