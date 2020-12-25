@@ -1,5 +1,5 @@
 ---
-title: Estrutura do Curso
+title: Primeira Parte
 linktitle: Tips 1-2
 toc: true
 type: docs
