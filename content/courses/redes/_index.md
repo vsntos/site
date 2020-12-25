@@ -27,7 +27,7 @@ menu:
 1) Aula - Breve História da Ciência de Redes
 2) Aula - Explorando uma Rede: exercícios de análise descritiva
 3) Aula - Ferramenta: Explorando o Gephi
-4) Aula - Desenhos de Pesquisa, Coleta de dados e Aplicações emCP e RI
+4) Aula - Desenhos de Pesquisa, Coleta de dados e Aplicações em CP e RI
 
 
 

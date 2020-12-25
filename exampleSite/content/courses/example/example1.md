@@ -1,5 +1,5 @@
 ---
-title: Example Page 1
+title: Estrutura do Curso
 linktitle: Tips 1-2
 toc: true
 type: docs
