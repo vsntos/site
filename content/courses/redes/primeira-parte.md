@@ -25,7 +25,7 @@ __Obra de referência__: HIGGINS, Silvio Salej; RIBEIRO, Antonio Carlos Andrade.
 
 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfJJxQ3nAag30Qn-a9dK5aShSGsATakMfMseGwW8IQ1TinfisioQZYmRPXpGwPCAgbahxyTPCHTxuI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfJJxQ3nAag30Qn-a9dK5aShSGsATakMfMseGwW8IQ1TinfisioQZYmRPXpGwPCAgbahxyTPCHTxuI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="750" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## Aula 2. Explorando uma Rede: exercícios de análise descritiva
