@@ -34,7 +34,7 @@ Ementa com a bibliografia complementar pode ser acessada [aqui](https://www.acad
 
 
 {{% callout note %}}
-Para entender as potencialidades da Análise de Redes assista o vídeo da Nature
+Para potencialidades da Análise de Redes assista o vídeo da Nature
 {{% /callout %}}
 
 <iframe width="755" height="430" src="https://www.youtube.com/embed/GW4s58u8PZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
