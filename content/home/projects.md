@@ -28,7 +28,9 @@ content:
   - name: Todos
     tag: '*'
   - name: Análise de Redes
-    tag: 'a'
+    tag: 'Redes'
+  - name: PEB
+    tag: 'Política Externa Brasileira'    
   - name: Outros
     tag: 'Outros'
 
