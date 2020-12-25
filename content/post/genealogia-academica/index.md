@@ -107,7 +107,7 @@ Para quem tem interesse em saber mais sobre a trajetória acadêmica de Soares d
 -*IDE de desenvolvimento*: RStudio    
 
 Pacotes e Frameworks:
-
+Igraph
 
 Ferramentas auxiliares:  
 Gephi
