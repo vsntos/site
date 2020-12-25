@@ -14,18 +14,18 @@ menu:
 weight: 1
 ---
 
-## Aula 1
+## Aula 1.  Breve História da Ciência de Redes
+
 
 __Resumo__: Introdução à Ciência de Redes.Principais contribuições: Leonhard Euler (Teoria dos Grafos),
 Jacob Moreno (Sociograma), Erdõs-Rényi (Redes Randômicas); Mark Granovetter (Força dos Laços); Stanley
 Milgram (Pequeno Mundo); Watts-Strogatz (Pequeno Mundo - Clusterização); Albert Barabási (Redes Livre
 de Escala).
 
-__Obra de referência__: HIGGINS, Silvio Salej; RIBEIRO, Antonio Carlos Andrade. Análise de redes em Ciências Sociais. ENAP. 2018. (Cap. 1- Cap. 7). Disponível em: https://repositorio.enap.gov.br/bitstream/1/
-3337/1/Livro_Analise%20de%20Redes%20em%20Ci%C3%AAncias%20Sociais.pdf
+__Obra de referência__: HIGGINS, Silvio Salej; RIBEIRO, Antonio Carlos Andrade. Análise de redes em Ciências Sociais. ENAP. 2018. (Cap. 1- Cap. 7). Disponível em: [aqui]( https://repositorio.enap.gov.br/bitstream/1/3337/1/Livro_Analise%20de%20Redes%20em%20Ci%C3%AAncias%20Sociais.pdf)
 
 
-## Aula 2
+## Aula 2. Explorando uma Rede: exercícios de análise descritiva
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
