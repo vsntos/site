@@ -1,4 +1,5 @@
----
++++
+# Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
@@ -7,15 +8,15 @@ weight = 40  # Order that this section will appear.
 title = "Experiência"
 subtitle = ""
 
-# Date format
-#   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jan 2006
+# Date format for experience
+#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+date_format = "Jan 2006"
 
 # Experiences.
-#   Add/remove as many `experience` blocks below as you like.
+#   Add/remove as many `[[experience]]` blocks below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with `>-`.
+#   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
 
  title = "Analista de Projetos e Cientista de Redes"
@@ -45,5 +46,5 @@ Responsabilidades:
 * Coleta de dados incluiu: documentos originais, entrevistas, observação direta. A pesquisa teve como objetivo a análise de uma política pública transferida internacionalmente do Governo do Estado do Rio de Janeiro para a Província de Buenos Aires denominada "Unidade de Pronta Atenção" (UPA). Orientado por Dra. Claudia Cristina Danani. Esta pesquisa está sendo ampliada e reformulada para publicação em formato de livro.
 * Frequentou a disciplina relacionada à Metodologia orientada à Análise Política ("Metodología del Análisis Político"), tanto qualitativa quanto quantitativa. Orientado por Dra. Nélida Archenti/Dra. Guido Moscoso.
 * Patrocinado pela Rede Macro Universidade da América Latina e Caribe."""
----
 
++++
