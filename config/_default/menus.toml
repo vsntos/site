@@ -35,7 +35,7 @@
 
 [[main]]
   name = "Resume"
-  url = "#experience"
+  url = "resume/"
   weight = 70
 
 
