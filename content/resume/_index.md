@@ -1,4 +1,4 @@
----
++++
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = false  # This file represents a page section.
@@ -47,4 +47,4 @@ Responsabilidades:
 * Coleta de dados incluiu: documentos originais, entrevistas, observação direta. A pesquisa teve como objetivo a análise de uma política pública transferida internacionalmente do Governo do Estado do Rio de Janeiro para a Província de Buenos Aires denominada "Unidade de Pronta Atenção" (UPA). Orientado por Dra. Claudia Cristina Danani. Esta pesquisa está sendo ampliada e reformulada para publicação em formato de livro.
 * Frequentou a disciplina relacionada à Metodologia orientada à Análise Política ("Metodología del Análisis Político"), tanto qualitativa quanto quantitativa. Orientado por Dra. Nélida Archenti/Dra. Guido Moscoso.
 * Patrocinado pela Rede Macro Universidade da América Latina e Caribe.""""
----
++++
