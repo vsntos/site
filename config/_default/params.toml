@@ -268,7 +268,7 @@ plugins_js  = []
 ############################
 [marketing]
   google_analytics = "257059448"
-  google_tag_manager = "GTM-WNVPNQ4"
+  google_tag_manager = ""
 
 ############################
 ## Content Management System
