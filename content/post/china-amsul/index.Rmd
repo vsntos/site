@@ -318,7 +318,7 @@ visIgraph(g, physics = T, smooth = TRUE, type = "full", randomSeed = 123) %>%
              nodesIdSelection = list(enabled = TRUE)) %>%
   visInteraction(hover = TRUE, navigationButtons = F) %>%
   visPhysics(solver = "barnesHut", 
-  forceAtlas2Based = list(gravitationalConstant = -13500)) %>% 
+  forceAtlas2Based = list(gravitationalConstant = -12000)) %>% 
   visOptions(manipulation = TRUE) %>%
   visGroups()
 
