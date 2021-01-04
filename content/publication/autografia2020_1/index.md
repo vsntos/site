@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 
 date: "2020-07-01T00:00:00Z"
-doi: "http://dx.doi.org/10.12957/rmi.2014.10760"
+doi: "978-85-518-0000-0"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-01-01T00:00:00Z"
