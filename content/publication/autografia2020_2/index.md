@@ -13,7 +13,7 @@ authors:
 # - "Equal contribution"
 
 date: "2020-07-01T00:00:00Z"
-doi: "978-85-518-0000-0"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-01-01T00:00:00Z"
