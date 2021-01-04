@@ -10,7 +10,7 @@ headless: true
 weight: 60
 
 title: Postagens
-subtitle:
+subtitle: ''
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -27,7 +27,7 @@ content:
     exclude_past: false
     publication_type: ""
   # Choose how many pages you would like to offset by
-  offset: 0
+  offset: 1
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
