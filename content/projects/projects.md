@@ -22,33 +22,17 @@ subtitle = ""
   filter_default = 0
   
   [[content.filter_button]]
-    name = "All"
+    name = "Todos"
     tag = "*"
 
   [[content.filter_button]]
-    name = "website"
-    tag = "website"
+    name = "Redes"
+    tag = "Redes"
     
   [[content.filter_button]]
-    name = "R"
-    tag = "R"
+    name = "PEB"
+    tag = "PEB"
     
-  [[content.filter_button]]
-    name = "Software"
-    tag = "software"
-
-  [[content.filter_button]]
-    name = "Workshop"
-    tag = "workshop"
-  
-  [[content.filter_button]]
-    name = "Course"
-    tag = "course"
-    
-  [[content.filter_button]]
-    name = "Book"
-    tag = "book"
-
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
