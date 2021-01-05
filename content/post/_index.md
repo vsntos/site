@@ -1,5 +1,7 @@
 ---
 title: Posts
+type: widget_page
+aliases: [bio]
 
 # View.
 #   1 = List
