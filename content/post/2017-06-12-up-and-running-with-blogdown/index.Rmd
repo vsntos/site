@@ -2,7 +2,7 @@
 aliases: [up-and-running-with-blogdown]
 projects: [up-running-blogdown]
 title: A China na América do Sul
-authors: [alison]
+authors: [admin]
 date: '2017-06-12'
 tags: [blogdown]
 categories:
