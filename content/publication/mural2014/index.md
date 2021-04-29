@@ -1,12 +1,11 @@
 ---
-title: "A participação das mulheres na produção acadêmica da área de Relações Internacionais no Brasil"
+title: "A análise da política externa do governo Dilma Rousseff na perspectiva dos pronunciamentos oficiais na ONU"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Ivi Elias
 - André Coelho
 
 # Author notes (optional)
@@ -14,8 +13,8 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2019-07-01T00:00:00Z"
-doi: "https://doi.org/10.12957/rmi.2019.37384"
+date: "2014-07-01T00:00:00Z"
+doi: "http://dx.doi.org/10.12957/rmi.2014.10760"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -30,10 +29,10 @@ publication_types: ["2"]
 publication: In *Mural Internacional*
 publication_short: In *Mural*
 
-abstract: Neste artigo buscamos mapear a produção acadêmica na área de Relações Internacionais no Brasil observando a participação das mulheres partindo das características da produção acadêmica em relação ao gênero e às divisões temáticas do campo.
+abstract: O objetivo deste artigo é analisar as linhas de orientação da Política Externa Brasileira na gestão, ainda em curso, da presidenta Dilma Rousseff. Para tal fim, a pesquisa adota o discurso como meio de obtenção dos parâmetros para a análise da atuação internacional brasileira. Desta forma, o presente trabalho dedicou o olhar aos indícios da posição do país derivada das declarações oficiais proferidas no âmbito das reuniões ordinárias da Assembleia Geral da Organização das Nações Unidas que ocorre anualmente no mês de setembro.
 
 # Summary. An optional shortened abstract.
-summary: Neste artigo buscamos mapear a produção acadêmica na área de Relações Internacionais no Brasil observando a participação das mulheres partindo das características da produção acadêmica em relação ao gênero e às divisões temáticas do campo.
+summary: O objetivo deste artigo é analisar as linhas de orientação da Política Externa Brasileira na gestão, ainda em curso, da presidenta Dilma Rousseff. Para tal fim, a pesquisa adota o discurso como meio de obtenção dos parâmetros para a análise da atuação internacional brasileira.
 
 tags: [Redes]
 
@@ -45,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.e-publicacoes.uerj.br/index.php/muralinternacional/article/view/37384'
+url_pdf: 'https://www.e-publicacoes.uerj.br/index.php/muralinternacional/article/view/10760/10877'
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''
