@@ -1,44 +1,44 @@
 ---
-title: Example Talk
+title: Oportunidades de Inserção Profissional: Um olhar além da Academia
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: Conversas Grisul
+event_url: http://www.grisulunirio.com/
 
-location: Wowchemy HQ
+location: Digital
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: 
+  city: 
+  region: 
+  postcode: 
+  country: 
 
 summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract: "Com foco no diálogo entre Dados e Consultoria aproveitarei a oportunidade para tratar brevemente do que vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes e Processamento de Linguagem Natural aplicada ao mercado. Darei enfoque a aplicações analíticas distintas voltadas à área de Relações Governamentais (mas não só). No momento em que se dá destaque a geração de valor ancorada em evidências, principalmente em função do grande volume de dados disponíveis, concentrarei minha atenção em cases de pesquisas no ambiente digital e dados públicos. "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2021-05-26T14:00:00Z"
+date_end: "2021-05-26T17:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-05-16T00:00:00Z"
 
-authors: []
-tags: []
+authors: [Vinicius Santos]
+tags: [Análise de Redes]
 
 # Is this a featured talk? (true/false)
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Grisul comunicação**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/santosvtito
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -57,7 +57,7 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- example
+- 
 ---
 
 {{% callout note %}}
