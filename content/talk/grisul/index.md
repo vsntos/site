@@ -13,7 +13,7 @@ address:
   country: United States
 
 summary: Oportunidades de inserção profissional: um olha além da academia.
-abstract: "Fui convidado pelo Grupo de Relações Internacionais e Sul Global para falar sobre Dados e Consultoria e Aproveitarei a oportunidade para tratar resumidamente do vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes aplicada ao mercado. Trarei exemplos de aplicações analíticas voltadas à área de Relações Governamentais (mas não só). No momento em que se dá destaque a geração de valor por meio de evidências, principalmente por causa do grande volume de dados disponíveis, focarei em pesquisas no ambiente digital e dados públicos (demanda urgente em tempos de pandemia). Durante a semana a apresentação, os dados e as análises interativas já estão disponíveis."
+abstract: "Fui convidado pelo Grupo de Relações Internacionais e Sul Global para falar sobre Dados e Consultoria e Aproveitarei a oportunidade para tratar resumidamente do vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes aplicada ao mercado. Trarei exemplos de aplicações analíticas voltadas à área de Relações Governamentais (mas não só)."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -41,7 +41,7 @@ links:
   url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-- url_slides: ""
+url_slides: ""
 url_video: ""
 
 # Markdown Slides (optional).
