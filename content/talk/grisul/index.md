@@ -1,10 +1,10 @@
 ---
 title: Oportunidades de inserção profissional
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: Oportunidades de inserção profissional
+event_url: 
 
-location: Wowchemy HQ
+location: CCJP (Digital)
 address:
   street: 450 Serra Mall
   city: Stanford
