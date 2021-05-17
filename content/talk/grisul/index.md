@@ -6,19 +6,19 @@ event_url:
 
 location: CCJP (Digital)
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: R. Voluntários da Pátria, 107, Botafogo
+  city: Rio de Janeiro
+  region: RJ
+  postcode: '22270-000'
+  country: Brasil
 
 summary: Oportunidades de inserção profissional: um olha além da academia.
 abstract: "Fui convidado pelo Grupo de Relações Internacionais e Sul Global para falar sobre Dados e Consultoria e Aproveitarei a oportunidade para tratar resumidamente do vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes aplicada ao mercado. Trarei exemplos de aplicações analíticas voltadas à área de Relações Governamentais (mas não só)."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-05-01T14:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2021-05-26T14:00:00Z"
+date_end: "2021-05-26T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -38,7 +38,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/santosvtito
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -49,25 +49,25 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+#slides: example
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
-- example
+#projects:
+# - example
 ---
 
+## Apresentação
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQWG5I__PnyTcuGRDgNvNflgVMaGZD3FgkwrZWBw8XkbBY1ZN7SlPDQYnuYVqMvV9HF8nxz2QfU1r0O/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 {{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
+Clique Ctrl + Shift + F para apresentação em tela cheia..
 {{% /callout %}}
 
-Slides can be added in a few ways:
 
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
