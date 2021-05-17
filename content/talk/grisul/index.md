@@ -31,8 +31,8 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Grisul Comunicação**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+  caption:
+  focal_point:
 
 links:
 - icon: twitter
@@ -41,7 +41,7 @@ links:
   url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: ""
+- url_slides: "https://docs.google.com/presentation/d/e/2PACX-1vQWG5I__PnyTcuGRDgNvNflgVMaGZD3FgkwrZWBw8XkbBY1ZN7SlPDQYnuYVqMvV9HF8nxz2QfU1r0O/pub?start=true&loop=true&delayms=3000"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -68,6 +68,6 @@ Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQWG5I__PnyTcuGRDgNvNflgVMaGZD3FgkwrZWBw8XkbBY1ZN7SlPDQYnuYVqMvV9HF8nxz2QfU1r0O/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>).
 
 Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
