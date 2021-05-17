@@ -6,11 +6,11 @@ event_url:
 
 location: CCJP (Digital)
 address:
-  street: R. Voluntários da Pátria, 107, Botafogo
-  city: Rio de Janeiro
-  region: RJ
-  postcode: '22270-000'
-  country: Brasil
+  street: 
+  city: 
+  region: 
+  postcode: 
+  country:
 
 summary: Oportunidades de inserção profissional: um olha além da academia.
 abstract: "Fui convidado pelo Grupo de Relações Internacionais e Sul Global para falar sobre Dados e Consultoria e Aproveitarei a oportunidade para tratar resumidamente do vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes aplicada ao mercado"
@@ -29,10 +29,6 @@ tags: []
 
 # Is this a featured talk? (true/false)
 featured: false
-
-image:
-  caption:
-  focal_point:
 
 links:
 - icon: twitter
@@ -68,6 +64,4 @@ url_video: ""
 
 {{% callout note %}}
 Clique Ctrl + Shift + F para apresentação em tela cheia..
-{{% /callout %}}
-
-
+{{% /callout %}}title: "index"
