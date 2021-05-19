@@ -63,7 +63,7 @@ projects:
 
 ## Apresentação
    
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQWG5I__PnyTcuGRDgNvNflgVMaGZD3FgkwrZWBw8XkbBY1ZN7SlPDQYnuYVqMvV9HF8nxz2QfU1r0O/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQWG5I__PnyTcuGRDgNvNflgVMaGZD3FgkwrZWBw8XkbBY1ZN7SlPDQYnuYVqMvV9HF8nxz2QfU1r0O/embed?start=true&loop=true&delayms=5000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 {{% callout note %}}
 Clique Ctrl + Shift + F para apresentação em tela cheia.
