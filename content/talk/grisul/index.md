@@ -13,7 +13,7 @@ address:
   country: United States
 
 summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract: "Fui convidado pelo Grupo de Relações Internacionais e Sul Global para falar sobre Dados e Consultoria. Aproveitarei a oportunidade para tratar resumidamente do vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes e Processamento de Linguagem Natural aplicada ao mercado. Trarei exemplos de aplicações analíticas voltadas à área de Relações Governamentais (mas não só). No momento em que se dá destaque a geração de valor por meio de evidências, principalmente por causa do grande volume de dados disponíveis, focarei em pesquisas no ambiente digital e dados públicos (demanda urgente em tempos de pandemia)."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
