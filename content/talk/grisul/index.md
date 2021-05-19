@@ -2,7 +2,7 @@
 title: Oportunidades de inserção profissional
 
 event: Oportunidades de inserção profissional
-event_url: https://example.org
+event_url: http://grisulunirio.com/
 
 location: Wowchemy HQ
 address:
