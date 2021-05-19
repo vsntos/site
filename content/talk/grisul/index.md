@@ -41,7 +41,7 @@ links:
   url: https://twitter.com/santosvtito
 url_code: ""
 url_pdf: ""
-- url_slides: "https://docs.google.com/presentation/d/e/2PACX-1vQWG5I__PnyTcuGRDgNvNflgVMaGZD3FgkwrZWBw8XkbBY1ZN7SlPDQYnuYVqMvV9HF8nxz2QfU1r0O/pub?start=true&loop=true&delayms=3000&slide=id.gd8ee5feab1_0_1066"
+- url_slides: ""
 url_video: ""
 
 # Markdown Slides (optional).
