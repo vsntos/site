@@ -1,7 +1,7 @@
 ---
-title: Oportunidades de inserção profissional
+title: Example Talk
 
-event: Oportunidades de inserção profissional
+event: Wowchemy Conference
 event_url: https://example.org
 
 location: Wowchemy HQ
@@ -12,7 +12,7 @@ address:
   postcode: '94305'
   country: United States
 
-summary: Oportunidades de inserção profissional: um olha além da academia.
+summary: An example talk using Wowchemy's Markdown slides feature.
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
@@ -31,14 +31,14 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: []()'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/santosvtito
+  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
 url_slides: ""
