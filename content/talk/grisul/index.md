@@ -62,15 +62,12 @@ projects:
 
 # Apresentação
 
+## Relatório de pesquisa completo:     
+   
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 {{% callout note %}}
 Clique Ctrl + Shift + F para apresentação em tela cheia.
-{{% /callout %}
-
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
 
 Slides can be added in a few ways:
