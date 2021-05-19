@@ -1,5 +1,5 @@
 ---
-title: Example Talk
+title: Oportunidades de inserção profissional
 
 event: Wowchemy Conference
 event_url: https://example.org
