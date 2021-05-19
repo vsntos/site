@@ -1,7 +1,7 @@
 ---
 title: Oportunidades de inserção profissional
 
-event: Wowchemy Conference
+event: Oportunidades de inserção profissional
 event_url: https://example.org
 
 location: Wowchemy HQ
