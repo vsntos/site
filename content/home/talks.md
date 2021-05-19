@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 70
 
-title: 'Palestras futuras e recentes'
+title: 'Palestras'
 subtitle:
 
 content:
