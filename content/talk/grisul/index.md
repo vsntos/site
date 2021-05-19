@@ -12,7 +12,7 @@ address:
   postcode: '94305'
   country: United States
 
-summary: An example talk using Wowchemy's Markdown slides feature.
+summary: Fui convidado pelo Grupo de Relações Internacionais e Sul Global para falar sobre Dados e Consultoria. Aproveitarei a oportunidade para tratar resumidamente do vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes.
 abstract: "Fui convidado pelo Grupo de Relações Internacionais e Sul Global para falar sobre Dados e Consultoria. Aproveitarei a oportunidade para tratar resumidamente do vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes e Processamento de Linguagem Natural aplicada ao mercado. Trarei exemplos de aplicações analíticas voltadas à área de Relações Governamentais (mas não só). No momento em que se dá destaque a geração de valor por meio de evidências, principalmente por causa do grande volume de dados disponíveis, focarei em pesquisas no ambiente digital e dados públicos (demanda urgente em tempos de pandemia)."
 
 # Talk start and end times.
@@ -41,7 +41,7 @@ links:
   url: https://twitter.com/santosvtito
 url_code: ""
 url_pdf: ""
-url_slides: "https://docs.google.com/presentation/d/e/2PACX-1vQWG5I__PnyTcuGRDgNvNflgVMaGZD3FgkwrZWBw8XkbBY1ZN7SlPDQYnuYVqMvV9HF8nxz2QfU1r0O/pub?start=true&loop=true&delayms=3000&slide=id.gd8ee5feab1_0_1066"
+- url_slides: "https://docs.google.com/presentation/d/e/2PACX-1vQWG5I__PnyTcuGRDgNvNflgVMaGZD3FgkwrZWBw8XkbBY1ZN7SlPDQYnuYVqMvV9HF8nxz2QfU1r0O/pub?start=true&loop=true&delayms=3000&slide=id.gd8ee5feab1_0_1066"
 url_video: ""
 
 # Markdown Slides (optional).
