@@ -4,7 +4,7 @@ title: Oportunidades de inserção profissional
 event: Oportunidades de inserção profissional
 event_url: http://grisulunirio.com/
 
-location: Wowchemy HQ
+location: CCJP / UNIRIO
 address:
   street: 450 Serra Mall
   city: Stanford
