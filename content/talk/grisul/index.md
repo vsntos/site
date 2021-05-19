@@ -60,9 +60,8 @@ projects:
 - internal-project
 ---
 
-# Apresentação
 
-## Relatório de pesquisa completo:     
+## Apresentação
    
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -70,10 +69,3 @@ projects:
 Clique Ctrl + Shift + F para apresentação em tela cheia.
 {{% /callout %}}
 
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
