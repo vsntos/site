@@ -12,7 +12,7 @@ address:
   postcode: '94305'
   country: United States
 
-summary: An example talk using Wowchemy's Markdown slides feature.
+summary: Oportunidades de inserção profissional: um olha além da academia.
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
@@ -38,7 +38,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/santosvtito
 url_code: ""
 url_pdf: ""
 url_slides: ""
