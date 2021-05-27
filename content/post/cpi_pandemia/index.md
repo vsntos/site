@@ -49,7 +49,7 @@ A CPI é o instrumento que assegura aos parlamentares o direito de exercer sua f
 No entanto, a CPI da pandemia, ainda que tenha seguido todos os ritos institucionais foi instaurada a partir de uma decisão do STF, especificamente do Ministro Barroso atendendo a um pedido feito pelos senadores Alessandro Vieira (Cidadania-SE) e Jorge Kajuru (Cidadania-GO). A instauração da Comissão se veria atravessada pela necessidade de “apurar as ações e omissões do governo federal no enfrentamento da pandemia da covid-19 no Brasil e, em especial, no agravamento da crise sanitária no Amazonas com a ausência de oxigênio para os pacientes internados”. Com a iminência da sua instauração, a resposta governista veio na forma de ampliação do escopo da investigação. Inicialmente centrada no governo federal, um requerimento feito pelo senador Eduardo Girão (Pode-CE) propôs também discutir os repasses federais feitos aos Estados e municípios. Nesse sentido, a CPI tem servido como uma arena de embate entre governo e oposição amplamente acompanhada e repercutida pela sociedade.
 
 
-{{< figure src="https://s2.glbimg.com/8h9DjboljD9WJbClLT0VcFByrW4=/0x0:1200x630/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/K/U/MjTsgFRfKio5AczSvRgw/cpipandemiasenadores.png" title="Professora Maria Regina Soares de Lima da Universidade do Estado do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
+{{< figure src="https://s2.glbimg.com/8h9DjboljD9WJbClLT0VcFByrW4=/0x0:1200x630/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/K/U/MjTsgFRfKio5AczSvRgw/cpipandemiasenadores.png" title="Composição da CPI" >}}
 
 ## Coleta de Dados
 
@@ -63,7 +63,7 @@ Analisamos os dados utilizando um algoritmo de machine learning, por meio da mod
 
 ## Relatório de pesquisa completo:     
    
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRG6IOBZbDAtG8Tx3PIJFsrHrK1w4qvYSA8foZ1WL9DuNyGd3mudAUalZNYfCXfOw/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRG6IOBZbDAtG8Tx3PIJFsrHrK1w4qvYSA8foZ1WL9DuNyGd3mudAUalZNYfCXfOw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 {{% callout note %}}
 Clique Ctrl + Shift + F para apresentação em tela cheia.
