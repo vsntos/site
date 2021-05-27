@@ -18,7 +18,7 @@ subtitle = "Blog"
   count = 5
   
   # Choose how many pages you would like to offset by
-  offset = 1
+  offset = 
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "asc"
