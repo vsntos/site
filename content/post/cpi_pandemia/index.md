@@ -23,7 +23,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**canva**](https://www.canva.com/)'
+  caption: 'Image credit: [**Senado Federal**](https://www.canva.com/)'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -42,73 +42,46 @@ categories:
 
 ## Overview
 
-*Objetivo*: 
+A Comissão Parlamentar de Inquérito (CPI) sobre a atuação do governo ao longo da pandemia tem recebido grande atenção da opinião pública. Os depoimentos têm batido recordes de visualizações entre os vídeos contidos no canal da TV Senado no YouTube, chegando ao pico de 1.1 milhão de visualizações, no caso do depoimento do ex-ministro Eduardo Pazuello.
 
-- Evidenciar a pluralidade de aplicações da Análise de Redes Sociais.  
+A CPI é o instrumento que assegura aos parlamentares o direito de exercer sua função fiscalizadora sem que haja a obstrução de outros grupos parlamentares. Assim, para que possa ser estabelecida três requisitos precisam ser preenchidos: 1) assinatura de um terço dos integrantes da Casa; 2) indicação de fato determinado a ser apurado; e 3) definição de prazo certo para duração. Por isso, uma vez cumprida essas determinações, não cabe à Presidência da Casa, nesse caso, ao Senador Rodrigo Pacheco (DEM - MG), análise política ou omissão na determinação do estabelecimento do instrumento, mas sim sua instauração. 
 
-- Reconstruir a trajetória da professora Maria Regina Soares de Lima e por meio desse esforço marcar a sua contribuição para a área de Relações Internacionais no Brasil.  
-
-
-Nas conversas que tenho sobre a Análise de Redes (ARS), com certa frequência, esse método (mas também área - Ciência de Redes) é quase sempre associado a "mídias sociais” como Facebook, Twitter e Instagram.
-
-Como parte do projeto de Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil uno nesta postagem (ao final apresento o relatório de pesquisa completo) duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Ciência de Redes.
+No entanto, a CPI da pandemia, ainda que tenha seguido todos os ritos institucionais foi instaurada a partir de uma decisão do STF, especificamente do Ministro Barroso atendendo a um pedido feito pelos senadores Alessandro Vieira (Cidadania-SE) e Jorge Kajuru (Cidadania-GO). A instauração da Comissão se veria atravessada pela necessidade de “apurar as ações e omissões do governo federal no enfrentamento da pandemia da covid-19 no Brasil e, em especial, no agravamento da crise sanitária no Amazonas com a ausência de oxigênio para os pacientes internados”. Com a iminência da sua instauração, a resposta governista veio na forma de ampliação do escopo da investigação. Inicialmente centrada no governo federal, um requerimento feito pelo senador Eduardo Girão (Pode-CE) propôs também discutir os repasses federais feitos aos Estados e municípios. Nesse sentido, a CPI tem servido como uma arena de embate entre governo e oposição amplamente acompanhada e repercutida pela sociedade.
 
 
-1. Ainda que possam ser representadas pela linguagem de “grafos” a Análise de Redes não se resume as mídias sociais. Com base nessa dúvida e por oportunidade dos [cursos](http://vsantos.rbind.io/courses/redes/) ofereci na UNIRIO, UNILA e UFMG resolvi elaborar essa análise básica para apontar o potencial da ARS.
-2. Nesse primeiro esforço eu faço a união de duas áreas pelas quais me dedico que é a Análise da Política Externa Brasileira e Redes.
-3. Para falar desse tema é primordial tratar do papel de uma das pesquisadoras mais relevantes para o campo no Brasil: Maria Regina Soares de Lima. 
-
-{{< figure src="https://www.defesanet.com.br/site/upload/news_image/2011/04/886.jpg" title="Professora Maria Regina Soares de Lima da Universidade do Estado do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
+{{< figure src="https://s2.glbimg.com/8h9DjboljD9WJbClLT0VcFByrW4=/0x0:1200x630/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/K/U/MjTsgFRfKio5AczSvRgw/cpipandemiasenadores.png" title="Professora Maria Regina Soares de Lima da Universidade do Estado do Rio de Janeiro. Foto: Tereza Sobreira MD" >}}
 
 ## Coleta de Dados
 
-A coleta dos dados foi realizada por meio de consulta à base de dados da Plataforma Acácia que por meio de “web scraping” reúne informações da Plataforma Lattes. Atualmente conta com 6,3 milhões de currículos em sua base de dados.
+No site do Senado Federal coletamos todas as notas taquigráficas referentes às sessões da CPI em que estiveram para depor Luiz Henrique Mandetta (04/05), Nelson Teich (05/05), Marcelo Queiroga (06/05), Antonio Barra Torres (11/05), Fabio Wajngarten (12/05), Carlos Murillo (13/05),  Ernesto Araújo (18/05), Eduardo Pazuello (19 e 20/05). O trabalho continuará ao longo dos próximos depoimentos.
 
-Assim, com dados da [Plataforma Acácia](http://plataforma-acacia.org/) a proposta se concentrou em mobilizar a “modalidade” chamada de “Ego-Rede” para mapear as relações de orientação de pós graduação (Mestrado, Doutorado e Pós Doutorado) para compreender não só a estrutura dessa rede como a posição estrutural dos “principais” “filhos acadêmicos” de Soares de Lima. Além disso, chamamos atenção para as temáticas” que "circularam" nessa rede. Ressalto que para mim é um orgulho fazer parte dessa comunidade já que além de pesquisador do tema sou “neto acadêmico” (duplamente) da Professora Maria Regina Soares de Lima.
 
 ## Análise dos Dados
 
-1. [Ego Rede](https://www.amazon.com.br/Egocentric-Network-Analysis-Foundations-Methods/dp/1107579317/ref=pd_sim_14_5/140-6933562-7678452?_encoding=UTF8&pd_rd_i=1107579317&pd_rd_r=57102180-2558-4041-8524-15eab08c8802&pd_rd_w=T2jMj&pd_rd_wg=797UZ&pf_rd_p=6882ebd8-e6aa-4d12-bcb6-33b39edace48&pf_rd_r=C2VH54DGNNCYSCET6X8G&psc=1&refRID=C2VH54DGNNCYSCET6X8G)
+Analisamos os dados utilizando um algoritmo de machine learning, por meio da modelagem de tópicos estruturais (STM).
 
-- Rede formada a partir de um nó central, chamado "ego". Neste caso, os “alters” e suas relações também foram incluídas até o terceiro grau (profundidade 3).
-
-2. [Systematic Literature Review](https://journals.sagepub.com/doi/full/10.1177/0739456X17723971)
-
-- Análise do resumo das teses orientadas que em termos de redes foram incluídas as de profundidade de número 2 (netos acadêmicos) e para a classificação em “áreas temáticas” foram mobilizadas as categorias presentes na [Minuta das Diretrizes Curriculares Nacionais para cursos de Graduação em Relações Internacionais](https://www2.unifap.br/relacoesinternacionais/files/2013/12/ABRI-DCN-RI-Vers%c3%a3o-Final.pdf).
 
 ## Relatório de pesquisa completo:     
    
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdPP2uOyYnfRNWAGdSyZFWHDMKFkC1yMg0tHiEtVgJcpoxv9_YqXyiyIhChVflvw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRG6IOBZbDAtG8Tx3PIJFsrHrK1w4qvYSA8foZ1WL9DuNyGd3mudAUalZNYfCXfOw/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 {{% callout note %}}
 Clique Ctrl + Shift + F para apresentação em tela cheia.
 {{% /callout %}}
 
 
-## Inspiração
-
-Para quem tem interesse em saber mais sobre a trajetória acadêmica de Soares de Lima segue um vídeo que é produto do projeto de "Caminhos: Programa de Memória Oral da Pós-Graduação do IESP-UERJ".
-
-<iframe width="750" height="569" src="https://www.youtube.com/embed/h3ffUR4zVss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ## Resumo  
 
-[__Projeto__] Mapeamento das áreas de Ciência Política e Relações Internacionais no Brasil
+[__Projeto__] Cobertura da CPI da Pandemia
 
 [__Sobre__] Sobre o projeto:  
 
-- Genealogia Acadêmica: uma das linhas do projeto voltada a documentação das relações formais de orientação dos programas de pós graduação no Brasil com foco especial nas áreas de Ciência Política e Relações Internacionais.  
+O projeto propõe cobrir a CPI da pandemia no Senado Federal orientado à análise de dados. Neste primeiro relatório, nos debruçamos sobre os debates ocorrido ao longo das sessões, por meio das notas taquigráficas das oportunidades em que o Senado Federal inquiriu um conjunto de depoentes entre os dias 04 e 20 de maio de 2020 para mobilizar estratégias de Mineração de Textos. Empregamos, para isso, ferramentas de análise de texto como dados (text as data).  
 
 
 [__Tecnologia__] Ferramentas utilizadas:
 
--*linguagem de programação*: R  
+-*linguagem de programação*: R 
 -*IDE de desenvolvimento*: RStudio    
-
-Pacotes e Frameworks:
-Igraph
-
-Ferramentas auxiliares:  
-Gephi
+-*Pacotes e Frameworks*: tm, stringr, dplyr, tidyverse, stm
 
