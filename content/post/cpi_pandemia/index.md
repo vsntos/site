@@ -36,8 +36,8 @@ tags:
 - Redes
 
 categories:
-- Genealogia
-- Redes
+- CPI Pandemia
+- Mineração de Textos
 ---
 
 ## Overview
