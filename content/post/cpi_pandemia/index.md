@@ -63,7 +63,7 @@ Analisamos os dados utilizando um algoritmo de machine learning, por meio da mod
 
 ## Relatório de pesquisa completo:     
    
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRG6IOBZbDAtG8Tx3PIJFsrHrK1w4qvYSA8foZ1WL9DuNyGd3mudAUalZNYfCXfOw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRG6IOBZbDAtG8Tx3PIJFsrHrK1w4qvYSA8foZ1WL9DuNyGd3mudAUalZNYfCXfOw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 {{% callout note %}}
 Clique Ctrl + Shift + F para apresentação em tela cheia.
