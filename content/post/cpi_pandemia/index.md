@@ -81,7 +81,7 @@ O projeto propõe cobrir a CPI da pandemia no Senado Federal orientado à análi
 
 [__Tecnologia__] Ferramentas utilizadas:
 
--*linguagem de programação*: R 
--*IDE de desenvolvimento*: RStudio    
+-*linguagem de programação*: R   
+-*IDE de desenvolvimento*: RStudio       
 -*Pacotes e Frameworks*: tm, stringr, dplyr, tidyverse, stm
 
