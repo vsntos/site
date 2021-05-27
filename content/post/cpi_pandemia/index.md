@@ -32,8 +32,8 @@ authors:
 - admin
 
 tags:
-- Genealogia Acadêmica
-- Redes
+- CPI Pandemia
+- Mineração de Textos
 
 categories:
 - CPI Pandemia
