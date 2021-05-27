@@ -69,7 +69,7 @@ projects:
 Clique Ctrl + Shift + F para apresentação em tela cheia.
 {{% /callout %}}
 
-# Para quem tem interesse em ver e ou rever a apresentação no evento
+Para quem tem interesse em ver e ou rever a apresentação no evento
 
 
-<iframe width="750" height="569" src="https://www.youtube.com/embed/P7n0rn7XscY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P7n0rn7XscY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
