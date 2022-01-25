@@ -95,7 +95,7 @@ user_groups:
     <div class="collapse show" id="portugues"  data-parent="#myGroup">
           <div class="card card-body">
   
-Doutorando em Ciência Política [(UFMG)](http://ppgcp.fafich.ufmg.br/). Mestre em Direito e Políticas Públicas [(UNIRIO)](http://www.unirio.br/ppgd). Têm experiência em Inteligência de Mercado e Consultoria em Relações Governamentais. Especialista em Análise de Redes e suas aplicações. Pesquisador no Grupo de Relações Internacionais e Sul Global | [GRISUL (UNIRIO)](http://www.grisulunirio.com/) e na Rede Interinstitucional de Pesquisa em Política Externa e Regime Político | RIPPERP (UFMG). Pesquisador Visitante na Universidad de Buenos Aires - [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) e na Universidade de Brasília - [Instituto de Ciência Política](http://www.ipol.unb.br/) (2017.2).
+Doutorando em Ciência Política [(UFMG)](http://ppgcp.fafich.ufmg.br/). Mestre em Direito e Políticas Públicas [(UNIRIO)](http://www.unirio.br/ppgd). Têm experiência em Inteligência de Mercado e Consultoria em Relações Governamentais. Especialista em Análise de Redes e suas aplicações. Pesquisador no Grupo de Relações Internacionais e Sul Global | [GRISUL (UNIRIO)](http://www.grisulunirio.com/) e na Rede Interinstitucional de Pesquisa em Política Externa e Regime Político | RIPPERP (UFMG). Pesquisador Visitante na Universidade de Cambrigde - [Centro de Estudos Latino Americanos](https://www.latin-american.cam.ac.uk/) (2022.1), Universidad de Buenos Aires - [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) e na Universidade de Brasília - [Instituto de Ciência Política](http://www.ipol.unb.br/) (2017.2).
 
   </div>
     </div>
@@ -103,14 +103,14 @@ Doutorando em Ciência Política [(UFMG)](http://ppgcp.fafich.ufmg.br/). Mestre 
    <div class="collapse indent" id="ingles"  data-parent="#myGroup">
  <div class="card card-body">
 
-PhD Candidate in Political Science [(UFMG)](http://ppgcp.fafich.ufmg.br/). Master in Law and Public Policy [(UNIRIO)](http://www.unirio.br/ppgd). Specialist in Network Analysis, Government Affairs and Business Intelligence. Researcher in the [International Relations and Global South Group](http://www.grisulunirio.com/) | GRISUL (UNIRIO) and the Interinstitutional Research Network on Foreign Policy and Political Regime | RIPPERP (UFMG). Visiting Researcher at the Universidad de Buenos Aires - [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) and at the University of Brasilia - [Political Science Institute](http://www.ipol.unb.br/) (2017.2).
+PhD Candidate in Political Science [(UFMG)](http://ppgcp.fafich.ufmg.br/). Master in Law and Public Policy [(UNIRIO)](http://www.unirio.br/ppgd). Specialist in Network Analysis, Government Affairs and Business Intelligence. Researcher in the [International Relations and Global South Group](http://www.grisulunirio.com/) | GRISUL (UNIRIO) and the Interinstitutional Research Network on Foreign Policy and Political Regime | RIPPERP (UFMG). Visiting Researcher at the University of Cambridge - [Centre of Latin American Studies](https://www.latin-american.cam.ac.uk/) (2022.1), Universidad de Buenos Aires - [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) and at the University of Brasilia - [Political Science Institute](http://www.ipol.unb.br/) (2017.2).
   </div>
    </div>
 
    <div class="collapse" id="espanhol"  data-parent="#myGroup">
         <div class="card card-body">
 
-Candidato a Doctor en Ciencia Política [(UFMG)](http://ppgcp.fafich.ufmg.br/). Magister en Derecho y Políticas Públicas [(UNIRIO)](http://www.unirio.br/ppgd). Especialista en Análisis de Redes y Business Intelligence. Investigador del [Grupo de Relaciones Internacionales y Sur Global](http://www.grisulunirio.com/) | GRISUL (UNIRIO) y la Red Interinstitucional de Investigación en Política Exterior y Régimen Político | RIPPERP (UFMG). Investigador en la Universidad de Buenos Aires [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) y en la Universidad de Brasilia - [Instituto de Ciencia Política](http://www.ipol.unb.br/) (2017.2).
+Candidato a Doctor en Ciencia Política [(UFMG)](http://ppgcp.fafich.ufmg.br/). Magister en Derecho y Políticas Públicas [(UNIRIO)](http://www.unirio.br/ppgd). Especialista en Análisis de Redes y Business Intelligence. Investigador del [Grupo de Relaciones Internacionales y Sur Global](http://www.grisulunirio.com/) | GRISUL (UNIRIO) y la Red Interinstitucional de Investigación en Política Exterior y Régimen Político | RIPPERP (UFMG). Investigador en la Universidad de Cambrigde - [Centro para Estudios Latinoamericanos](https://www.latin-american.cam.ac.uk/) (2022.1), Universidad de Buenos Aires [Facultad de Ciencias Sociales](http://www.sociales.uba.ar/) (2017.1) y en la Universidad de Brasilia - [Instituto de Ciencia Política](http://www.ipol.unb.br/) (2017.2).
 
 
   </div>
