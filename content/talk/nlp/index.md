@@ -1,7 +1,7 @@
 ---
 title: Ensinando o computador a ler: Inteligência Artificial e  Processamento de Linguagem Natural nas Ciências Sociais
 
-event: Oportunidades de inserção profissional
+event: Ensinando o computador a ler
 event_url: http://grisulunirio.com/
 
 location: CCJP / UNIRIO (Digital)
