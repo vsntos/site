@@ -1,5 +1,5 @@
 ---
-title: Ensinando o computador a ler
+title: Ensinando o computador a ler: Inteligência Artificial e  Processamento de Linguagem Natural nas Ciências Sociais
 
 event: nlp
 event_url: http://grisulunirio.com/
@@ -12,12 +12,12 @@ address:
   postcode: 
   country: 
 
-summary: Um olhar na além da academia.
-abstract: "Fui convidado pelo Grupo de Relações Internacionais e Sul Global para falar sobre Dados e Consultoria. Aproveitarei a oportunidade para tratar resumidamente do vem sendo chamado de Ciências Sociais Computacionais com foco em Análise de Redes e Processamento de Linguagem Natural aplicada ao mercado. Trarei exemplos de aplicações analíticas voltadas à área de Relações Governamentais (mas não só). No momento em que se dá destaque a geração de valor por meio de evidências, principalmente por causa do grande volume de dados disponíveis, focarei em pesquisas no ambiente digital e dados públicos (demanda urgente em tempos de pandemia)."
+summary: Inteligência Artificial e  Processamento de Linguagem Natural nas Ciências Sociais
+abstract: "o curso tem por objetivo oferecer uma introdução ao Processamento de Linguagem Natural sob a perspectiva das Ciências Sociais, destacadamente, a Ciência Política e Relações Internacionais. Dividido em quatro encontros oferece um panorama do campo e foco em algumas aplicações desde uma análise descritiva mais básica a instruções de abordagem focadas em modelagem de tópicos"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-05-26T14:00:00Z"
+date: "2022-04-25T14:00:00Z"
 # date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
