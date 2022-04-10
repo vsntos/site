@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: “Ensinando o computador a ler”: Inteligência Artificial e  Processamento de Linguagem Natural nas Ciências Sociais
+linktitle: Ensinando o computador a ler: Inteligência Artificial e  Processamento de Linguagem Natural nas Ciências Sociais
 
 summary: o curso tem por objetivo oferecer uma introdução ao Processamento de Linguagem Natural sob a perspectiva das Ciências Sociais, destacadamente, a Ciência Política e Relações Internacionais. Dividido em quatro encontros oferece um panorama do campo e foco em algumas aplicações desde uma análise descritiva mais básica à instruções de abordagem focadas em modelagem de tópicos.
 
