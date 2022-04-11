@@ -16,8 +16,7 @@ summary: Processamento de Linguagem Natural nas Ciências Sociais
 abstract: "o curso tem por objetivo oferecer uma introdução ao Processamento de Linguagem Natural sob a perspectiva das Ciências Sociais, destacadamente, a Ciência Política e Relações Internacionais. Dividido em quatro encontros oferece um panorama do campo e foco em algumas aplicações desde uma análise descritiva mais básica a instruções de abordagem focadas em modelagem de tópicos.
   
 A ementa do curso e as opções de horários serão enviados por e-mail. Pede-se que a manifestação de interesse seja feita no formulário que segue: https://forms.gle/oVLfGYtjmGBhCLFs5"
-
-
+    
 Ementa disponível no seguinte [link](https://www.academia.edu/76095305/Ensinando_o_computador_a_ler_Intelig%C3%AAncia_Artificial_e_Processamento_de_Linguagem_Natural_nas_Ci%C3%AAncias_Sociais)
 
 
