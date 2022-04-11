@@ -17,6 +17,11 @@ abstract: "o curso tem por objetivo oferecer uma introdução ao Processamento d
   
 A ementa do curso e as opções de horários serão enviados por e-mail. Pede-se que a manifestação de interesse seja feita no formulário que segue: https://forms.gle/oVLfGYtjmGBhCLFs5"
 
+
+Ementa disponível no seguinte [link](https://www.academia.edu/76095305/Ensinando_o_computador_a_ler_Intelig%C3%AAncia_Artificial_e_Processamento_de_Linguagem_Natural_nas_Ci%C3%AAncias_Sociais)
+
+
+
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2022-04-25T14:00:00Z"
