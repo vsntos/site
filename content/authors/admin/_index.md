@@ -18,7 +18,7 @@ organizations:
   url: "https://ufmg.br/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Doutorando em Ciência Política (UFMG). Mestre em Direito e Políticas Públicas (UNIRIO). Têm experiência em Inteligência de Mercado e Consultoria em Relações Governamentais. Especialista em Análise de Redes e suas aplicações. Pesquisador visitante na Universidade de Cambridge, na Universidade de Buenos Aires e na Universidade de Brasília.
+bio: Doutorando em Ciência Política (UFMG) e Pesquisador visitante na Universidade de Cambridge. Têm experiência em Inteligência de Mercado e Consultoria em Relações Governamentais. Especialista em Análise de Redes e suas aplicações.
 
 interests:
 - Ciências Sociais Computacionais
