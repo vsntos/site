@@ -22,10 +22,10 @@ date_format = "Jan 2006"
 
  title = "Cientista de Redes"
   company = "Instituto Igarapé"
-  company_url = "https://www.treeintelligence.com/en/"
+  company_url = "https://igarape.org.br/"
   location = "Rio de janeiro"
   date_start = "2020-07-16"
-  date_end = ""
+  date_end = " "
   description = """
   Responsibilidades:
 • Integra a equipe de tecnologia onde exerce o cargo de cientista de dados sendo responsável pelo desenvolvimento de análises na interface do que tem sido conhecido como ciência social computacional sendo o Processamento de Linguagem Natural e Análise de Redes os dois principais focos de sua atuação.
