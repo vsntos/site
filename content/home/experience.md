@@ -17,6 +17,22 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+
+ title = "Cientista de Redes"
+  company = "Instituto Igarapé"
+  company_url = "https://www.treeintelligence.com/en/"
+  location = "Rio de janeiro"
+  date_start = "2020-07-16"
+  date_end = ""
+  description = """
+  Responsibilidades:
+• Integra a equipe de tecnologia onde exerce o cargo de cientista de dados sendo responsável pelo desenvolvimento de análises na interface do que tem sido conhecido como ciência social computacional sendo o Processamento de Linguagem Natural e Análise de Redes os dois principais focos de sua atuação.
+• Eixos de atuação: Dados georreferenciados (ArcGIS); Mineração de textos (R); Análise de Redes (Gephi e R); Painéis gerenciais e serviços baseados em dados (Power BI e R)
+• Eixos temáticos: controle político e burocracia; segurança e questões ambientais; desinformação e mídias sociais.
+  """
+
 [[experience]]
 
  title = "Analista de Projetos e Cientista de Redes"
