@@ -30,10 +30,10 @@ publication_types: ["3"]
 publication: In *Revista Dados*
 publication_short: In *Revista Dados*
 
-abstract: O artigo investiga o papel desempenhado pelo Senado Federal no campo da Política Externa Brasileira, debatendo a tese da suposta “abdicação”. Informados pela literatura sobre as “microdinâmicas” na relação Executivo-Legislativo, assim como pela “prática de consulta ou antecipação de preferências”, observamos o processo de confirmação das nomeações políticas de embaixadores em toda a Nova República.
+abstract: O artigo investiga o papel desempenhado pelo Senado Federal no campo da Política Externa Brasileira, debatendo a tese da suposta “abdicação”. Informados pela literatura sobre as “microdinâmicas” na relação Executivo-Legislativo, assim como pela “prática de consulta ou antecipação de preferências
 
 # Summary. An optional shortened abstract.
-summary: O artigo investiga o papel desempenhado pelo Senado Federal no campo da Política Externa Brasileira, debatendo a tese da suposta “abdicação”. Informados pela literatura sobre as “microdinâmicas” na relação Executivo-Legislativo, assim como pela “prática de consulta ou antecipação de preferências”, observamos o processo de confirmação das nomeações políticas de embaixadores em toda a Nova República. Em termos metodológicos, tomamos duas direções: i) quantitativa, analisando todas as confirmações no intervalo de 1988 a 2019; e ii) qualitativa, por meio de dois estudos de caso: o rechaço de Guilherme Patriota (OEA, 2015) e a “não indicação” de Eduardo Bolsonaro (Washington, 2019).
+summary: O artigo investiga o papel desempenhado pelo Senado Federal no campo da Política Externa Brasileira, debatendo a tese da suposta “abdicação”. Informados pela literatura sobre as “microdinâmicas” na relação Executivo-Legislativo, assim como pela “prática de consulta ou antecipação de preferências”.
 
 tags: []
 
