@@ -6,8 +6,8 @@ title: "Did the Far Right Breed a New Variety of Foreign Policy? The Case of Bol
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
+- Thales Carvalho
 - D.B.L
-- 
 
 # Author notes (optional)
 #author_notes:
@@ -27,8 +27,8 @@ publishDate: "2022-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Revista Dados*
-publication_short: In *Revista Dados*
+publication: In *Global Studies Quarterly*
+publication_short: In *Global Studies Quarterly*
 
 abstract: According to our framework, though, leaders will only be able to pursue sharp foreign policy changes in pluralistic societies if, first, they win internal disputes at policymaking venues. Second, some policies will depend on external support or, at least, the non-imposition of unsurmountable obstacles.
 
