@@ -23,7 +23,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**canva**](https://www.canva.com/)'
+  caption:
   focal_point: ""
   placement: 2
   preview_only: false
@@ -64,7 +64,7 @@ Métodos utilizados:
 
 ## Análise dos Dados
 
-**Resultados principais:**  
+**Resultados:**  
 1. **Posicionamento dos Partidos:**  
    - Partidos mais alinhados com a transparência e ética na IA.  
    - Visões divergentes sobre responsabilidade algorítmica e uso de IA no setor público.  
