@@ -94,9 +94,3 @@ Clique no botão abaixo para baixar o relatório completo em formato PDF:
 Pacotes:  
 - STM  
 - Tidyverse
-
-## Debate 
-
-Para um debate mais aprofundado sobre o impacto da regulação de IA, recomendo assistir à recente audiência pública promovida pela CTIA, disponível no canal oficial do Senado no YouTube.
-
-<iframe width="750" height="500" src="https://www.youtube.com/watch?v=pmbGTeYtF00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
