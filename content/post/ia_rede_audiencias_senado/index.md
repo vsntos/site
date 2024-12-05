@@ -1,6 +1,6 @@
 ---
-title: "A Regulação de IA no Senado Brasileiro: O que dizem as Propostas de Emendas?"
-subtitle: Uma análise aprofundada do PL 2338/2023 e as visões legislativas sobre a Inteligência Artificial
+title: "Quem senta à mesa?"
+subtitle: Uma Análise de redes dAs audiências públicas sobre Inteligência Artificial no Senado Federal
 
 # Summary for listings and search engines
 summary: Este relatório investiga as audiências públicas realizadas pelo Senado Federal sobre a regulação da Inteligência Artificial, destacando desigualdades no poder de influência entre grupos..
