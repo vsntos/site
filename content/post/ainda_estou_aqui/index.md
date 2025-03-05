@@ -7,7 +7,7 @@ summary: "Com a ajuda da ciência de dados, analisamos 20 anos de discursos do O
 
 # Link this post with a project
 projects:
-  - "Mapeamento Legislativo e Análise de Políticas Públicas Brasil"
+  - Mapeamento Legislativo e Análise de Políticas Públicas Brasil
 
 # Date published
 date: "2020-04-20T00:00:00Z"
@@ -22,9 +22,10 @@ draft: false
 featured: false
 
 # Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: "Imagem representativa do estudo"
-  focal_point: "center"
+  caption:
+  focal_point: ""
   placement: 2
   preview_only: false
 
