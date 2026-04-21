@@ -1,38 +1,43 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import NetworkHero from '../components/NetworkHero.jsx';
+import CaseCard from '../components/CaseCard.jsx';
 const base = import.meta.env.BASE_URL;
 ---
 
-<Layout title="Home" description="Vinicius Santos — Cientista social computacional. Transformo dados complexos em decisões estratégicas usando análise de redes.">
+<Layout title="Home" description="Vinicius Santos — Planilhas mentem. Redes não. Cientista social computacional especializado em análise de redes e inovação.">
 
   <!-- Hero -->
   <section class="relative min-h-screen bg-navy-900 flex items-center overflow-hidden">
     <NetworkHero client:load />
+
     <div class="relative z-10 max-w-6xl mx-auto px-6 py-32">
-      <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-6 animate-fade-up">
+      <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-8 opacity-0 animate-fade-up" style="animation-fill-mode:forwards">
         Cientista Social Computacional
       </p>
-      <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight mb-8 animate-fade-up" style="animation-delay:0.1s">
-        Organizações que enxergam<br/>
+      <h1 class="text-5xl md:text-7xl font-bold text-white leading-[1.05] mb-8 opacity-0 animate-fade-up" style="animation-delay:0.1s;animation-fill-mode:forwards">
+        Planilhas mentem.<br/>
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-cyan">
-          as redes enxergam antes.
+          Redes não.
         </span>
       </h1>
-      <p class="text-gray-400 text-xl max-w-2xl leading-relaxed mb-12 animate-fade-up" style="animation-delay:0.2s">
-        Eu construo essas redes — do dado bruto à decisão estratégica, com domínio completo do ciclo de análise.
+      <p class="text-gray-400 text-xl max-w-xl leading-relaxed mb-4 opacity-0 animate-fade-up" style="animation-delay:0.2s;animation-fill-mode:forwards">
+        Eu transformo dados complexos em mapas estratégicos —
+        do dado bruto à decisão, sem intermediários.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 animate-fade-up" style="animation-delay:0.3s">
-        <a href={`${base}/cases`} class="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors">
+      <p class="text-gray-600 text-sm mb-12 opacity-0 animate-fade-up" style="animation-delay:0.25s;animation-fill-mode:forwards">
+        ↑ passe o mouse nos nós azuis
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up" style="animation-delay:0.3s;animation-fill-mode:forwards">
+        <a href={`${base}/cases`} class="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-blue-600 transition-all hover:scale-105 hover:shadow-lg hover:shadow-accent/25">
           Ver projetos
         </a>
-        <a href={`${base}/consulting`} class="inline-flex items-center justify-center px-8 py-4 border border-gray-600 text-gray-300 font-semibold rounded-lg hover:border-accent hover:text-accent transition-colors">
+        <a href={`${base}/consulting`} class="inline-flex items-center justify-center px-8 py-4 border border-gray-600 text-gray-300 font-semibold rounded-lg hover:border-accent hover:text-accent transition-all">
           Falar sobre consultoria
         </a>
       </div>
     </div>
 
-    <!-- Scroll indicator -->
     <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-gray-500 animate-bounce">
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
@@ -40,128 +45,252 @@ const base = import.meta.env.BASE_URL;
     </div>
   </section>
 
-  <!-- O que eu faço -->
-  <section class="py-24 bg-white">
+  <!-- Scroll narrativo: o problema -->
+  <section class="py-32 bg-white scroll-section" data-section="0">
     <div class="max-w-6xl mx-auto px-6">
-      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">O que eu faço</p>
-      <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-16 max-w-xl">
-        Três formas de trabalharmos juntos
-      </h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="group p-8 rounded-2xl border border-gray-100 hover:border-accent hover:shadow-lg transition-all">
-          <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
-            <svg class="w-6 h-6 text-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-xl text-navy-900 mb-3">Pesquisa Aplicada</h3>
-          <p class="text-gray-600 leading-relaxed">
-            Papers, datasets e ferramentas open-source sobre ecossistemas de inovação, redes de patentes e colaboração interorganizacional.
+      <div class="grid md:grid-cols-2 gap-20 items-center">
+        <div class="scroll-content">
+          <span class="inline-block px-3 py-1 bg-red-50 text-red-500 text-xs font-mono rounded-full mb-6">01 — O problema</span>
+          <h2 class="text-4xl md:text-5xl font-bold text-navy-900 leading-tight mb-6">
+            Toda organização toma decisões com o mapa errado.
+          </h2>
+          <p class="text-gray-600 text-lg leading-relaxed">
+            Hierarquias formais, relatórios e planilhas mostram o que deveria existir.
+            Redes mostram o que existe de verdade — quem realmente decide, onde o conhecimento circula, onde a cadeia vai quebrar.
           </p>
-          <a href={`${base}/research`} class="inline-flex items-center mt-6 text-sm text-accent font-medium hover:underline">
-            Ver publicações →
-          </a>
         </div>
-
-        <div class="group p-8 rounded-2xl border border-gray-100 hover:border-accent hover:shadow-lg transition-all">
-          <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
-            <svg class="w-6 h-6 text-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-xl text-navy-900 mb-3">Análise de Redes</h3>
-          <p class="text-gray-600 leading-relaxed">
-            Mapeamento de ecossistemas, identificação de atores estratégicos e visualização de estruturas que não aparecem em planilhas.
-          </p>
-          <a href={`${base}/cases`} class="inline-flex items-center mt-6 text-sm text-accent font-medium hover:underline">
-            Ver cases →
-          </a>
-        </div>
-
-        <div class="group p-8 rounded-2xl border border-accent/30 bg-accent/5 hover:border-accent hover:shadow-lg transition-all">
-          <div class="w-12 h-12 bg-accent rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-          </div>
-          <h3 class="font-bold text-xl text-navy-900 mb-3">Consultoria</h3>
-          <p class="text-gray-600 leading-relaxed">
-            Para empresas e governos que precisam de análises baseadas em evidência para tomar decisões estratégicas em ambientes complexos.
-          </p>
-          <a href={`${base}/consulting`} class="inline-flex items-center mt-6 text-sm text-accent font-medium hover:underline">
-            Contratar →
-          </a>
+        <div class="grid grid-cols-2 gap-4 scroll-content" style="animation-delay:0.15s">
+          {[
+            { label: 'O que você vê', items: ['Organograma', 'Relatório mensal', 'Ata da reunião', 'Planilha de dados'], icon: '📋', muted: true },
+            { label: 'O que existe', items: ['Rede de influência', 'Fluxo de conhecimento', 'Coalização informal', 'Estrutura de poder'], icon: '🔬', muted: false },
+          ].map(col => (
+            <div class={`p-5 rounded-2xl ${col.muted ? 'bg-gray-50 border border-gray-100' : 'bg-navy-900 border border-accent/20'}`}>
+              <p class={`text-xs font-mono mb-4 ${col.muted ? 'text-gray-400' : 'text-accent-cyan'}`}>{col.label}</p>
+              <ul class="space-y-2">
+                {col.items.map(item => (
+                  <li class={`text-sm ${col.muted ? 'text-gray-400 line-through' : 'text-gray-200'} flex items-center gap-2`}>
+                    <span class="w-1.5 h-1.5 rounded-full flex-shrink-0" class:list={[col.muted ? 'bg-gray-300' : 'bg-accent']}></span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Case em destaque -->
-  <section class="py-24 bg-gray-50">
+  <!-- Scroll narrativo: os dados -->
+  <section class="py-32 bg-gray-50 scroll-section" data-section="1">
     <div class="max-w-6xl mx-auto px-6">
-      <div class="grid md:grid-cols-2 gap-16 items-center">
-        <div>
-          <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Case em destaque</p>
-          <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-6">
-            14 anos de Congresso.<br/>Mapeados em uma rede.
-          </h2>
-          <p class="text-gray-600 leading-relaxed mb-6">
-            Processamos todas as notas taquigráficas de todas as comissões do Senado Federal entre 2012 e 2026 usando NLP — revelando os fluxos reais de influência entre parlamentares, não apenas os formais.
-          </p>
-          <ul class="space-y-3 mb-10">
+      <div class="grid md:grid-cols-2 gap-20 items-center">
+        <div class="order-2 md:order-1">
+          <div class="grid grid-cols-3 gap-3 scroll-content">
             {[
-              'Identificação dos brokers críticos entre agendas legislativas',
-              'Mapeamento de coalizões invisíveis nas votações',
-              'Orientação estratégica de posicionamento em comissões',
+              { label: 'Notas taquigráficas', count: '14 anos', color: 'bg-blue-50 border-blue-100' },
+              { label: 'Co-autorias', count: '9 papers', color: 'bg-violet-50 border-violet-100' },
+              { label: 'Patentes', count: 'INPI', color: 'bg-emerald-50 border-emerald-100' },
+              { label: 'Audiências', count: '27 comissões', color: 'bg-orange-50 border-orange-100' },
+              { label: 'Lattes', count: 'CNPq', color: 'bg-cyan-50 border-cyan-100' },
+              { label: 'Projetos', count: 'Empresas', color: 'bg-rose-50 border-rose-100' },
             ].map(item => (
-              <li class="flex items-start gap-3 text-gray-700">
-                <svg class="w-5 h-5 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                </svg>
-                {item}
-              </li>
+              <div class={`p-4 rounded-xl border ${item.color} text-center`}>
+                <p class="font-mono text-xs text-gray-500 mb-1">{item.count}</p>
+                <p class="text-xs text-gray-700 font-medium">{item.label}</p>
+              </div>
             ))}
-          </ul>
-          <a href={`${base}/cases`} class="inline-flex items-center px-6 py-3 bg-navy-900 text-white font-medium rounded-lg hover:bg-navy-800 transition-colors">
-            Ver todos os cases
-          </a>
-        </div>
-
-        <div class="bg-navy-900 rounded-2xl p-8 aspect-square flex items-center justify-center relative overflow-hidden">
-          <div class="absolute inset-0 opacity-20" style="background: radial-gradient(circle at 50% 50%, #3b82f6 0%, transparent 70%)"></div>
-          <div class="relative z-10 text-center">
-            <p class="text-6xl font-bold text-white mb-2">14</p>
-            <p class="text-accent-cyan text-lg mb-6">anos de dados</p>
-            <div class="grid grid-cols-2 gap-6 text-center">
-              <div>
-                <p class="text-3xl font-bold text-white">27</p>
-                <p class="text-gray-400 text-sm">comissões</p>
-              </div>
-              <div>
-                <p class="text-3xl font-bold text-white">NLP</p>
-                <p class="text-gray-400 text-sm">processamento</p>
-              </div>
-            </div>
           </div>
         </div>
+        <div class="order-1 md:order-2 scroll-content" style="animation-delay:0.15s">
+          <span class="inline-block px-3 py-1 bg-blue-50 text-accent text-xs font-mono rounded-full mb-6">02 — Os dados</span>
+          <h2 class="text-4xl md:text-5xl font-bold text-navy-900 leading-tight mb-6">
+            Cada votação, email e patente deixa um rastro.
+          </h2>
+          <p class="text-gray-600 text-lg leading-relaxed">
+            Eu coleto, processo e estruturo esses rastros — de ponta a ponta.
+            Sem depender de dados prontos. Sem terceirizar a parte difícil.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll narrativo: a rede -->
+  <section class="py-32 bg-navy-900 scroll-section" data-section="2">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-20 items-center">
+        <div class="scroll-content">
+          <span class="inline-block px-3 py-1 bg-accent/10 text-accent text-xs font-mono rounded-full mb-6">03 — A rede</span>
+          <h2 class="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
+            Conectados, os rastros viram um mapa.
+          </h2>
+          <p class="text-gray-400 text-lg leading-relaxed mb-8">
+            Análise de redes revela o que a estatística clássica não consegue:
+            a estrutura. Quem conecta quem. Onde está o gargalo. Quem tem poder sem aparecer no organograma.
+          </p>
+          <div class="grid grid-cols-3 gap-4">
+            {[
+              { metric: 'Centralidade', desc: 'Quem realmente importa' },
+              { metric: 'Brokers', desc: 'Quem conecta mundos separados' },
+              { metric: 'Clusters', desc: 'Onde estão os silos' },
+            ].map(m => (
+              <div class="p-4 rounded-xl bg-navy-800 border border-navy-700">
+                <p class="text-accent text-sm font-semibold mb-1">{m.metric}</p>
+                <p class="text-gray-500 text-xs">{m.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="scroll-content aspect-square bg-navy-800 rounded-2xl border border-navy-700 flex items-center justify-center relative overflow-hidden" style="animation-delay:0.15s">
+          <div class="absolute inset-0" style="background:radial-gradient(circle at 50% 50%, rgba(59,130,246,0.15) 0%, transparent 70%)"></div>
+          <div class="relative z-10 text-center px-8">
+            <div class="w-32 h-32 mx-auto mb-6 relative">
+              <svg viewBox="0 0 120 120" class="w-full h-full">
+                <circle cx="60" cy="60" r="8" fill="#60a5fa"/>
+                <circle cx="20" cy="30" r="5" fill="#93c5fd"/>
+                <circle cx="100" cy="30" r="5" fill="#93c5fd"/>
+                <circle cx="20" cy="90" r="5" fill="#93c5fd"/>
+                <circle cx="100" cy="90" r="5" fill="#93c5fd"/>
+                <circle cx="60" cy="10" r="4" fill="#bfdbfe"/>
+                <circle cx="60" cy="110" r="4" fill="#bfdbfe"/>
+                <line x1="60" y1="60" x2="20" y2="30" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+                <line x1="60" y1="60" x2="100" y2="30" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+                <line x1="60" y1="60" x2="20" y2="90" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+                <line x1="60" y1="60" x2="100" y2="90" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+                <line x1="60" y1="60" x2="60" y2="10" stroke="#06b6d4" stroke-width="1" opacity="0.4"/>
+                <line x1="60" y1="60" x2="60" y2="110" stroke="#06b6d4" stroke-width="1" opacity="0.4"/>
+                <line x1="20" y1="30" x2="100" y2="30" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
+                <line x1="20" y1="90" x2="100" y2="90" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
+              </svg>
+            </div>
+            <p class="text-white font-semibold mb-2">Estrutura visível</p>
+            <p class="text-gray-500 text-sm">Conexões que não aparecem em nenhum relatório</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll narrativo: a decisão -->
+  <section class="py-32 bg-white scroll-section" data-section="3">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="inline-block px-3 py-1 bg-emerald-50 text-emerald-600 text-xs font-mono rounded-full mb-6">04 — A decisão</span>
+        <h2 class="text-4xl md:text-5xl font-bold text-navy-900 leading-tight mb-6">
+          O mapa vira estratégia.
+        </h2>
+        <p class="text-gray-600 text-xl leading-relaxed mb-16">
+          Não entrego relatório. Entrego clareza.<br/>
+          Uma posição diferente numa comissão. Um parceiro que ninguém via. Uma conexão que muda o jogo.
+        </p>
+
+        <div class="grid grid-cols-3 gap-8 mb-16">
+          {[
+            { number: '14', label: 'anos de dados legislativos processados', suffix: '' },
+            { number: '9', label: 'publicações em periódicos internacionais', suffix: '+' },
+            { number: '100', label: 'de domínio do ciclo de dados', suffix: '%' },
+          ].map(stat => (
+            <div class="text-center">
+              <p class="text-5xl font-bold text-navy-900 mb-2">{stat.number}<span class="text-accent">{stat.suffix}</span></p>
+              <p class="text-gray-500 text-sm leading-snug">{stat.label}</p>
+            </div>
+          ))}
+        </div>
+
+        <a href={`${base}/consulting`} class="inline-flex items-center px-10 py-5 bg-navy-900 text-white font-semibold text-lg rounded-xl hover:bg-navy-800 transition-all hover:scale-105 hover:shadow-xl">
+          Quero esse mapa para minha organização →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cases -->
+  <section class="py-24 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-end justify-between mb-12">
+        <div>
+          <p class="text-accent text-sm font-mono uppercase tracking-widest mb-2">Cases</p>
+          <h2 class="text-3xl font-bold text-navy-900">Projetos recentes</h2>
+        </div>
+        <a href={`${base}/cases`} class="text-sm text-accent hover:underline hidden md:block">Ver todos →</a>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <CaseCard
+          client:visible
+          seed={1}
+          tag="Governo"
+          title="Monitoramento Legislativo com NLP"
+          summary="14 anos de notas taquigráficas do Senado mapeadas para orientar posicionamento parlamentar."
+          metrics={['14 anos', 'NLP', 'Redes']}
+          href={`${base}/cases`}
+        />
+        <CaseCard
+          client:visible
+          seed={42}
+          tag="Inovação"
+          title="Ecossistema de Startups"
+          summary="Rede de colaboração entre startups, investidores e universidades para identificar atores estratégicos."
+          metrics={['200+ atores', 'Bipartida', 'Estratégia']}
+          href={`${base}/cases`}
+        />
+        <CaseCard
+          client:visible
+          seed={7}
+          tag="P&D"
+          title="Redes de Co-Patentes"
+          summary="Mapeamento de fluxos de conhecimento tecnológico via análise de co-autoria de patentes do INPI."
+          metrics={['INPI', 'Temporal', 'Dashboard']}
+          href={`${base}/cases`}
+        />
       </div>
     </div>
   </section>
 
   <!-- CTA final -->
   <section class="py-24 bg-navy-900 relative overflow-hidden">
-    <div class="absolute inset-0 opacity-10" style="background: radial-gradient(ellipse at 30% 50%, #3b82f6 0%, transparent 60%)"></div>
-    <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
+    <div class="absolute inset-0 opacity-10" style="background:radial-gradient(ellipse at 30% 50%, #3b82f6 0%, transparent 60%)"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-4">Próximo passo</p>
       <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">
-        Seu próximo projeto começa<br/>com a pergunta certa.
+        Qual mapa a sua<br/>organização está faltando?
       </h2>
       <p class="text-gray-400 text-xl mb-12 max-w-2xl mx-auto">
-        Se você precisa entender um sistema complexo, identificar atores estratégicos ou construir evidência para uma decisão — vamos conversar.
+        30 minutos de conversa são suficientes para eu entender o problema e dizer se consigo ajudar.
       </p>
-      <a href={`${base}/consulting`} class="inline-flex items-center px-10 py-5 bg-accent text-white font-semibold text-lg rounded-xl hover:bg-blue-600 transition-colors">
-        Agendar conversa
+      <a href={`${base}/consulting`} class="inline-flex items-center px-10 py-5 bg-accent text-white font-semibold text-lg rounded-xl hover:bg-blue-600 transition-all hover:scale-105 hover:shadow-2xl hover:shadow-accent/30">
+        Agendar conversa gratuita
       </a>
     </div>
   </section>
 
 </Layout>
+
+<script>
+  // Scroll animations with Intersection Observer
+  const sections = document.querySelectorAll('.scroll-section');
+  const contents = document.querySelectorAll('.scroll-content');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.querySelectorAll('.scroll-content').forEach(el => {
+          el.style.opacity = '1';
+          el.style.transform = 'translateY(0)';
+        });
+      }
+    });
+  }, { threshold: 0.15 });
+
+  sections.forEach(section => {
+    section.querySelectorAll('.scroll-content').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(30px)';
+      el.style.transition = 'opacity 0.7s ease, transform 0.7s ease';
+      const delay = el.getAttribute('style')?.match(/animation-delay:([\d.]+)s/)?.[1];
+      if (delay) el.style.transitionDelay = `${delay}s`;
+    });
+    observer.observe(section);
+  });
+</script>
