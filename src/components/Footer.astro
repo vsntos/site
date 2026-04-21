@@ -1,54 +1,64 @@
 ---
+import ContactBubbles from './ContactBubbles.jsx';
 interface Props { base: string; }
 const { base } = Astro.props;
 ---
 
-<footer class="bg-navy-900 text-gray-400 mt-24">
-  <div class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
-    <div>
-      <p class="text-white font-semibold text-lg mb-3">Vinicius Santos</p>
-      <p class="text-sm leading-relaxed">
-        Cientista social computacional especializado em análise de redes, inovação e ciência de dados aplicada a problemas complexos.
+<footer class="bg-navy-900 text-gray-400">
+
+  <!-- CTA section com bolhas -->
+  <div class="relative overflow-hidden" style="min-height: 520px;">
+
+    <!-- Texto centralizado -->
+    <div class="relative z-10 text-center pt-24 pb-12 px-6">
+      <h2 class="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight">
+        Vamos mapear<br/>sua rede?
+      </h2>
+      <p class="text-gray-400 text-lg mb-2">
+        Sempre aberto para o próximo projeto — fale sobre o seu em
       </p>
+      <a
+        href="mailto:santos.vinicius18@gmail.com"
+        class="text-white font-semibold hover:text-accent transition-colors"
+      >
+        santos.vinicius18@gmail.com
+      </a>
+      <div class="mt-8">
+        <a
+          href={`${base}/consulting`}
+          class="inline-flex items-center px-8 py-4 border border-gray-600 text-white rounded-full text-sm font-medium hover:border-accent hover:text-accent transition-all hover:scale-105"
+        >
+          Agendar conversa
+        </a>
+      </div>
     </div>
 
-    <div>
-      <p class="text-white font-medium text-sm mb-4 uppercase tracking-wider">Navegação</p>
-      <ul class="space-y-2 text-sm">
-        <li><a href={`${base}/research`} class="hover:text-white transition-colors">Pesquisa</a></li>
-        <li><a href={`${base}/cases`} class="hover:text-white transition-colors">Cases</a></li>
-        <li><a href={`${base}/blog`} class="hover:text-white transition-colors">Blog</a></li>
-        <li><a href={`${base}/consulting`} class="hover:text-white transition-colors">Consultoria</a></li>
-        <li><a href={`${base}/about`} class="hover:text-white transition-colors">Sobre</a></li>
-      </ul>
+    <!-- Bolhas de física -->
+    <div class="absolute bottom-0 left-0 right-0 h-72 z-0">
+      <ContactBubbles client:visible />
     </div>
 
-    <div>
-      <p class="text-white font-medium text-sm mb-4 uppercase tracking-wider">Contato</p>
-      <ul class="space-y-2 text-sm">
-        <li>
-          <a href="mailto:santos.vinicius18@gmail.com" class="hover:text-white transition-colors">
-            santos.vinicius18@gmail.com
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/santosvtito" target="_blank" rel="noopener" class="hover:text-white transition-colors">
-            Twitter / X
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/vsntos" target="_blank" rel="noopener" class="hover:text-white transition-colors">
-            GitHub
-          </a>
-        </li>
-      </ul>
+  </div>
+
+  <!-- Links rodapé -->
+  <div class="border-t border-white/5 px-6 py-8">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+
+      <div class="flex items-center gap-8 text-sm">
+        <a href={`${base}/research`} class="hover:text-white transition-colors">Pesquisa</a>
+        <a href={`${base}/cases`} class="hover:text-white transition-colors">Cases</a>
+        <a href={`${base}/blog`} class="hover:text-white transition-colors">Blog</a>
+        <a href={`${base}/consulting`} class="hover:text-white transition-colors">Consultoria</a>
+        <a href={`${base}/about`} class="hover:text-white transition-colors">Sobre</a>
+      </div>
+
+      <div class="flex items-center gap-6 text-sm">
+        <a href="https://twitter.com/santosvtito" target="_blank" rel="noopener" class="hover:text-white transition-colors">Twitter</a>
+        <a href="https://github.com/vsntos" target="_blank" rel="noopener" class="hover:text-white transition-colors">GitHub</a>
+        <span class="text-xs text-gray-600">© {new Date().getFullYear()} Vinicius Santos · UFMG</span>
+      </div>
+
     </div>
   </div>
 
-  <div class="border-t border-navy-700 max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
-    <p class="text-xs">© {new Date().getFullYear()} Vinicius Santos</p>
-    <p class="text-xs">
-      Universidade Federal de Minas Gerais
-    </p>
-  </div>
 </footer>
