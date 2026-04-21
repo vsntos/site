@@ -2,11 +2,10 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://vsntos.github.io',
   base: '/site',
-  integrations: [react(), tailwind(), mdx(), sitemap()],
+  integrations: [react(), tailwind(), mdx()],
   output: 'static',
 });
