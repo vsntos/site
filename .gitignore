@@ -3,14 +3,20 @@
 
 # IDEs
 .idea/
+.vscode/
 
-# Hugo
-/resources/
-public/
+# Node
+node_modules/
+npm-debug.log*
+
+# Astro
+dist/
+.astro/
 
 # R
 .Rproj.user
 *.Rproj
+.Rhistory
 
 # Generated content artifacts
 content/**/*.html

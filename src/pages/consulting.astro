@@ -1,0 +1,124 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Consultoria" description="Consultoria em análise de redes, monitoramento legislativo e ecossistemas de inovação para empresas e governos.">
+
+  <!-- Header -->
+  <section class="pt-32 pb-20 bg-navy-900 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10" style="background: radial-gradient(ellipse at 70% 50%, #06b6d4 0%, transparent 60%)"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-6">
+      <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-4">Consultoria</p>
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 max-w-3xl">
+        Decisões estratégicas baseadas em evidência
+      </h1>
+      <p class="text-gray-400 text-xl max-w-2xl leading-relaxed">
+        Para organizações que operam em ambientes de alta incerteza e precisam enxergar o que a análise convencional não consegue.
+      </p>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Serviços</p>
+      <h2 class="text-3xl font-bold text-navy-900 mb-16">O que ofereço</h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        {[
+          {
+            icon: 'M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7',
+            title: 'Mapeamento de Ecossistemas de Inovação',
+            description: 'Identificação de atores, conexões e fluxos de conhecimento em ecossistemas de startups, clusters industriais e redes de P&D. Você vê quem realmente importa — não quem aparece nos organogramas.',
+            deliverables: ['Mapa de rede interativo', 'Relatório de atores estratégicos', 'Identificação de gaps e oportunidades'],
+          },
+          {
+            icon: 'M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z',
+            title: 'Monitoramento Legislativo Inteligente',
+            description: 'Processamento de linguagem natural aplicado a dados legislativos para rastrear agendas, coalizões e posicionamentos em tempo real. Pare de ler atas — comece a ler a rede.',
+            deliverables: ['Dashboard de monitoramento', 'Alertas temáticos automáticos', 'Análise de posicionamento parlamentar'],
+          },
+          {
+            icon: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z',
+            title: 'Análise de Redes Organizacionais',
+            description: 'Mapeamento de colaboração, comunicação e influência dentro e entre organizações. Identifique pontes, silos e líderes informais que os dados de RH não mostram.',
+            deliverables: ['Diagnóstico de rede interna', 'Plano de intervenção estrutural', 'Métricas de centralidade e influência'],
+          },
+          {
+            icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
+            title: 'Treinamentos e Workshops',
+            description: 'Formação em ciência de redes aplicada, NLP e análise de dados para equipes técnicas e de gestão. Do básico ao avançado, com casos reais do contexto brasileiro.',
+            deliverables: ['Conteúdo personalizado', 'Material e código-fonte', 'Acompanhamento pós-treinamento'],
+          },
+        ].map(service => (
+          <div class="p-8 rounded-2xl border border-gray-100 hover:border-accent hover:shadow-lg transition-all group">
+            <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
+              <svg class="w-6 h-6 text-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={service.icon} />
+              </svg>
+            </div>
+            <h3 class="font-bold text-xl text-navy-900 mb-3">{service.title}</h3>
+            <p class="text-gray-600 leading-relaxed mb-6">{service.description}</p>
+            <ul class="space-y-2">
+              {service.deliverables.map(d => (
+                <li class="flex items-center gap-2 text-sm text-gray-500">
+                  <span class="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></span>
+                  {d}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Como funciona -->
+  <section class="py-24 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Processo</p>
+      <h2 class="text-3xl font-bold text-navy-900 mb-16">Como trabalhamos juntos</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        {[
+          { step: '01', title: 'Conversa inicial', desc: 'Entendemos o problema, o contexto e o que uma boa resposta precisa incluir.' },
+          { step: '02', title: 'Coleta e modelagem', desc: 'Identificamos as fontes de dados e construímos a estrutura de rede adequada.' },
+          { step: '03', title: 'Análise e visualização', desc: 'Rodamos as análises e construímos visualizações que comunicam os resultados.' },
+          { step: '04', title: 'Entrega e ação', desc: 'Relatório, dashboard ou apresentação — no formato que sua equipe vai usar.' },
+        ].map(item => (
+          <div class="relative">
+            <p class="text-6xl font-bold text-gray-100 mb-4">{item.step}</p>
+            <h3 class="font-bold text-lg text-navy-900 mb-2">{item.title}</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section class="py-24 bg-white">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Agendar</p>
+      <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-6">
+        Vamos conversar sobre seu projeto
+      </h2>
+      <p class="text-gray-600 text-lg mb-12 leading-relaxed">
+        A primeira conversa é gratuita e sem compromisso. Em 30 minutos conseguimos avaliar se faz sentido trabalharmos juntos.
+      </p>
+      <a
+        href="https://calendly.com/santos-vinicius18"
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-3 px-10 py-5 bg-accent text-white font-semibold text-lg rounded-xl hover:bg-blue-600 transition-colors"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+        Agendar conversa gratuita
+      </a>
+      <p class="text-gray-400 text-sm mt-4">Respondo em até 24 horas</p>
+    </div>
+  </section>
+
+</Layout>

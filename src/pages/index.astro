@@ -1,0 +1,167 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NetworkHero from '../components/NetworkHero.jsx';
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Home" description="Vinicius Santos — Cientista social computacional. Transformo dados complexos em decisões estratégicas usando análise de redes.">
+
+  <!-- Hero -->
+  <section class="relative min-h-screen bg-navy-900 flex items-center overflow-hidden">
+    <NetworkHero client:load />
+    <div class="relative z-10 max-w-6xl mx-auto px-6 py-32">
+      <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-6 animate-fade-up">
+        Cientista Social Computacional
+      </p>
+      <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight mb-8 animate-fade-up" style="animation-delay:0.1s">
+        Organizações que enxergam<br/>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-cyan">
+          as redes enxergam antes.
+        </span>
+      </h1>
+      <p class="text-gray-400 text-xl max-w-2xl leading-relaxed mb-12 animate-fade-up" style="animation-delay:0.2s">
+        Eu construo essas redes — do dado bruto à decisão estratégica, com domínio completo do ciclo de análise.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 animate-fade-up" style="animation-delay:0.3s">
+        <a href={`${base}/cases`} class="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors">
+          Ver projetos
+        </a>
+        <a href={`${base}/consulting`} class="inline-flex items-center justify-center px-8 py-4 border border-gray-600 text-gray-300 font-semibold rounded-lg hover:border-accent hover:text-accent transition-colors">
+          Falar sobre consultoria
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-gray-500 animate-bounce">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- O que eu faço -->
+  <section class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">O que eu faço</p>
+      <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-16 max-w-xl">
+        Três formas de trabalharmos juntos
+      </h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="group p-8 rounded-2xl border border-gray-100 hover:border-accent hover:shadow-lg transition-all">
+          <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
+            <svg class="w-6 h-6 text-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl text-navy-900 mb-3">Pesquisa Aplicada</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Papers, datasets e ferramentas open-source sobre ecossistemas de inovação, redes de patentes e colaboração interorganizacional.
+          </p>
+          <a href={`${base}/research`} class="inline-flex items-center mt-6 text-sm text-accent font-medium hover:underline">
+            Ver publicações →
+          </a>
+        </div>
+
+        <div class="group p-8 rounded-2xl border border-gray-100 hover:border-accent hover:shadow-lg transition-all">
+          <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
+            <svg class="w-6 h-6 text-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl text-navy-900 mb-3">Análise de Redes</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Mapeamento de ecossistemas, identificação de atores estratégicos e visualização de estruturas que não aparecem em planilhas.
+          </p>
+          <a href={`${base}/cases`} class="inline-flex items-center mt-6 text-sm text-accent font-medium hover:underline">
+            Ver cases →
+          </a>
+        </div>
+
+        <div class="group p-8 rounded-2xl border border-accent/30 bg-accent/5 hover:border-accent hover:shadow-lg transition-all">
+          <div class="w-12 h-12 bg-accent rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl text-navy-900 mb-3">Consultoria</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Para empresas e governos que precisam de análises baseadas em evidência para tomar decisões estratégicas em ambientes complexos.
+          </p>
+          <a href={`${base}/consulting`} class="inline-flex items-center mt-6 text-sm text-accent font-medium hover:underline">
+            Contratar →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case em destaque -->
+  <section class="py-24 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        <div>
+          <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Case em destaque</p>
+          <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-6">
+            14 anos de Congresso.<br/>Mapeados em uma rede.
+          </h2>
+          <p class="text-gray-600 leading-relaxed mb-6">
+            Processamos todas as notas taquigráficas de todas as comissões do Senado Federal entre 2012 e 2026 usando NLP — revelando os fluxos reais de influência entre parlamentares, não apenas os formais.
+          </p>
+          <ul class="space-y-3 mb-10">
+            {[
+              'Identificação dos brokers críticos entre agendas legislativas',
+              'Mapeamento de coalizões invisíveis nas votações',
+              'Orientação estratégica de posicionamento em comissões',
+            ].map(item => (
+              <li class="flex items-start gap-3 text-gray-700">
+                <svg class="w-5 h-5 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+          <a href={`${base}/cases`} class="inline-flex items-center px-6 py-3 bg-navy-900 text-white font-medium rounded-lg hover:bg-navy-800 transition-colors">
+            Ver todos os cases
+          </a>
+        </div>
+
+        <div class="bg-navy-900 rounded-2xl p-8 aspect-square flex items-center justify-center relative overflow-hidden">
+          <div class="absolute inset-0 opacity-20" style="background: radial-gradient(circle at 50% 50%, #3b82f6 0%, transparent 70%)"></div>
+          <div class="relative z-10 text-center">
+            <p class="text-6xl font-bold text-white mb-2">14</p>
+            <p class="text-accent-cyan text-lg mb-6">anos de dados</p>
+            <div class="grid grid-cols-2 gap-6 text-center">
+              <div>
+                <p class="text-3xl font-bold text-white">27</p>
+                <p class="text-gray-400 text-sm">comissões</p>
+              </div>
+              <div>
+                <p class="text-3xl font-bold text-white">NLP</p>
+                <p class="text-gray-400 text-sm">processamento</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section class="py-24 bg-navy-900 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10" style="background: radial-gradient(ellipse at 30% 50%, #3b82f6 0%, transparent 60%)"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">
+        Seu próximo projeto começa<br/>com a pergunta certa.
+      </h2>
+      <p class="text-gray-400 text-xl mb-12 max-w-2xl mx-auto">
+        Se você precisa entender um sistema complexo, identificar atores estratégicos ou construir evidência para uma decisão — vamos conversar.
+      </p>
+      <a href={`${base}/consulting`} class="inline-flex items-center px-10 py-5 bg-accent text-white font-semibold text-lg rounded-xl hover:bg-blue-600 transition-colors">
+        Agendar conversa
+      </a>
+    </div>
+  </section>
+
+</Layout>

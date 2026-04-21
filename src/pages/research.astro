@@ -1,0 +1,159 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+
+const publications = [
+  {
+    year: '2024',
+    title: 'A Regulação de IA no Senado Brasileiro: O que dizem as Propostas de Emendas?',
+    venue: 'Blog — Análise de Dados Legislativos',
+    tags: ['NLP', 'Legislativo', 'IA'],
+    url: '#',
+  },
+  {
+    year: '2023',
+    title: 'Confirmação: o Lugar do Senado Federal na Política Externa Brasileira da Nova República',
+    venue: 'Meridiano 47',
+    tags: ['Política Externa', 'Redes', 'Senado'],
+    url: '#',
+  },
+  {
+    year: '2023',
+    title: 'Did the Far Right Breed a New Variety of Foreign Policy? The Case of Bolsonaro\'s Brazil',
+    venue: 'Brazilian Political Science Review',
+    tags: ['Política Externa', 'Análise Comparada'],
+    url: '#',
+  },
+  {
+    year: '2022',
+    title: 'Changes in the Foreign Policy of Bolivia and Ecuador',
+    venue: 'Meridiano 47',
+    tags: ['América Latina', 'Política Externa'],
+    url: '#',
+  },
+];
+
+const datasets = [
+  {
+    title: 'Notas Taquigráficas do Senado Federal (2012–2026)',
+    description: 'Corpus completo de notas taquigráficas de todas as comissões do Senado Federal, processado e anotado para análise de NLP.',
+    tags: ['NLP', 'Legislativo', 'Big Data'],
+    size: '~14GB',
+  },
+  {
+    title: 'Rede de Colaboração Acadêmica — Ciência Política BR',
+    description: 'Edgelist e nodeset de co-autorias em ciência política brasileira, derivado de análise de currículos Lattes.',
+    tags: ['Redes', 'Ciência Política', 'Acadêmico'],
+    size: 'Disponível',
+    files: ['Edgelist.xlsx', 'Nodeset.xlsx'],
+  },
+  {
+    title: 'Dataset CPI da Pandemia',
+    description: 'Transcrições e dados estruturados das sessões da CPI da Pandemia no Senado Federal.',
+    tags: ['NLP', 'CPI', 'Legislativo'],
+    size: 'Disponível',
+  },
+];
+---
+
+<Layout title="Pesquisa" description="Publicações, datasets e ferramentas de Vinicius Santos em análise de redes e ciência política computacional.">
+
+  <section class="pt-32 pb-20 bg-navy-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-4">Pesquisa</p>
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Publicações & Dados</h1>
+      <p class="text-gray-400 text-xl max-w-2xl">
+        Papers, datasets abertos e ferramentas para pesquisa em análise de redes, inovação e ciência política computacional.
+      </p>
+    </div>
+  </section>
+
+  <!-- Publicações -->
+  <section class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-center justify-between mb-12">
+        <div>
+          <p class="text-accent text-sm font-mono uppercase tracking-widest mb-2">Publicações</p>
+          <h2 class="text-3xl font-bold text-navy-900">Papers & Artigos</h2>
+        </div>
+        <a href="https://scholar.google.com" target="_blank" rel="noopener" class="text-sm text-accent hover:underline">
+          Ver no Google Scholar →
+        </a>
+      </div>
+
+      <div class="space-y-4">
+        {publications.map(pub => (
+          <div class="group flex gap-6 p-6 rounded-xl border border-gray-100 hover:border-accent hover:shadow-md transition-all">
+            <div class="flex-shrink-0 w-16 text-right">
+              <span class="text-sm font-mono text-gray-400">{pub.year}</span>
+            </div>
+            <div class="flex-1">
+              <h3 class="font-semibold text-navy-900 mb-1 group-hover:text-accent transition-colors">
+                <a href={pub.url}>{pub.title}</a>
+              </h3>
+              <p class="text-sm text-gray-500 mb-3">{pub.venue}</p>
+              <div class="flex flex-wrap gap-2">
+                {pub.tags.map(tag => (
+                  <span class="px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">{tag}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Datasets -->
+  <section class="py-24 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-2">Dados Abertos</p>
+      <h2 class="text-3xl font-bold text-navy-900 mb-12">Datasets</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        {datasets.map(ds => (
+          <div class="bg-white p-6 rounded-xl border border-gray-100 hover:border-accent hover:shadow-md transition-all">
+            <div class="flex items-start justify-between mb-3">
+              <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582 4 8 4s8 1.79 8 4" />
+              </svg>
+              <span class="text-xs font-mono text-gray-400">{ds.size}</span>
+            </div>
+            <h3 class="font-semibold text-navy-900 mb-2">{ds.title}</h3>
+            <p class="text-sm text-gray-600 mb-4 leading-relaxed">{ds.description}</p>
+            <div class="flex flex-wrap gap-1.5 mb-4">
+              {ds.tags.map(tag => (
+                <span class="px-2 py-0.5 bg-blue-50 text-accent text-xs rounded">{tag}</span>
+              ))}
+            </div>
+            <a href="mailto:santos.vinicius18@gmail.com" class="text-sm text-accent hover:underline">
+              Solicitar acesso →
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub -->
+  <section class="py-20 bg-navy-900">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+      <div>
+        <h2 class="text-2xl font-bold text-white mb-2">Código disponível no GitHub</h2>
+        <p class="text-gray-400">Scripts de coleta, análise e visualização de redes open-source.</p>
+      </div>
+      <a
+        href="https://github.com/vsntos"
+        target="_blank"
+        rel="noopener"
+        class="flex-shrink-0 inline-flex items-center gap-3 px-8 py-4 border border-gray-600 text-white font-medium rounded-xl hover:border-accent hover:text-accent transition-colors"
+      >
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+        </svg>
+        github.com/vsntos
+      </a>
+    </div>
+  </section>
+
+</Layout>

@@ -1,0 +1,54 @@
+---
+interface Props { base: string; }
+const { base } = Astro.props;
+---
+
+<footer class="bg-navy-900 text-gray-400 mt-24">
+  <div class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div>
+      <p class="text-white font-semibold text-lg mb-3">Vinicius Santos</p>
+      <p class="text-sm leading-relaxed">
+        Cientista social computacional especializado em análise de redes, inovação e ciência de dados aplicada a problemas complexos.
+      </p>
+    </div>
+
+    <div>
+      <p class="text-white font-medium text-sm mb-4 uppercase tracking-wider">Navegação</p>
+      <ul class="space-y-2 text-sm">
+        <li><a href={`${base}/research`} class="hover:text-white transition-colors">Pesquisa</a></li>
+        <li><a href={`${base}/cases`} class="hover:text-white transition-colors">Cases</a></li>
+        <li><a href={`${base}/blog`} class="hover:text-white transition-colors">Blog</a></li>
+        <li><a href={`${base}/consulting`} class="hover:text-white transition-colors">Consultoria</a></li>
+        <li><a href={`${base}/about`} class="hover:text-white transition-colors">Sobre</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="text-white font-medium text-sm mb-4 uppercase tracking-wider">Contato</p>
+      <ul class="space-y-2 text-sm">
+        <li>
+          <a href="mailto:santos.vinicius18@gmail.com" class="hover:text-white transition-colors">
+            santos.vinicius18@gmail.com
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/santosvtito" target="_blank" rel="noopener" class="hover:text-white transition-colors">
+            Twitter / X
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/vsntos" target="_blank" rel="noopener" class="hover:text-white transition-colors">
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="border-t border-navy-700 max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+    <p class="text-xs">© {new Date().getFullYear()} Vinicius Santos</p>
+    <p class="text-xs">
+      Universidade Federal de Minas Gerais
+    </p>
+  </div>
+</footer>
