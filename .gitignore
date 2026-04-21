@@ -4,4 +4,10 @@
 # Hugo
 /resources/
 public/
+
+# R
 .Rproj.user
+*.Rproj
+
+# Generated content artifacts
+content/**/*.html
