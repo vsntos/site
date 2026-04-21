@@ -33,13 +33,14 @@ const COLORS = [
   '#0369a1', '#0284c7', '#0891b2', '#06b6d4', '#0e7490',
 ];
 
-const SUBSTEPS = 5;
-const GRAVITY = 0.08;
-const DAMPING = 0.992;
-const RESTITUTION = 0.08;
-const MOUSE_RADIUS = 120;
-const MOUSE_STRENGTH = 18;
-const IDLE_STRENGTH = 0.012;
+const SUBSTEPS = 8;
+const GRAVITY = 0.025;
+const DAMPING = 0.997;
+const RESTITUTION = 0.05;
+const MOUSE_RADIUS = 140;
+const MOUSE_STRENGTH = 22;
+const IDLE_STRENGTH = 0.008;
+const COLLISION_ITERS = 5;
 
 export default function ContactBubbles() {
   const canvasRef = useRef(null);
@@ -58,25 +59,59 @@ export default function ContactBubbles() {
       initBubbles();
     }
 
+    function packBubbles(w, h) {
+      // Place bubbles in rows from the bottom up to avoid chaotic falling
+      const sorted = [...BUBBLE_DATA].sort((a, b) => b.r - a.r);
+      const placed = [];
+
+      for (let attempt = 0; attempt < sorted.length; attempt++) {
+        const d = sorted[attempt];
+        let found = false;
+        for (let tries = 0; tries < 400 && !found; tries++) {
+          const x = d.r + Math.random() * (w - d.r * 2);
+          const y = h - d.r - Math.random() * (h * 0.85);
+          let ok = true;
+          for (const p of placed) {
+            const dx = p.x - x, dy = p.y - y;
+            if (dx * dx + dy * dy < (p.r + d.r + 2) * (p.r + d.r + 2)) {
+              ok = false;
+              break;
+            }
+          }
+          if (ok) {
+            placed.push({ x, y, r: d.r, label: d.label, origIdx: BUBBLE_DATA.indexOf(d) });
+            found = true;
+          }
+        }
+        if (!found) {
+          // Fallback: just place below canvas
+          placed.push({ x: d.r + Math.random() * (w - d.r * 2), y: h + d.r + Math.random() * 60, r: d.r, label: d.label, origIdx: BUBBLE_DATA.indexOf(d) });
+        }
+      }
+      return placed;
+    }
+
     function initBubbles() {
       const w = canvas.width;
       const h = canvas.height;
-      // Pre-pack from bottom using simple stacking
-      bubbles = BUBBLE_DATA.map((d, i) => {
-        const color = COLORS[i % COLORS.length];
+      const packed = packBubbles(w, h);
+
+      bubbles = packed.map((p, i) => {
+        const origIdx = p.origIdx;
+        const color = COLORS[origIdx % COLORS.length];
+        const vx = (Math.random() - 0.5) * 0.4;
+        const vy = (Math.random() - 0.5) * 0.4;
         return {
-          x: d.r * 1.2 + Math.random() * (w - d.r * 2.4),
-          y: h + d.r + Math.random() * h * 0.8, // start below canvas
-          px: 0, py: 0, // previous pos (PBD)
-          vx: (Math.random() - 0.5) * 1.5,
-          vy: -Math.random() * 2,
-          r: d.r,
-          label: d.label,
+          x: p.x,
+          y: p.y,
+          px: p.x - vx,
+          py: p.y - vy,
+          r: p.r,
+          label: p.label,
           color,
           seed: Math.random() * 1000,
         };
       });
-      bubbles.forEach(b => { b.px = b.x - b.vx; b.py = b.y - b.vy; });
     }
 
     resize();
@@ -86,16 +121,15 @@ export default function ContactBubbles() {
       const w = canvas.width;
       const h = canvas.height;
 
-      // Circle-circle
-      for (let iter = 0; iter < 3; iter++) {
+      for (let iter = 0; iter < COLLISION_ITERS; iter++) {
         for (let i = 0; i < bubbles.length; i++) {
           for (let j = i + 1; j < bubbles.length; j++) {
             const a = bubbles[i], b = bubbles[j];
             const dx = b.x - a.x;
             const dy = b.y - a.y;
             const distSq = dx * dx + dy * dy;
-            const minDist = a.r + b.r + 1.5;
-            if (distSq < minDist * minDist && distSq > 0.001) {
+            const minDist = a.r + b.r + 1;
+            if (distSq < minDist * minDist && distSq > 0.0001) {
               const dist = Math.sqrt(distSq);
               const overlap = (minDist - dist) * 0.5;
               const nx = dx / dist;
@@ -109,12 +143,11 @@ export default function ContactBubbles() {
         }
       }
 
-      // Floor & walls
       bubbles.forEach(b => {
-        if (b.y + b.r > h) { b.y = h - b.r; }
-        if (b.x - b.r < 0) { b.x = b.r; }
-        if (b.x + b.r > w) { b.x = w - b.r; }
-        if (b.y - b.r < 0) { b.y = b.r; }
+        if (b.y + b.r > h) b.y = h - b.r;
+        if (b.x - b.r < 0) b.x = b.r;
+        if (b.x + b.r > w) b.x = w - b.r;
+        if (b.y - b.r < 0) b.y = b.r;
       });
     }
 
@@ -123,28 +156,25 @@ export default function ContactBubbles() {
 
       for (let s = 0; s < SUBSTEPS; s++) {
         bubbles.forEach(b => {
-          // Derive velocity from positions (PBD)
           let vx = (b.x - b.px) * DAMPING;
           let vy = (b.y - b.py) * DAMPING;
 
-          // Gravity
           vy += GRAVITY;
 
-          // Idle subtle oscillation
-          vx += Math.sin(t * 0.0008 + b.seed) * IDLE_STRENGTH;
-          vy += Math.cos(t * 0.0006 + b.seed * 1.3) * IDLE_STRENGTH * 0.5;
+          vx += Math.sin(t * 0.0006 + b.seed) * IDLE_STRENGTH;
+          vy += Math.cos(t * 0.0005 + b.seed * 1.4) * IDLE_STRENGTH * 0.6;
 
-          // Mouse repulsion (smooth falloff)
           const mdx = b.x - mouse.x;
           const mdy = b.y - mouse.y;
-          const mDist = Math.sqrt(mdx * mdx + mdy * mdy);
-          if (mDist < MOUSE_RADIUS && mDist > 0.1) {
-            const force = Math.pow(1 - mDist / MOUSE_RADIUS, 2) * MOUSE_STRENGTH;
+          const mDistSq = mdx * mdx + mdy * mdy;
+          if (mDistSq < MOUSE_RADIUS * MOUSE_RADIUS && mDistSq > 0.01) {
+            const mDist = Math.sqrt(mDistSq);
+            const t2 = 1 - mDist / MOUSE_RADIUS;
+            const force = t2 * t2 * MOUSE_STRENGTH;
             vx += (mdx / mDist) * force * dt;
             vy += (mdy / mDist) * force * dt;
           }
 
-          // Store prev, integrate
           b.px = b.x;
           b.py = b.y;
           b.x += vx;
@@ -153,14 +183,11 @@ export default function ContactBubbles() {
 
         solveConstraints();
 
-        // Restitution on floor bounce
         bubbles.forEach(b => {
-          const h = canvas.height;
-          if (b.y + b.r >= h - 0.5) {
+          const floorY = canvas.height;
+          if (b.y + b.r >= floorY - 0.5) {
             const vy = b.y - b.py;
-            if (vy > 0) {
-              b.py = b.y + vy * RESTITUTION;
-            }
+            if (vy > 0) b.py = b.y + vy * RESTITUTION;
           }
         });
       }
@@ -173,21 +200,19 @@ export default function ContactBubbles() {
       ctx.fillStyle = b.color;
       ctx.fill();
 
-      // Shine highlight
       const shine = ctx.createRadialGradient(
-        b.x - b.r * 0.3, b.y - b.r * 0.35, b.r * 0.05,
+        b.x - b.r * 0.32, b.y - b.r * 0.35, b.r * 0.04,
         b.x, b.y, b.r
       );
-      shine.addColorStop(0, 'rgba(255,255,255,0.22)');
-      shine.addColorStop(0.5, 'rgba(255,255,255,0.04)');
-      shine.addColorStop(1, 'rgba(0,0,0,0.15)');
+      shine.addColorStop(0, 'rgba(255,255,255,0.25)');
+      shine.addColorStop(0.45, 'rgba(255,255,255,0.05)');
+      shine.addColorStop(1, 'rgba(0,0,0,0.18)');
       ctx.beginPath();
       ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
       ctx.fillStyle = shine;
       ctx.fill();
 
-      // Label
-      const fontSize = Math.max(10, Math.min(13, b.r * 0.3));
+      const fontSize = Math.max(10, Math.min(13, b.r * 0.28));
       ctx.font = `600 ${fontSize}px Inter, system-ui, sans-serif`;
       ctx.fillStyle = 'rgba(255,255,255,0.95)';
       ctx.textAlign = 'center';
@@ -204,18 +229,14 @@ export default function ContactBubbles() {
       update(t);
 
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-      // Fade top edge so bubbles emerge naturally
-      const fade = ctx.createLinearGradient(0, 0, 0, canvas.height * 0.35);
-      fade.addColorStop(0, 'rgba(10,15,30,1)');
-      fade.addColorStop(1, 'rgba(10,15,30,0)');
-
-      // Draw bubbles
       bubbles.forEach(drawBubble);
 
-      // Overlay fade at top
+      const fadeH = canvas.height * 0.3;
+      const fade = ctx.createLinearGradient(0, 0, 0, fadeH);
+      fade.addColorStop(0, 'rgba(10,15,30,1)');
+      fade.addColorStop(1, 'rgba(10,15,30,0)');
       ctx.fillStyle = fade;
-      ctx.fillRect(0, 0, canvas.width, canvas.height * 0.35);
+      ctx.fillRect(0, 0, canvas.width, fadeH);
 
       rafId = requestAnimationFrame(loop);
     }
