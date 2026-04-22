@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import NetworkHero from '../components/NetworkHero.jsx';
 import CaseCard from '../components/CaseCard.jsx';
+import SectionNetwork from '../components/SectionNetwork.jsx';
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -142,30 +143,12 @@ const base = import.meta.env.BASE_URL;
             ))}
           </div>
         </div>
-        <div class="scroll-content aspect-square bg-navy-800 rounded-2xl border border-navy-700 flex items-center justify-center relative overflow-hidden" style="animation-delay:0.15s">
-          <div class="absolute inset-0" style="background:radial-gradient(circle at 50% 50%, rgba(59,130,246,0.15) 0%, transparent 70%)"></div>
-          <div class="relative z-10 text-center px-8">
-            <div class="w-32 h-32 mx-auto mb-6 relative">
-              <svg viewBox="0 0 120 120" class="w-full h-full">
-                <circle cx="60" cy="60" r="8" fill="#60a5fa"/>
-                <circle cx="20" cy="30" r="5" fill="#93c5fd"/>
-                <circle cx="100" cy="30" r="5" fill="#93c5fd"/>
-                <circle cx="20" cy="90" r="5" fill="#93c5fd"/>
-                <circle cx="100" cy="90" r="5" fill="#93c5fd"/>
-                <circle cx="60" cy="10" r="4" fill="#bfdbfe"/>
-                <circle cx="60" cy="110" r="4" fill="#bfdbfe"/>
-                <line x1="60" y1="60" x2="20" y2="30" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
-                <line x1="60" y1="60" x2="100" y2="30" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
-                <line x1="60" y1="60" x2="20" y2="90" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
-                <line x1="60" y1="60" x2="100" y2="90" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
-                <line x1="60" y1="60" x2="60" y2="10" stroke="#06b6d4" stroke-width="1" opacity="0.4"/>
-                <line x1="60" y1="60" x2="60" y2="110" stroke="#06b6d4" stroke-width="1" opacity="0.4"/>
-                <line x1="20" y1="30" x2="100" y2="30" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
-                <line x1="20" y1="90" x2="100" y2="90" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
-              </svg>
-            </div>
-            <p class="text-white font-semibold mb-2">Estrutura visível</p>
-            <p class="text-gray-500 text-sm">Conexões que não aparecem em nenhum relatório</p>
+        <div class="scroll-content rounded-2xl border border-navy-700 overflow-hidden relative" style="animation-delay:0.15s; aspect-ratio:1">
+          <div class="absolute inset-0" style="background:radial-gradient(circle at 50% 50%, rgba(59,130,246,0.12) 0%, transparent 70%)"></div>
+          <SectionNetwork client:visible seed={7} />
+          <div class="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-navy-900 to-transparent">
+            <p class="text-white font-semibold text-sm">Estrutura visível</p>
+            <p class="text-gray-500 text-xs mt-1">Conexões que não aparecem em nenhum relatório</p>
           </div>
         </div>
       </div>
