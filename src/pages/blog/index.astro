@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import MiniNetwork from '../../components/MiniNetwork.jsx';
 import { getCollection } from 'astro:content';
 const base = import.meta.env.BASE_URL;
 
@@ -10,32 +11,59 @@ const posts = (await getCollection('blog'))
 <Layout title="Blog" description="Posts sobre análise de redes, NLP, ciência de dados e inovação por Vinicius Santos.">
 
   <section class="pt-32 pb-20 bg-navy-900">
-    <div class="max-w-6xl mx-auto px-6">
-      <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-4">Blog</p>
-      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Network Thinking</h1>
-      <p class="text-gray-400 text-xl max-w-2xl">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <span class="inline-block px-3 py-1 bg-accent text-white text-xs font-mono rounded-full mb-6">Blog</span>
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Network Thinking</h1>
+      <p class="text-gray-400 text-lg max-w-xl mx-auto">
         Posts técnicos acessíveis sobre análise de redes, NLP e ciência de dados aplicada a problemas reais.
       </p>
     </div>
   </section>
 
-  <section class="py-24 bg-white">
-    <div class="max-w-3xl mx-auto px-6">
-      <div class="space-y-12">
-        {posts.map(post => (
-          <article class="group border-b border-gray-100 pb-12 last:border-0">
-            <div class="flex items-center gap-3 mb-3">
-              <span class="px-2 py-0.5 bg-blue-50 text-accent text-xs font-medium rounded">{post.data.tag}</span>
-              <span class="text-xs text-gray-400 font-mono">
-                {post.data.date.toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' })}
-              </span>
-              <span class="text-xs text-gray-400">· {post.data.readTime}</span>
+  <section class="py-24 bg-navy-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-3 gap-6">
+        {posts.map((post, i) => (
+          <article class="group bg-navy-800 rounded-2xl overflow-hidden border border-navy-700 hover:border-accent transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/10 flex flex-col">
+
+            <!-- Network background + overlays -->
+            <div class="relative h-56 bg-navy-900">
+              <MiniNetwork client:visible seed={i + 1} hovered={true} />
+
+              <!-- Arrow button -->
+              <a href={`${base}/blog/${post.slug}/`}
+                 class="absolute top-4 right-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-accent hover:text-white"
+                 aria-label={`Ler ${post.data.title}`}>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"/>
+                </svg>
+              </a>
+
+              <!-- Tag -->
+              <div class="absolute bottom-4 left-4">
+                <span class="px-3 py-1 bg-white/10 backdrop-blur-sm text-white text-xs font-medium rounded-full border border-white/20">
+                  {post.data.tag}
+                </span>
+              </div>
             </div>
-            <h2 class="text-2xl font-bold text-navy-900 mb-3 group-hover:text-accent transition-colors">
-              <a href={`${base}/blog/${post.slug}/`}>{post.data.title}</a>
-            </h2>
-            <p class="text-gray-600 leading-relaxed mb-4">{post.data.summary}</p>
-            <a href={`${base}/blog/${post.slug}/`} class="text-sm text-accent font-medium hover:underline">Ler artigo →</a>
+
+            <!-- Content -->
+            <div class="p-6 flex flex-col flex-1">
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-mono mb-3">
+                <span>{post.data.date.toLocaleDateString('pt-BR', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+                <span>·</span>
+                <span>{post.data.readTime}</span>
+              </div>
+              <h2 class="text-white font-bold text-lg leading-snug mb-3 group-hover:text-accent transition-colors duration-200">
+                <a href={`${base}/blog/${post.slug}/`}>{post.data.title}</a>
+              </h2>
+              <p class="text-gray-500 text-sm leading-relaxed flex-1">{post.data.summary}</p>
+              <a href={`${base}/blog/${post.slug}/`}
+                 class="inline-flex items-center gap-1 text-accent text-sm font-medium mt-5 hover:gap-2 transition-all">
+                Ler artigo →
+              </a>
+            </div>
+
           </article>
         ))}
       </div>
