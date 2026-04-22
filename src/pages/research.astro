@@ -1,59 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
 const base = import.meta.env.BASE_URL;
 
-const publications = [
-  {
-    year: '2024',
-    title: 'A Regulação de IA no Senado Brasileiro: O que dizem as Propostas de Emendas?',
-    venue: 'Blog — Análise de Dados Legislativos',
-    tags: ['NLP', 'Legislativo', 'IA'],
-    url: '#',
-  },
-  {
-    year: '2023',
-    title: 'Confirmação: o Lugar do Senado Federal na Política Externa Brasileira da Nova República',
-    venue: 'Meridiano 47',
-    tags: ['Política Externa', 'Redes', 'Senado'],
-    url: '#',
-  },
-  {
-    year: '2023',
-    title: 'Did the Far Right Breed a New Variety of Foreign Policy? The Case of Bolsonaro\'s Brazil',
-    venue: 'Brazilian Political Science Review',
-    tags: ['Política Externa', 'Análise Comparada'],
-    url: '#',
-  },
-  {
-    year: '2022',
-    title: 'Changes in the Foreign Policy of Bolivia and Ecuador',
-    venue: 'Meridiano 47',
-    tags: ['América Latina', 'Política Externa'],
-    url: '#',
-  },
-];
+const publications = (await getCollection('research'))
+  .sort((a, b) => b.data.year.localeCompare(a.data.year));
 
-const datasets = [
-  {
-    title: 'Notas Taquigráficas do Senado Federal (2012–2026)',
-    description: 'Corpus completo de notas taquigráficas de todas as comissões do Senado Federal, processado e anotado para análise de NLP.',
-    tags: ['NLP', 'Legislativo', 'Big Data'],
-    size: '~14GB',
-  },
-  {
-    title: 'Rede de Colaboração Acadêmica — Ciência Política BR',
-    description: 'Edgelist e nodeset de co-autorias em ciência política brasileira, derivado de análise de currículos Lattes.',
-    tags: ['Redes', 'Ciência Política', 'Acadêmico'],
-    size: 'Disponível',
-    files: ['Edgelist.xlsx', 'Nodeset.xlsx'],
-  },
-  {
-    title: 'Dataset CPI da Pandemia',
-    description: 'Transcrições e dados estruturados das sessões da CPI da Pandemia no Senado Federal.',
-    tags: ['NLP', 'CPI', 'Legislativo'],
-    size: 'Disponível',
-  },
-];
+const datasets = await getCollection('datasets');
 ---
 
 <Layout title="Pesquisa" description="Publicações, datasets e ferramentas de Vinicius Santos em análise de redes e ciência política computacional.">
@@ -85,15 +38,15 @@ const datasets = [
         {publications.map(pub => (
           <div class="group flex gap-6 p-6 rounded-xl border border-gray-100 hover:border-accent hover:shadow-md transition-all">
             <div class="flex-shrink-0 w-16 text-right">
-              <span class="text-sm font-mono text-gray-400">{pub.year}</span>
+              <span class="text-sm font-mono text-gray-400">{pub.data.year}</span>
             </div>
             <div class="flex-1">
               <h3 class="font-semibold text-navy-900 mb-1 group-hover:text-accent transition-colors">
-                <a href={pub.url}>{pub.title}</a>
+                <a href={pub.data.url}>{pub.data.title}</a>
               </h3>
-              <p class="text-sm text-gray-500 mb-3">{pub.venue}</p>
+              <p class="text-sm text-gray-500 mb-3">{pub.data.venue}</p>
               <div class="flex flex-wrap gap-2">
-                {pub.tags.map(tag => (
+                {pub.data.tags.map(tag => (
                   <span class="px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded">{tag}</span>
                 ))}
               </div>
@@ -117,12 +70,12 @@ const datasets = [
               <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582 4 8 4s8 1.79 8 4" />
               </svg>
-              <span class="text-xs font-mono text-gray-400">{ds.size}</span>
+              <span class="text-xs font-mono text-gray-400">{ds.data.size}</span>
             </div>
-            <h3 class="font-semibold text-navy-900 mb-2">{ds.title}</h3>
-            <p class="text-sm text-gray-600 mb-4 leading-relaxed">{ds.description}</p>
+            <h3 class="font-semibold text-navy-900 mb-2">{ds.data.title}</h3>
+            <p class="text-sm text-gray-600 mb-4 leading-relaxed">{ds.data.description}</p>
             <div class="flex flex-wrap gap-1.5 mb-4">
-              {ds.tags.map(tag => (
+              {ds.data.tags.map(tag => (
                 <span class="px-2 py-0.5 bg-blue-50 text-accent text-xs rounded">{tag}</span>
               ))}
             </div>
