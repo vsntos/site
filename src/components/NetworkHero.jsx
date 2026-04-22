@@ -65,6 +65,7 @@ export default function NetworkHero() {
   const networkRef = useRef(null);
   const rafRef = useRef(null);
   const mouseRef = useRef({ x: -999, y: -999 });
+  const dragRef = useRef(null);
   const [tooltip, setTooltip] = useState(null);
 
   useEffect(() => {
@@ -100,20 +101,67 @@ export default function NetworkHero() {
       const my = e.clientY - rect.top;
       mouseRef.current = { x: mx, y: my };
 
+      if (dragRef.current) {
+        const w = canvas.offsetWidth;
+        const h = canvas.offsetHeight;
+        const { node } = dragRef.current;
+        const newNx = Math.max(0.02, Math.min(0.98, mx / w));
+        const newNy = Math.max(0.02, Math.min(0.98, my / h));
+        dragRef.current.vx = newNx - node.x;
+        dragRef.current.vy = newNy - node.y;
+        node.x = newNx;
+        node.y = newNy;
+        setTooltip(null);
+        return;
+      }
+
       const hovered = getHoveredNode(mx, my);
       if (hovered && hovered.label) {
         setTooltip({ x: e.clientX, y: e.clientY, label: hovered.label, degree: hovered.connections.length });
-        canvas.style.cursor = 'pointer';
+        canvas.style.cursor = 'grab';
+      } else if (hovered) {
+        setTooltip(null);
+        canvas.style.cursor = 'grab';
       } else {
         setTooltip(null);
         canvas.style.cursor = 'default';
       }
     }
 
+    function onMouseDown(e) {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      const hit = getHoveredNode(mx, my);
+      if (hit) {
+        dragRef.current = { node: hit, vx: 0, vy: 0 };
+        canvas.style.cursor = 'grabbing';
+        setTooltip(null);
+      }
+    }
+
+    function onMouseUp() {
+      if (dragRef.current) {
+        const { node, vx, vy } = dragRef.current;
+        const maxV = 0.008;
+        node.vx = Math.max(-maxV, Math.min(maxV, vx * 0.6));
+        node.vy = Math.max(-maxV, Math.min(maxV, vy * 0.6));
+        dragRef.current = null;
+        canvas.style.cursor = 'default';
+      }
+    }
+
     canvas.addEventListener('mousemove', onMouseMove);
+    canvas.addEventListener('mousedown', onMouseDown);
+    canvas.addEventListener('mouseup', onMouseUp);
     canvas.addEventListener('mouseleave', () => {
       mouseRef.current = { x: -999, y: -999 };
       setTooltip(null);
+      if (dragRef.current) {
+        dragRef.current.node.vx = 0;
+        dragRef.current.node.vy = 0;
+        dragRef.current = null;
+      }
     });
 
     function drawDelaunay(nodes, w, h, mx, my) {
@@ -218,10 +266,12 @@ export default function NetworkHero() {
 
         ctx.globalAlpha = 1;
 
-        node.x += node.vx;
-        node.y += node.vy;
-        if (node.x < 0.03 || node.x > 0.97) node.vx *= -1;
-        if (node.y < 0.03 || node.y > 0.97) node.vy *= -1;
+        if (!dragRef.current || dragRef.current.node.id !== node.id) {
+          node.x += node.vx;
+          node.y += node.vy;
+          if (node.x < 0.03 || node.x > 0.97) node.vx *= -1;
+          if (node.y < 0.03 || node.y > 0.97) node.vy *= -1;
+        }
       });
 
       rafRef.current = requestAnimationFrame(draw);
@@ -232,6 +282,8 @@ export default function NetworkHero() {
     return () => {
       window.removeEventListener('resize', resize);
       canvas.removeEventListener('mousemove', onMouseMove);
+      canvas.removeEventListener('mousedown', onMouseDown);
+      canvas.removeEventListener('mouseup', onMouseUp);
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
     };
   }, []);
