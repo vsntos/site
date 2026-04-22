@@ -89,16 +89,16 @@ const base = import.meta.env.BASE_URL;
         <div class="order-2 md:order-1">
           <div class="grid grid-cols-3 gap-3 scroll-content">
             {[
-              { label: 'Notas taquigráficas', count: '14 anos', color: 'bg-blue-50 border-blue-100' },
-              { label: 'Co-autorias', count: '9 papers', color: 'bg-violet-50 border-violet-100' },
-              { label: 'Patentes', count: 'INPI', color: 'bg-emerald-50 border-emerald-100' },
-              { label: 'Audiências', count: '27 comissões', color: 'bg-orange-50 border-orange-100' },
-              { label: 'Lattes', count: 'CNPq', color: 'bg-cyan-50 border-cyan-100' },
-              { label: 'Projetos', count: 'Empresas', color: 'bg-rose-50 border-rose-100' },
+              { env: 'Parlamento', trace: 'Votações & atas', color: 'bg-blue-50 border-blue-100' },
+              { env: 'Ecossistema', trace: 'Contratos & parcerias', color: 'bg-violet-50 border-violet-100' },
+              { env: 'Pesquisa', trace: 'Co-autorias & orientações', color: 'bg-emerald-50 border-emerald-100' },
+              { env: 'Inovação', trace: 'Patentes & registros', color: 'bg-orange-50 border-orange-100' },
+              { env: 'Organizações', trace: 'Audiências & participações', color: 'bg-cyan-50 border-cyan-100' },
+              { env: 'Governo', trace: 'Licitações & projetos', color: 'bg-rose-50 border-rose-100' },
             ].map(item => (
               <div class={`p-4 rounded-xl border ${item.color} text-center`}>
-                <p class="font-mono text-xs text-gray-500 mb-1">{item.count}</p>
-                <p class="text-xs text-gray-700 font-medium">{item.label}</p>
+                <p class="text-sm font-semibold text-gray-800 mb-1">{item.env}</p>
+                <p class="font-mono text-xs text-gray-500 leading-snug">{item.trace}</p>
               </div>
             ))}
           </div>
