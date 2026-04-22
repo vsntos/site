@@ -3,27 +3,28 @@ import Layout from '../layouts/Layout.astro';
 const base = import.meta.env.BASE_URL;
 ---
 
-<Layout title="Sobre" description="Vinicius Santos — Cientista social computacional, pesquisador e consultor em análise de redes e inovação.">
+<Layout title="Sobre" description="Vinicius Santos — Doutor em Ciência Política, pesquisador pós-doutoral na UERJ e consultor em análise de redes, dados legislativos e inovação.">
 
   <section class="pt-32 pb-20 bg-navy-900">
     <div class="max-w-6xl mx-auto px-6">
       <div class="grid md:grid-cols-2 gap-16 items-end">
         <div>
           <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-4">Sobre</p>
-          <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Vinicius Santos</h1>
-          <p class="text-gray-400 text-xl leading-relaxed">
-            Cientista social computacional orientado a big data e problemas complexos.
-            Universidade Federal de Minas Gerais.
+          <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Vinicius Santos</h1>
+          <p class="text-gray-400 text-lg leading-relaxed">
+            Pesquisador pós-doutoral em Relações Internacionais (UERJ).<br/>
+            Doutor em Ciência Política (UFMG).<br/>
+            Cientista de dados e assessor parlamentar no Senado Federal.
           </p>
         </div>
-        <div class="flex gap-4">
-          <a href="mailto:santos.vinicius18@gmail.com" class="flex-1 flex items-center justify-center gap-2 py-3 border border-gray-600 text-gray-300 text-sm rounded-lg hover:border-accent hover:text-accent transition-colors">
+        <div class="flex gap-3">
+          <a href="mailto:santos.vinicius18@gmail.com" class="flex-1 flex items-center justify-center py-3 border border-gray-600 text-gray-300 text-sm rounded-lg hover:border-accent hover:text-accent transition-colors">
             Email
           </a>
-          <a href="https://twitter.com/santosvtito" target="_blank" rel="noopener" class="flex-1 flex items-center justify-center gap-2 py-3 border border-gray-600 text-gray-300 text-sm rounded-lg hover:border-accent hover:text-accent transition-colors">
+          <a href="https://twitter.com/santosvtito" target="_blank" rel="noopener" class="flex-1 flex items-center justify-center py-3 border border-gray-600 text-gray-300 text-sm rounded-lg hover:border-accent hover:text-accent transition-colors">
             Twitter
           </a>
-          <a href="https://github.com/vsntos" target="_blank" rel="noopener" class="flex-1 flex items-center justify-center gap-2 py-3 border border-gray-600 text-gray-300 text-sm rounded-lg hover:border-accent hover:text-accent transition-colors">
+          <a href="https://github.com/vsntos" target="_blank" rel="noopener" class="flex-1 flex items-center justify-center py-3 border border-gray-600 text-gray-300 text-sm rounded-lg hover:border-accent hover:text-accent transition-colors">
             GitHub
           </a>
         </div>
@@ -36,20 +37,44 @@ const base = import.meta.env.BASE_URL;
     <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-16">
       <div class="md:col-span-2 space-y-6 text-gray-700 leading-relaxed text-lg">
         <p>
-          Sou pesquisador em network science com foco em inovação, ciência política computacional e análise de dados legislativos. Meu trabalho combina teoria de redes com métodos computacionais modernos — NLP, análise de grafos e visualização de dados — para responder perguntas que dados convencionais não conseguem responder.
+          Atuo na interseção entre política externa, relações Executivo-Legislativo e tecnologia. Desenvolvo pesquisas aplicadas com métodos computacionais — análise de redes, NLP e sistemas complexos — para responder perguntas que dados convencionais não conseguem responder.
         </p>
         <p>
-          Tenho domínio completo do ciclo de dados: da coleta e limpeza às análises mais avançadas e entrega de resultados acionáveis. Isso me diferencia de consultores que dependem de dados já estruturados ou de pesquisadores que param no paper.
+          No Senado Federal, atuei como cientista de dados e assessor parlamentar, contribuindo com análises e notas técnicas sobre regulação de inteligência artificial. Integro o Comitê Gestor da Infraestrutura Nacional de Dados Abertos (CG-INDA), onde contribuo com a agenda pública de dados abertos, accountability e interoperabilidade entre plataformas governamentais.
         </p>
         <p>
-          Já trabalhei com monitoramento legislativo, mapeamento de ecossistemas de inovação, análise de redes de co-patentes e colaboração interorganizacional — sempre com o objetivo de transformar complexidade em clareza estratégica.
+          Com mais de uma década de experiência nos setores público, privado e do terceiro setor, trabalho com soluções em Civic Tech e GovTech voltadas à transparência, participação cívica e inovação legislativa. Tenho domínio completo do ciclo de dados: da coleta e estruturação às análises mais avançadas e entrega de resultados acionáveis.
         </p>
 
-        <div class="pt-4">
+        <!-- Pacotes open source -->
+        <div class="pt-4 p-6 bg-gray-50 rounded-2xl border border-gray-100">
+          <h3 class="font-bold text-navy-900 text-base mb-2">Ecossistema open source</h3>
+          <p class="text-gray-600 text-base mb-4">
+            Idealizador de 8 pacotes em R para acesso e análise de dados legislativos, cobrindo Brasil, Chile, Uruguai, Argentina, México e a Assembleia Legislativa de Minas Gerais.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            {['senatebR', 'senateaR', 'senateclR', 'senateuyR', 'senateARR', 'senatemxR', 'almgR', 'parlasuR'].map(pkg => (
+              <span class="px-3 py-1 bg-navy-900 text-accent-cyan text-xs font-mono rounded-lg">{pkg}</span>
+            ))}
+          </div>
+        </div>
+
+        <div class="pt-2">
           <h3 class="font-bold text-navy-900 text-base uppercase tracking-wider mb-4">Áreas de atuação</h3>
-          <div class="flex flex-wrap gap-3">
-            {['Análise de Redes Sociais', 'NLP em Português', 'Monitoramento Legislativo', 'Ecossistemas de Inovação', 'Redes de Patentes', 'Ciência Política Computacional', 'Inovação Aberta', 'Visualização de Dados'].map(area => (
-              <span class="px-4 py-2 bg-gray-100 text-gray-700 text-sm rounded-lg">{area}</span>
+          <div class="flex flex-wrap gap-2">
+            {[
+              'Análise de Redes Sociais',
+              'NLP em Português',
+              'Monitoramento Legislativo',
+              'Política Externa Brasileira',
+              'Governança de IA',
+              'Dados Abertos',
+              'Civic Tech / GovTech',
+              'Ciência Política Computacional',
+              'Ecossistemas de Inovação',
+              'Visualização de Dados',
+            ].map(area => (
+              <span class="px-3 py-1.5 bg-gray-100 text-gray-700 text-sm rounded-lg">{area}</span>
             ))}
           </div>
         </div>
@@ -61,6 +86,7 @@ const base = import.meta.env.BASE_URL;
           <h3 class="font-bold text-navy-900 text-sm uppercase tracking-wider mb-4">Formação</h3>
           <div class="space-y-4 text-sm">
             {[
+              { degree: 'Pós-doutorado', field: 'Relações Internacionais', institution: 'UERJ', year: 'Em curso' },
               { degree: 'Doutorado', field: 'Ciência Política', institution: 'UFMG', year: '2022' },
               { degree: 'Mestrado', field: 'Ciência Política', institution: 'UFMG', year: '2018' },
               { degree: 'Graduação', field: 'Ciências Sociais', institution: 'UFMG', year: '2015' },
@@ -68,6 +94,22 @@ const base = import.meta.env.BASE_URL;
               <div class="border-l-2 border-accent pl-4">
                 <p class="font-medium text-navy-900">{ed.degree} — {ed.field}</p>
                 <p class="text-gray-500">{ed.institution} · {ed.year}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-navy-900 text-sm uppercase tracking-wider mb-4">Pesquisador visitante</h3>
+          <div class="space-y-3 text-sm">
+            {[
+              { institution: 'University of Cambridge', country: 'Reino Unido' },
+              { institution: 'Universidad de Buenos Aires', country: 'Argentina' },
+              { institution: 'Universidade de Brasília', country: 'Brasil' },
+            ].map(v => (
+              <div class="border-l-2 border-accent-cyan pl-4">
+                <p class="font-medium text-navy-900">{v.institution}</p>
+                <p class="text-gray-500">{v.country}</p>
               </div>
             ))}
           </div>
