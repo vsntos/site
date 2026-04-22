@@ -98,27 +98,45 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Booking -->
   <section class="py-24 bg-white">
-    <div class="max-w-3xl mx-auto px-6 text-center">
-      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Agendar</p>
-      <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-6">
-        Vamos conversar sobre seu projeto
-      </h2>
-      <p class="text-gray-600 text-lg mb-12 leading-relaxed">
-        A primeira conversa é gratuita e sem compromisso. Em 30 minutos conseguimos avaliar se faz sentido trabalharmos juntos.
-      </p>
-      <a
-        href="https://calendly.com/santos-vinicius18"
-        target="_blank"
-        rel="noopener"
-        class="inline-flex items-center gap-3 px-10 py-5 bg-accent text-white font-semibold text-lg rounded-xl hover:bg-blue-600 transition-colors"
-      >
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-        </svg>
-        Agendar conversa gratuita
-      </a>
-      <p class="text-gray-400 text-sm mt-4">Respondo em até 24 horas</p>
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Agendar</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-4">
+          Vamos conversar sobre seu projeto
+        </h2>
+        <p class="text-gray-600 text-lg leading-relaxed">
+          A primeira conversa é gratuita e sem compromisso. Em 30 minutos avaliamos se faz sentido trabalharmos juntos.
+        </p>
+      </div>
+
+      <!-- Cal.com inline widget -->
+      <div id="cal-inline" class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm" style="min-height:600px;"></div>
     </div>
   </section>
+
+  <script type="text/javascript">
+    (function(C,A,L){
+      let p=function(a,ar){a.q.push(ar);};
+      let d=C.document;
+      C.Cal=C.Cal||function(){
+        let cal=C.Cal;let ar=arguments;
+        if(!cal.loaded){cal.ns={};cal.q=cal.q||[];d.head.appendChild(d.createElement("script")).src=A;cal.loaded=true;}
+        if(ar[0]===L){const api=function(){p(api,arguments);};const namespace=ar[1];api.q=api.q||[];if(typeof namespace==="string"){cal.ns[namespace]=cal.ns[namespace]||api;p(cal.ns[namespace],ar);p(cal,["-",namespace,ar]);}else{p(cal,ar);}return;}
+        p(cal,ar);
+      };
+    })(window,"https://app.cal.com/embed/embed.js","init");
+
+    Cal("init", { origin: "https://app.cal.com" });
+    Cal("inline", {
+      elementOrSelector: "#cal-inline",
+      calLink: "vinicius-santos",
+    });
+    Cal("ui", {
+      theme: "light",
+      styles: { branding: { brandColor: "#2563eb" } },
+      hideEventTypeDetails: false,
+      layout: "month_view",
+    });
+  </script>
 
 </Layout>
