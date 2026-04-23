@@ -4,25 +4,29 @@ import MiniNetwork from '../components/MiniNetwork.jsx';
 const base = import.meta.env.BASE_URL;
 
 const tecnicas = [
-  { id: 'redes',  label: 'Análise de Redes',           desc: 'Centralidade, comunidades, brokers, fluxos' },
-  { id: 'nlp',    label: 'NLP em Português',            desc: 'Classificação, similaridade, tópicos, sentimento' },
-  { id: 'viz',    label: 'Visualização de Dados',       desc: 'Dashboards, gráficos interativos, mapas' },
-  { id: 'coleta', label: 'Coleta & Estruturação',       desc: 'APIs, scraping, limpeza, modelagem de dados' },
+  { id: 'redes',    label: 'Análise de Redes',              desc: 'Centralidade, comunidades, brokers, fluxos de influência' },
+  { id: 'texto',    label: 'Análise de Texto & Semântica',  desc: 'NLP, embeddings, modelagem de tópicos, similaridade semântica' },
+  { id: 'geo',      label: 'Dados Geoespaciais & Mapas',    desc: 'Análise espacial, distribuição territorial, cartografia de dados' },
+  { id: 'temporal', label: 'Análise Temporal',              desc: 'Séries temporais, análise de sobrevivência, duração de processos' },
+  { id: 'coleta',   label: 'Coleta de Dados Públicos',      desc: 'APIs legislativas, dados abertos, scraping, estruturação de fontes' },
+  { id: 'viz',      label: 'Visualização & Dashboards',     desc: 'Dashboards interativos, relatórios visuais, comunicação de resultados' },
 ];
 
 const temas = [
   { id: 'legislativo', label: 'Parlamento & Legislativo' },
-  { id: 'ecosistema',  label: 'Ecossistemas de Inovação' },
+  { id: 'ecosistema',  label: 'Ecossistemas de Inovação & P&D' },
   { id: 'externa',     label: 'Política Externa' },
-  { id: 'civictech',   label: 'Civic Tech & Dados Abertos' },
+  { id: 'civictech',   label: 'Civic Tech & Governança de Dados' },
 ];
 
 // true = capacidade ativa, false = fora do escopo
 const matriz: Record<string, Record<string, boolean>> = {
-  redes:  { legislativo: true,  ecosistema: true,  externa: true,  civictech: true  },
-  nlp:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: false },
-  viz:    { legislativo: true,  ecosistema: true,  externa: false, civictech: true  },
-  coleta: { legislativo: true,  ecosistema: true,  externa: false, civictech: true  },
+  redes:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: true  },
+  texto:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: true  },
+  geo:      { legislativo: true,  ecosistema: true,  externa: true,  civictech: true  },
+  temporal: { legislativo: true,  ecosistema: true,  externa: true,  civictech: false },
+  coleta:   { legislativo: true,  ecosistema: true,  externa: false, civictech: true  },
+  viz:      { legislativo: true,  ecosistema: true,  externa: false, civictech: true  },
 };
 
 const servicos = [
