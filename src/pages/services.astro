@@ -1,0 +1,142 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MiniNetwork from '../components/MiniNetwork.jsx';
+const base = import.meta.env.BASE_URL;
+
+const services = [
+  {
+    num: '01',
+    title: 'MAPEAMENTO DE ECOSSISTEMAS',
+    description: 'Identificação de atores, conexões e fluxos de conhecimento em ecossistemas de startups, clusters industriais e redes de P&D. Você vê quem realmente importa — não quem aparece nos organogramas.',
+    deliverables: ['Mapa de atores-chave', 'Análise de centralidade', 'Relatório estratégico'],
+    seed: 2,
+  },
+  {
+    num: '02',
+    title: 'MONITORAMENTO LEGISLATIVO',
+    description: 'Processamento de linguagem natural aplicado a dados legislativos para rastrear agendas, coalizões e posicionamentos em tempo real. Pare de ler atas — comece a ler a rede.',
+    deliverables: ['Dashboard de votações', 'Mapa de coalizões', 'Alertas temáticos'],
+    seed: 5,
+  },
+  {
+    num: '03',
+    title: 'REDES ORGANIZACIONAIS',
+    description: 'Mapeamento de colaboração, comunicação e influência dentro e entre organizações. Identifique pontes, grupos e líderes informais que os dados de RH não mostram.',
+    deliverables: ['Diagnóstico de fluxos', 'Identificação de brokers', 'Plano de intervenção'],
+    seed: 8,
+  },
+  {
+    num: '04',
+    title: 'TREINAMENTOS & WORKSHOPS',
+    description: 'Formação em ciência de redes aplicada, NLP e análise de dados para equipes técnicas e de gestão. Do básico ao avançado, com casos reais do contexto brasileiro.',
+    deliverables: ['Material didático', 'Exercícios práticos', 'Certificado de participação'],
+    seed: 11,
+  },
+];
+---
+
+<Layout title="Serviços" description="Serviços de consultoria em análise de redes, monitoramento legislativo e ecossistemas de inovação por Vinicius Santos.">
+
+  <!-- Header editorial -->
+  <section class="pt-32 pb-0 bg-stone-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-start justify-between mb-16">
+        <div class="flex items-center gap-2 pt-2">
+          <span class="w-2 h-2 bg-navy-900 rounded-none inline-block"></span>
+          <span class="text-xs font-mono uppercase tracking-widest text-navy-900">Serviços</span>
+        </div>
+        <h1 class="text-5xl md:text-8xl font-bold text-navy-900 tracking-tight leading-none text-right">
+          O QUE<br/>FAZEMOS.
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lista de serviços -->
+  <section class="bg-stone-50 pb-0">
+    {services.map(service => (
+      <div class="group border-t border-stone-200 last:border-b">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-12 gap-6 items-center py-10 hover:bg-stone-100 transition-colors duration-200 cursor-default">
+
+          <!-- Número -->
+          <div class="col-span-1 hidden md:block">
+            <span class="text-xs font-mono text-stone-400">({service.num})</span>
+          </div>
+
+          <!-- Título -->
+          <div class="col-span-12 md:col-span-3">
+            <h2 class="text-xl md:text-2xl font-bold text-navy-900 tracking-tight leading-tight group-hover:text-accent transition-colors duration-200">
+              {service.title}
+            </h2>
+          </div>
+
+          <!-- Network visual -->
+          <div class="col-span-12 md:col-span-3 h-40 rounded-xl overflow-hidden bg-navy-900">
+            <MiniNetwork client:visible seed={service.seed} hovered={true} />
+          </div>
+
+          <!-- Descrição -->
+          <div class="col-span-12 md:col-span-3">
+            <p class="text-stone-600 text-sm leading-relaxed mb-4">{service.description}</p>
+            <ul class="space-y-1">
+              {service.deliverables.map(d => (
+                <li class="flex items-center gap-2 text-xs text-stone-400 font-mono">
+                  <span class="w-1 h-1 rounded-full bg-accent inline-block flex-shrink-0"></span>
+                  {d}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <!-- Seta -->
+          <div class="col-span-12 md:col-span-2 flex md:justify-end">
+            <a href={`${base}/consulting#agendar`}
+               class="inline-flex items-center gap-2 text-xs font-mono text-stone-400 group-hover:text-accent transition-colors duration-200">
+              Agendar conversa
+              <span class="w-8 h-8 rounded-full bg-navy-900 flex items-center justify-center group-hover:bg-accent transition-colors duration-200 flex-shrink-0">
+                <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"/>
+                </svg>
+              </span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    ))}
+  </section>
+
+  <!-- Como funciona -->
+  <section class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Processo</p>
+      <h2 class="text-3xl font-bold text-navy-900 mb-16">Como trabalhamos juntos</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        {[
+          { step: '01', title: 'Conversa inicial', desc: 'Entendemos o problema, o contexto e o que uma boa resposta precisa incluir.' },
+          { step: '02', title: 'Coleta e modelagem', desc: 'Identificamos as fontes de dados e construímos a estrutura de rede adequada.' },
+          { step: '03', title: 'Análise e visualização', desc: 'Rodamos as análises e construímos visualizações que comunicam os resultados.' },
+          { step: '04', title: 'Entrega e ação', desc: 'Relatório, dashboard ou apresentação — no formato que sua equipe vai usar.' },
+        ].map(item => (
+          <div class="relative">
+            <p class="text-6xl font-bold text-gray-100 mb-4">{item.step}</p>
+            <h3 class="font-bold text-lg text-navy-900 mb-2">{item.title}</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 bg-stone-50">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-2xl font-bold text-navy-900 mb-4">Pronto para começar?</h2>
+      <p class="text-gray-600 mb-8">A primeira conversa é gratuita e sem compromisso. Em 30 minutos avaliamos se faz sentido trabalharmos juntos.</p>
+      <a href={`${base}/consulting#agendar`} class="inline-flex items-center px-8 py-4 bg-accent text-white font-semibold rounded-xl hover:bg-blue-600 transition-colors">
+        Agendar conversa gratuita
+      </a>
+    </div>
+  </section>
+
+</Layout>
