@@ -3,32 +3,60 @@ import Layout from '../layouts/Layout.astro';
 import MiniNetwork from '../components/MiniNetwork.jsx';
 const base = import.meta.env.BASE_URL;
 
-const services = [
+const tecnicas = [
+  { id: 'redes',  label: 'Análise de Redes',           desc: 'Centralidade, comunidades, brokers, fluxos' },
+  { id: 'nlp',    label: 'NLP em Português',            desc: 'Classificação, similaridade, tópicos, sentimento' },
+  { id: 'viz',    label: 'Visualização de Dados',       desc: 'Dashboards, gráficos interativos, mapas' },
+  { id: 'coleta', label: 'Coleta & Estruturação',       desc: 'APIs, scraping, limpeza, modelagem de dados' },
+];
+
+const temas = [
+  { id: 'legislativo', label: 'Parlamento & Legislativo' },
+  { id: 'ecosistema',  label: 'Ecossistemas de Inovação' },
+  { id: 'externa',     label: 'Política Externa' },
+  { id: 'civictech',   label: 'Civic Tech & Dados Abertos' },
+];
+
+// true = capacidade ativa, false = fora do escopo
+const matriz: Record<string, Record<string, boolean>> = {
+  redes:  { legislativo: true,  ecosistema: true,  externa: true,  civictech: true  },
+  nlp:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: false },
+  viz:    { legislativo: true,  ecosistema: true,  externa: false, civictech: true  },
+  coleta: { legislativo: true,  ecosistema: true,  externa: false, civictech: true  },
+};
+
+const servicos = [
   {
     num: '01',
     title: 'MAPEAMENTO DE ECOSSISTEMAS',
-    description: 'Identificação de atores, conexões e fluxos de conhecimento em ecossistemas de startups, clusters industriais e redes de P&D. Você vê quem realmente importa — não quem aparece nos organogramas.',
+    tecnica: 'Análise de Redes',
+    tema: 'Ecossistemas de Inovação',
+    description: 'Identificação de atores, conexões e fluxos de conhecimento em ecossistemas de startups, clusters industriais e redes de P&D.',
     deliverables: ['Mapa de atores-chave', 'Análise de centralidade', 'Relatório estratégico'],
     seed: 2,
   },
   {
     num: '02',
     title: 'MONITORAMENTO LEGISLATIVO',
-    description: 'Processamento de linguagem natural aplicado a dados legislativos para rastrear agendas, coalizões e posicionamentos em tempo real. Pare de ler atas — comece a ler a rede.',
+    tecnica: 'NLP + Redes',
+    tema: 'Parlamento & Legislativo',
+    description: 'Processamento de linguagem natural aplicado a dados legislativos para rastrear agendas, coalizões e posicionamentos.',
     deliverables: ['Dashboard de votações', 'Mapa de coalizões', 'Alertas temáticos'],
     seed: 5,
   },
   {
-    num: '04',
+    num: '03',
     title: 'TREINAMENTOS & WORKSHOPS',
-    description: 'Formação em ciência de redes aplicada, NLP e análise de dados para equipes técnicas e de gestão. Do básico ao avançado, com casos reais do contexto brasileiro.',
-    deliverables: ['Material didático', 'Exercícios práticos', 'Certificado de participação'],
+    tecnica: 'Múltiplas técnicas',
+    tema: 'Qualquer domínio',
+    description: 'Formação em ciência de redes aplicada, NLP e análise de dados para equipes técnicas e de gestão.',
+    deliverables: ['Material didático', 'Exercícios práticos', 'Casos reais brasileiros'],
     seed: 11,
   },
 ];
 ---
 
-<Layout title="Serviços" description="Serviços de consultoria em análise de redes, monitoramento legislativo e ecossistemas de inovação por Vinicius Santos.">
+<Layout title="Serviços" description="Serviços de consultoria em análise de redes, NLP e ciência de dados aplicada por Vinicius Santos.">
 
   <!-- Header editorial -->
   <section class="pt-32 pb-0 bg-stone-50">
@@ -45,30 +73,127 @@ const services = [
     </div>
   </section>
 
-  <!-- Lista de serviços -->
+  <!-- Dois eixos -->
+  <section class="bg-stone-50 pb-16">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+
+      <!-- Técnicas -->
+      <div>
+        <p class="text-xs font-mono uppercase tracking-widest text-accent mb-6">Técnicas</p>
+        <div class="space-y-4">
+          {tecnicas.map(t => (
+            <div class="flex items-start gap-4 p-4 bg-white rounded-xl border border-stone-100">
+              <span class="w-2 h-2 rounded-full bg-accent mt-1.5 flex-shrink-0"></span>
+              <div>
+                <p class="font-bold text-navy-900 text-sm">{t.label}</p>
+                <p class="text-xs text-stone-400 font-mono mt-0.5">{t.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Temas -->
+      <div>
+        <p class="text-xs font-mono uppercase tracking-widest text-accent mb-6">Domínios</p>
+        <div class="space-y-4">
+          {temas.map(t => (
+            <div class="flex items-start gap-4 p-4 bg-white rounded-xl border border-stone-100">
+              <span class="w-2 h-2 rounded-full bg-navy-900 mt-1.5 flex-shrink-0"></span>
+              <p class="font-bold text-navy-900 text-sm">{t.label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Matriz técnicas × temas -->
+  <section class="bg-white py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Cobertura</p>
+      <h2 class="text-2xl font-bold text-navy-900 mb-12">Técnicas × Domínios</h2>
+
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse">
+          <thead>
+            <tr>
+              <th class="text-left pb-4 pr-8 w-48"></th>
+              {temas.map(t => (
+                <th class="text-center pb-4 px-4 min-w-[130px]">
+                  <span class="text-xs font-mono text-stone-400 uppercase tracking-wider leading-tight block">{t.label}</span>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {tecnicas.map((tec, ri) => (
+              <tr class={ri % 2 === 0 ? 'bg-stone-50' : 'bg-white'}>
+                <td class="py-5 pr-8">
+                  <p class="font-bold text-sm text-navy-900">{tec.label}</p>
+                </td>
+                {temas.map(tema => (
+                  <td class="py-5 px-4 text-center">
+                    {matriz[tec.id][tema.id] ? (
+                      <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-accent/10 mx-auto">
+                        <span class="w-3 h-3 rounded-full bg-accent block"></span>
+                      </span>
+                    ) : (
+                      <span class="inline-flex items-center justify-center w-8 h-8 mx-auto">
+                        <span class="w-3 h-3 rounded-full bg-stone-200 block"></span>
+                      </span>
+                    )}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
+        <div class="flex items-center gap-6 mt-6">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-accent inline-block"></span>
+            <span class="text-xs text-stone-500 font-mono">capacidade ativa</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-stone-200 inline-block"></span>
+            <span class="text-xs text-stone-500 font-mono">fora do escopo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços como aplicações da matriz -->
   <section class="bg-stone-50 pb-0">
-    {services.map(service => (
+    <div class="max-w-6xl mx-auto px-6 pt-20 pb-4">
+      <p class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Aplicações</p>
+      <h2 class="text-2xl font-bold text-navy-900 mb-0">Serviços disponíveis</h2>
+    </div>
+
+    {servicos.map(service => (
       <div class="group border-t border-stone-200 last:border-b">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-12 gap-6 items-center py-10 hover:bg-stone-100 transition-colors duration-200 cursor-default">
 
-          <!-- Número -->
           <div class="col-span-1 hidden md:block">
             <span class="text-xs font-mono text-stone-400">({service.num})</span>
           </div>
 
-          <!-- Título -->
           <div class="col-span-12 md:col-span-3">
-            <h2 class="text-xl md:text-2xl font-bold text-navy-900 tracking-tight leading-tight group-hover:text-accent transition-colors duration-200">
+            <h3 class="text-xl font-bold text-navy-900 tracking-tight leading-tight group-hover:text-accent transition-colors duration-200 mb-3">
               {service.title}
-            </h2>
+            </h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 bg-accent/10 text-accent text-xs font-mono rounded">{service.tecnica}</span>
+              <span class="px-2 py-0.5 bg-navy-900/5 text-navy-900 text-xs font-mono rounded">{service.tema}</span>
+            </div>
           </div>
 
-          <!-- Network visual -->
           <div class="col-span-12 md:col-span-3 h-40 rounded-xl overflow-hidden bg-navy-900">
             <MiniNetwork client:visible seed={service.seed} hovered={true} />
           </div>
 
-          <!-- Descrição -->
           <div class="col-span-12 md:col-span-3">
             <p class="text-stone-600 text-sm leading-relaxed mb-4">{service.description}</p>
             <ul class="space-y-1">
@@ -81,11 +206,10 @@ const services = [
             </ul>
           </div>
 
-          <!-- Seta -->
           <div class="col-span-12 md:col-span-2 flex md:justify-end">
             <a href={`${base}/consulting#agendar`}
                class="inline-flex items-center gap-2 text-xs font-mono text-stone-400 group-hover:text-accent transition-colors duration-200">
-              Agendar conversa
+              Agendar
               <span class="w-8 h-8 rounded-full bg-navy-900 flex items-center justify-center group-hover:bg-accent transition-colors duration-200 flex-shrink-0">
                 <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"/>
@@ -99,33 +223,11 @@ const services = [
     ))}
   </section>
 
-  <!-- Como funciona -->
-  <section class="py-24 bg-white">
-    <div class="max-w-6xl mx-auto px-6">
-      <p class="text-accent text-sm font-mono uppercase tracking-widest mb-4">Processo</p>
-      <h2 class="text-3xl font-bold text-navy-900 mb-16">Como trabalhamos juntos</h2>
-      <div class="grid md:grid-cols-4 gap-8">
-        {[
-          { step: '01', title: 'Conversa inicial', desc: 'Entendemos o problema, o contexto e o que uma boa resposta precisa incluir.' },
-          { step: '02', title: 'Coleta e modelagem', desc: 'Identificamos as fontes de dados e construímos a estrutura de rede adequada.' },
-          { step: '03', title: 'Análise e visualização', desc: 'Rodamos as análises e construímos visualizações que comunicam os resultados.' },
-          { step: '04', title: 'Entrega e ação', desc: 'Relatório, dashboard ou apresentação — no formato que sua equipe vai usar.' },
-        ].map(item => (
-          <div class="relative">
-            <p class="text-6xl font-bold text-gray-100 mb-4">{item.step}</p>
-            <h3 class="font-bold text-lg text-navy-900 mb-2">{item.title}</h3>
-            <p class="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
   <!-- CTA -->
-  <section class="py-20 bg-stone-50">
+  <section class="py-20 bg-white">
     <div class="max-w-3xl mx-auto px-6 text-center">
-      <h2 class="text-2xl font-bold text-navy-900 mb-4">Pronto para começar?</h2>
-      <p class="text-gray-600 mb-8">A primeira conversa é gratuita e sem compromisso. Em 30 minutos avaliamos se faz sentido trabalharmos juntos.</p>
+      <h2 class="text-2xl font-bold text-navy-900 mb-4">Seu problema está na matriz?</h2>
+      <p class="text-gray-600 mb-8">Se a combinação técnica + domínio que você precisa está coberta, a conversa vale 30 minutos.</p>
       <a href={`${base}/consulting#agendar`} class="inline-flex items-center px-8 py-4 bg-accent text-white font-semibold rounded-xl hover:bg-blue-600 transition-colors">
         Agendar conversa gratuita
       </a>
