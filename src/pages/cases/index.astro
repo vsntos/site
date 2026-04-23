@@ -1,94 +1,130 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import MiniNetwork from '../../components/MiniNetwork.jsx';
+import SectionNetwork from '../../components/SectionNetwork.jsx';
 const base = import.meta.env.BASE_URL;
 
 const cases = [
   {
     seed: 1,
     tag: 'Governo',
-    tagColor: 'bg-blue-50 text-blue-600',
     title: 'Monitoramento Legislativo com NLP',
     summary: 'Processamento de 14 anos de notas taquigráficas do Senado Federal para mapear coalizões e orientar posicionamento parlamentar.',
     metrics: ['14 anos de dados', '27 comissões', 'NLP + redes'],
+    tall: true,
   },
   {
     seed: 4,
     tag: 'Inovação',
-    tagColor: 'bg-violet-50 text-violet-600',
     title: 'Mapeamento de Ecossistema de Startups',
-    summary: 'Análise de rede de colaboração entre startups, investidores e universidades para identificação de atores estratégicos e gaps de conexão.',
+    summary: 'Análise de rede de colaboração entre startups, investidores e universidades para identificação de atores estratégicos.',
     metrics: ['200+ atores', 'Rede bipartida', 'Relatório estratégico'],
+    tall: false,
   },
   {
     seed: 9,
     tag: 'P&D',
-    tagColor: 'bg-emerald-50 text-emerald-600',
     title: 'Redes de Co-Patentes e Inovação Aberta',
     summary: 'Mapeamento de fluxos de conhecimento tecnológico entre empresas, universidades e centros de pesquisa via análise de co-autoria de patentes.',
     metrics: ['Dados INPI', 'Análise temporal', 'Dashboard interativo'],
+    tall: true,
   },
 ];
 ---
 
 <Layout title="Cases" description="Projetos de análise de redes e consultoria de Vinicius Santos para empresas e governos.">
 
-  <section class="pt-32 pb-20 bg-navy-900">
+  <!-- Header editorial -->
+  <section class="pt-32 pb-0 bg-stone-50">
     <div class="max-w-6xl mx-auto px-6">
-      <p class="text-accent-cyan text-sm font-mono uppercase tracking-widest mb-4">Cases</p>
-      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Projetos</h1>
-      <p class="text-gray-400 text-xl max-w-2xl">
-        Problema → dados → rede → decisão. Cada projeto aqui seguiu esse ciclo completo.
-      </p>
+      <div class="flex items-start justify-between mb-16">
+        <div class="flex items-center gap-2 pt-2">
+          <span class="w-2 h-2 bg-navy-900 rounded-none inline-block"></span>
+          <span class="text-xs font-mono uppercase tracking-widest text-navy-900">Projetos</span>
+        </div>
+        <h1 class="text-5xl md:text-8xl font-bold text-navy-900 tracking-tight leading-none text-right">
+          NOSSOS<br/>PROJETOS.
+        </h1>
+      </div>
     </div>
   </section>
 
-  <section class="py-24 bg-white">
-    <div class="max-w-6xl mx-auto px-6 space-y-6">
-      {cases.map((c, i) => (
-        <div class="group grid md:grid-cols-5 rounded-2xl border border-gray-100 overflow-hidden hover:border-accent hover:shadow-xl transition-all duration-300">
+  <!-- Grid assimétrico -->
+  <section class="bg-stone-50 pb-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid grid-cols-12 gap-4 items-end">
 
-          <!-- Network preview -->
-          <div class="md:col-span-2 relative bg-navy-900 min-h-64">
-            <div class="absolute inset-0 transition-opacity duration-300"
-                 style="background:radial-gradient(ellipse at 50% 50%, rgba(59,130,246,0.15) 0%, transparent 70%)">
-            </div>
-            <MiniNetwork client:visible seed={c.seed} hovered={true} />
-            <span class={`absolute top-4 left-4 px-2.5 py-1 text-xs font-semibold rounded-full ${c.tagColor}`}>
-              {c.tag}
-            </span>
-          </div>
-
-          <!-- Content -->
-          <div class="md:col-span-3 p-8 flex flex-col justify-between bg-white group-hover:bg-gray-50 transition-colors duration-300">
-            <div>
-              <h2 class="text-2xl font-bold text-navy-900 mb-3 group-hover:text-accent transition-colors duration-200">
-                {c.title}
-              </h2>
-              <p class="text-gray-600 leading-relaxed mb-6">{c.summary}</p>
-              <div class="flex flex-wrap gap-2">
-                {c.metrics.map(m => (
-                  <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full">{m}</span>
-                ))}
+        <!-- Case 1 — tall, 4 colunas -->
+        <div class="col-span-12 md:col-span-4 group">
+          <a href={`${base}/consulting`} class="block">
+            <div class="relative overflow-hidden rounded-2xl bg-navy-900 mb-4" style="height: 520px;">
+              <SectionNetwork client:visible seed={cases[0].seed} />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+              <span class="absolute top-4 left-4 px-2.5 py-1 bg-white/10 backdrop-blur-sm text-white text-xs font-medium rounded-full border border-white/20">
+                {cases[0].tag}
+              </span>
+              <div class="absolute bottom-5 right-5 w-10 h-10 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                <svg class="w-4 h-4 text-navy-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"/>
+                </svg>
               </div>
             </div>
-            <div class="mt-8 pt-6 border-t border-gray-100">
-              <a href={`${base}/consulting`}
-                 class="inline-flex items-center gap-2 text-accent font-medium text-sm hover:gap-3 transition-all">
-                Projeto similar? Vamos conversar
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-
+            <h2 class="font-mono text-sm text-navy-900 group-hover:text-accent transition-colors leading-snug mb-2">
+              {cases[0].title}
+            </h2>
+            <p class="text-xs text-stone-500 leading-relaxed">{cases[0].summary}</p>
+          </a>
         </div>
-      ))}
+
+        <!-- Case 2 — curto, 4 colunas, deslocado para baixo -->
+        <div class="col-span-12 md:col-span-4 group md:mt-32">
+          <a href={`${base}/consulting`} class="block">
+            <div class="relative overflow-hidden rounded-2xl bg-navy-900 mb-4" style="height: 340px;">
+              <SectionNetwork client:visible seed={cases[1].seed} />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+              <span class="absolute top-4 left-4 px-2.5 py-1 bg-white/10 backdrop-blur-sm text-white text-xs font-medium rounded-full border border-white/20">
+                {cases[1].tag}
+              </span>
+              <div class="absolute bottom-5 right-5 w-10 h-10 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                <svg class="w-4 h-4 text-navy-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"/>
+                </svg>
+              </div>
+            </div>
+            <h2 class="font-mono text-sm text-navy-900 group-hover:text-accent transition-colors leading-snug mb-2">
+              {cases[1].title}
+            </h2>
+            <p class="text-xs text-stone-500 leading-relaxed">{cases[1].summary}</p>
+          </a>
+        </div>
+
+        <!-- Case 3 — tall, 4 colunas -->
+        <div class="col-span-12 md:col-span-4 group">
+          <a href={`${base}/consulting`} class="block">
+            <div class="relative overflow-hidden rounded-2xl bg-navy-900 mb-4" style="height: 460px;">
+              <SectionNetwork client:visible seed={cases[2].seed} />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+              <span class="absolute top-4 left-4 px-2.5 py-1 bg-white/10 backdrop-blur-sm text-white text-xs font-medium rounded-full border border-white/20">
+                {cases[2].tag}
+              </span>
+              <div class="absolute bottom-5 right-5 w-10 h-10 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                <svg class="w-4 h-4 text-navy-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H7M17 7v10"/>
+                </svg>
+              </div>
+            </div>
+            <h2 class="font-mono text-sm text-navy-900 group-hover:text-accent transition-colors leading-snug mb-2">
+              {cases[2].title}
+            </h2>
+            <p class="text-xs text-stone-500 leading-relaxed">{cases[2].summary}</p>
+          </a>
+        </div>
+
+      </div>
     </div>
   </section>
 
-  <section class="py-20 bg-gray-50">
+  <!-- CTA -->
+  <section class="py-20 bg-white">
     <div class="max-w-3xl mx-auto px-6 text-center">
       <h2 class="text-2xl font-bold text-navy-900 mb-4">Tem um problema parecido?</h2>
       <p class="text-gray-600 mb-8">A maioria dos projetos começa com uma pergunta que ninguém sabe responder com os dados disponíveis.</p>
