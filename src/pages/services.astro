@@ -98,26 +98,26 @@ const servicos = [
       <!-- Técnicas -->
       <div>
         <p class="text-xs font-mono uppercase tracking-widest text-accent mb-6">Técnicas</p>
-        <div class="space-y-4">
+        <div class="grid grid-cols-2 gap-3">
           {tecnicas.map(t => (
-            <div class="flex items-start gap-4 p-4 bg-white rounded-xl border border-stone-100">
+            <div class="flex items-start gap-3 p-4 bg-white rounded-xl border border-stone-100">
               <span class="w-2 h-2 rounded-full bg-accent mt-1.5 flex-shrink-0"></span>
               <div>
-                <p class="font-bold text-navy-900 text-sm">{t.label}</p>
-                <p class="text-xs text-stone-400 font-mono mt-0.5">{t.desc}</p>
+                <p class="font-bold text-navy-900 text-sm leading-snug">{t.label}</p>
+                <p class="text-xs text-stone-400 font-mono mt-1 leading-snug">{t.desc}</p>
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      <!-- Temas -->
+      <!-- Domínios -->
       <div>
         <p class="text-xs font-mono uppercase tracking-widest text-accent mb-6">Domínios</p>
-        <div class="space-y-4">
+        <div class="space-y-3">
           {temas.map(t => (
-            <div class="flex items-start gap-4 p-4 bg-white rounded-xl border border-stone-100">
-              <span class="w-2 h-2 rounded-full bg-navy-900 mt-1.5 flex-shrink-0"></span>
+            <div class="flex items-center gap-4 p-5 bg-white rounded-xl border border-stone-100">
+              <span class="w-2 h-2 rounded-full bg-navy-900 flex-shrink-0"></span>
               <p class="font-bold text-navy-900 text-sm">{t.label}</p>
             </div>
           ))}
