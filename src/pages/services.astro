@@ -17,16 +17,17 @@ const temas = [
   { id: 'ecosistema',  label: 'Ecossistemas de Inovação & P&D' },
   { id: 'externa',     label: 'Política Externa' },
   { id: 'civictech',   label: 'Civic Tech & Governança de Dados' },
+  { id: 'relgov',      label: 'Relações Governamentais' },
 ];
 
 // true = capacidade ativa, false = fora do escopo
 const matriz: Record<string, Record<string, boolean>> = {
-  redes:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: true  },
-  texto:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: true  },
-  geo:      { legislativo: true,  ecosistema: true,  externa: true,  civictech: true  },
-  temporal: { legislativo: true,  ecosistema: true,  externa: true,  civictech: false },
-  coleta:   { legislativo: true,  ecosistema: true,  externa: false, civictech: true  },
-  viz:      { legislativo: true,  ecosistema: true,  externa: false, civictech: true  },
+  redes:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: true  },
+  texto:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: true  },
+  geo:      { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: false },
+  temporal: { legislativo: true,  ecosistema: true,  externa: true,  civictech: false, relgov: true  },
+  coleta:   { legislativo: true,  ecosistema: true,  externa: false, civictech: true,  relgov: true  },
+  viz:      { legislativo: true,  ecosistema: true,  externa: false, civictech: true,  relgov: true  },
 };
 
 const servicos = [
@@ -50,7 +51,17 @@ const servicos = [
   },
   {
     num: '03',
+    title: 'INTELIGÊNCIA REGULATÓRIA',
+    tecnica: 'Texto & Semântica + Redes',
+    tema: 'Relações Governamentais',
+    description: 'Monitoramento de agendas regulatórias, mapeamento de stakeholders institucionais e análise de posicionamento em processos de consulta pública e regulação setorial.',
+    deliverables: ['Radar regulatório', 'Mapa de stakeholders', 'Notas de posicionamento'],
+    seed: 8,
+  },
+  {
+    num: '04',
     title: 'TREINAMENTOS & WORKSHOPS',
+
     tecnica: 'Múltiplas técnicas',
     tema: 'Qualquer domínio',
     description: 'Formação em ciência de redes aplicada, NLP e análise de dados para equipes técnicas e de gestão.',
