@@ -4,12 +4,14 @@ import MiniNetwork from '../components/MiniNetwork.jsx';
 const base = import.meta.env.BASE_URL;
 
 const tecnicas = [
-  { id: 'redes',    label: 'Análise de Redes',              desc: 'Centralidade, comunidades, brokers, fluxos de influência' },
-  { id: 'texto',    label: 'Análise de Texto & Semântica',  desc: 'NLP, embeddings, modelagem de tópicos, similaridade semântica' },
-  { id: 'geo',      label: 'Dados Geoespaciais & Mapas',    desc: 'Análise espacial, distribuição territorial, cartografia de dados' },
-  { id: 'temporal', label: 'Análise Temporal',              desc: 'Séries temporais, análise de sobrevivência, duração de processos' },
-  { id: 'coleta',   label: 'Coleta de Dados Públicos',      desc: 'APIs legislativas, dados abertos, scraping, estruturação de fontes' },
-  { id: 'viz',      label: 'Visualização & Dashboards',     desc: 'Dashboards interativos, relatórios visuais, comunicação de resultados' },
+  { id: 'redes',       label: 'Análise de Redes',              desc: 'Centralidade, comunidades, brokers, fluxos de influência' },
+  { id: 'texto',       label: 'Análise de Texto & Semântica',  desc: 'NLP, embeddings, modelagem de tópicos, similaridade semântica' },
+  { id: 'issue',       label: 'Issue Mapping',                 desc: 'Mapeamento de posições de atores em temas regulatórios, políticos e setoriais' },
+  { id: 'naoestruturado', label: 'Dados Digitais Não Estruturados', desc: 'Extração de informação de PDFs, atas, pareceres, contratos e documentos escaneados' },
+  { id: 'geo',         label: 'Dados Geoespaciais & Mapas',    desc: 'Análise espacial, distribuição territorial, cartografia de dados' },
+  { id: 'temporal',    label: 'Análise Temporal',              desc: 'Séries temporais, análise de sobrevivência, duração de processos' },
+  { id: 'coleta',      label: 'Coleta de Dados Públicos',      desc: 'APIs legislativas, dados abertos, scraping, estruturação de fontes' },
+  { id: 'viz',         label: 'Visualização & Dashboards',     desc: 'Dashboards interativos, relatórios visuais, comunicação de resultados' },
 ];
 
 const temas = [
@@ -22,12 +24,14 @@ const temas = [
 
 // true = capacidade ativa, false = fora do escopo
 const matriz: Record<string, Record<string, boolean>> = {
-  redes:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: true  },
-  texto:    { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: true  },
-  geo:      { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: false },
-  temporal: { legislativo: true,  ecosistema: true,  externa: true,  civictech: false, relgov: true  },
-  coleta:   { legislativo: true,  ecosistema: true,  externa: false, civictech: true,  relgov: true  },
-  viz:      { legislativo: true,  ecosistema: true,  externa: false, civictech: true,  relgov: true  },
+  redes:          { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: true  },
+  texto:          { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: true  },
+  issue:          { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: true  },
+  naoestruturado: { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: true  },
+  geo:            { legislativo: true,  ecosistema: true,  externa: true,  civictech: true,  relgov: false },
+  temporal:       { legislativo: true,  ecosistema: true,  externa: true,  civictech: false, relgov: true  },
+  coleta:         { legislativo: true,  ecosistema: true,  externa: false, civictech: true,  relgov: true  },
+  viz:            { legislativo: true,  ecosistema: true,  externa: false, civictech: true,  relgov: true  },
 };
 
 const servicos = [
