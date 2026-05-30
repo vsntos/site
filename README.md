@@ -8,14 +8,6 @@ Site pessoal e portfólio acadêmico de Vinicius Santos.
 - Hospedado no [GitHub Pages](https://pages.github.com/)
 - Deploy automático via GitHub Actions
 
-## Desenvolvimento local
-
-```bash
-hugo server
-```
-
-O site estará disponível em `http://localhost:1313`.
-
 ## Estrutura
 
 ```
